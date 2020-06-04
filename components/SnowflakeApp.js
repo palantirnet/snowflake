@@ -283,7 +283,8 @@ class SnowflakeApp extends React.Component<Props, SnowflakeAppState> {
               milestoneByTrack={this.state.milestoneByTrack}
               focusedTrackId={this.state.focusedTrackId}
               currentCohort={this.state.cohort}
-              setFocusedTrackIdFn={this.setFocusedTrackId.bind(this)} />
+              setFocusedTrackIdFn={this.setFocusedTrackId.bind(this)}
+              handleTrackMilestoneChangeFn={(track, milestone) => this.handleTrackMilestoneChange(track, milestone)} />
           </div>
           <div className="panel">
             <Track

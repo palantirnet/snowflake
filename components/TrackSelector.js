@@ -72,8 +72,8 @@ class TrackSelector extends React.Component<Props> {
           }          
         `}</style>
         <header className="section">
-          <h2 className="section__title">Core Skills</h2>
-          <p>This is information about core skills.</p>
+          <h2 className="section__title">Foundational Skills</h2>
+          <p>The depth of knowledge and expertise in a particular area of execution (i.e. engineering, project management, etc.). </p>
         </header>
         <table>
           <tbody>
@@ -127,8 +127,8 @@ class TrackSelector extends React.Component<Props> {
         </table>
 
         <header className="section">
-          <h2 className="section__title">T-Shaped Skills</h2>
-          <p>This is information about t-shaped skills.</p>
+          <h2 className="section__title">System Skills</h2>
+          <p>The broad range of knowledge and expertise in a number of areas that apply to the system as a whole.</p>
         </header>
 
         <table>

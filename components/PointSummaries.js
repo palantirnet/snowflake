@@ -299,9 +299,9 @@ class PointSummaries extends React.Component<Props> {
         `}</style>
 
         <header className="career-summary__header">
-          <h2>Career Progression</h2>
+          <h2>Level Progression</h2>
         </header>
-
+        <p>Within each milestone are three levels. Each of us is placed at a level based on our competency in a particular category. [Levels reflect the continuum of increasing skills and responsibilities as well as differentiated expectations for the ratio of mentorship and coaching given versus received. Levels correspond to salary levels.]</p>
         <table><tbody>
           {/* Level numbers */}
           <tr>
@@ -352,18 +352,19 @@ class PointSummaries extends React.Component<Props> {
             )}
           </tr>
         </tbody></table>
-
+        <h2>Milestones</h2>
+        <p>Milestones are the measure of competency in the categories of Foundational skills and System skills. There are five milestones, and each milestone increases your responsibilities to the success of the team.</p>
         <div className="career-summary__key">
           <h3 className="career-summary__key-heading">KEY</h3>
           <div className="key key--current">Current level: {currentLevel}</div>
           <div className="key key--graded"><span className={gradedClass}>Graded level: {gradedLevel}</span></div>
 
           <div className="key key--core">
-            {targetPoints - gradedPoints} Core points required to next tier
+            {targetPoints - gradedPoints} Foundational points required to next tier
             <span className="key__meta"> {gradedPoints} of {targetPoints} Core points</span>
           </div>
           <div className="key key--skills">
-            {targetSkills - gradedSkills} T-skills points required to next tier
+            {targetSkills - gradedSkills} System points required to next tier
             <span className="key__meta"> {gradedSkills} of {targetSkills} T-skills points</span>
           </div>
         </div>

@@ -220,6 +220,7 @@ class PointSummaries extends React.Component<Props> {
             text-align: center;
             width: 100%;
             border: 1px solid #4c5b67;
+            border-right: 3px solid #4c5b67;
           }
           td {
             height: 30px;
@@ -228,7 +229,9 @@ class PointSummaries extends React.Component<Props> {
           td:nth-of-type(3n+1) {
             border-left: 3px solid #4c5b67;
           }
-          
+          td.tier-label:nth-of-type(1n+1) {
+            border-left: 3px solid #4c5b67;
+          }          
           # removed to allow tiers to be solid.
           #td:not(:nth-of-type(3n+1)) {
           #   border-left: 1px dotted #4c5b67;
@@ -299,9 +302,9 @@ class PointSummaries extends React.Component<Props> {
         `}</style>
 
         <header className="career-summary__header">
-          <h2>Level Progression</h2>
+          <h2>Level progression</h2>
         </header>
-        <p>Within each milestone are three levels. Each of us is placed at a level based on our competency in a particular category. [Levels reflect the continuum of increasing skills and responsibilities as well as differentiated expectations for the ratio of mentorship and coaching given versus received. Levels correspond to salary levels.]</p>
+        <p>Levels are shown on the top row and correspond to salary levels, rated 1-15. Each of us is placed at a level based on our competency in our job category.</p>
         <table><tbody>
           {/* Level numbers */}
           <tr>
@@ -353,19 +356,19 @@ class PointSummaries extends React.Component<Props> {
           </tr>
         </tbody></table>
         <h2>Milestones</h2>
-        <p>Milestones are the measure of competency in the categories of Foundational skills and System skills. There are five milestones, and each milestone increases your responsibilities to the success of the team.</p>
+        <p>Milestones are shown on the bottom row and measure relative competency in the categories of Foundational skills and System skills. There are five milestones, and each milestone increases your responsibilities for the success of the team. Before you are eligible to reach a level, you must first meet its milestones.</p>
         <div className="career-summary__key">
           <h3 className="career-summary__key-heading">KEY</h3>
           <div className="key key--current">Current level: {currentLevel}</div>
           <div className="key key--graded"><span className={gradedClass}>Graded level: {gradedLevel}</span></div>
 
           <div className="key key--core">
-            {targetPoints - gradedPoints} Foundational points required to next tier
-            <span className="key__meta"> {gradedPoints} of {targetPoints} Core points</span>
+            Foundational milestone: {currentPointsTier}<br />
+            <span className="key__meta"> {gradedPoints} of {targetPoints} points</span>
           </div>
           <div className="key key--skills">
-            {targetSkills - gradedSkills} System points required to next tier
-            <span className="key__meta"> {gradedSkills} of {targetSkills} T-skills points</span>
+            System milestone: {currentSkillTier}<br />
+            <span className="key__meta"> {gradedSkills} of {targetSkills} points</span>
           </div>
         </div>
       </div>

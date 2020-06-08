@@ -356,7 +356,7 @@ class PointSummaries extends React.Component<Props> {
           </tr>
         </tbody></table>
         <h2>Milestones</h2>
-        <p>Milestones are shown on the bottom row and measure relative competency in the categories of Foundational skills and System skills. There are five milestones, and each milestone increases your responsibilities for the success of the team. Before you are eligible to reach a level, you must first meet its milestones.</p>
+        <p>There are five milestones which measure competency in the categories of Foundational skills and System skills. Milestones require a minimum score in each category before you can move to the next milestone and related pay levels. As your career develops, higher levels increase your responsibilities for the success of the team as indicated by its related milestone.</p>
         <div className="career-summary__key">
           <h3 className="career-summary__key-heading">KEY</h3>
           <div className="key key--current">Current level: {currentLevel}</div>

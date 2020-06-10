@@ -63,7 +63,7 @@ class TrackSelector extends React.Component<Props> {
             background: #eee;
             color: #000;
             padding: 2px;
-            font-weight: bold;
+            font-weight: normal;
             font-size: 11px;
             border-radius: 3px;
             cursor: pointer;
@@ -148,7 +148,7 @@ class TrackSelector extends React.Component<Props> {
           <tr>
             {deliveringTrack.map(trackId => (
               <td key={trackId} className="track-selector-arrow"
-                  style={{background: '#FFF5DE'}}
+                  style={{background: '#FFE5CE'}}
                   onClick={() => {
                     this.props.setFocusedTrackIdFn(trackId);
                     if (this.props.milestoneByTrack[trackId] < 5) {
@@ -172,7 +172,7 @@ class TrackSelector extends React.Component<Props> {
           <tr>
             {deliveringTrack.map(trackId => (
               <td key={trackId} className="track-selector-arrow"
-                  style={{background: '#FFF5DE'}}
+                  style={{background: '#FFE5CE'}}
                   onClick={() => {
                     this.props.setFocusedTrackIdFn(trackId);
                     if (this.props.milestoneByTrack[trackId] > 0) {

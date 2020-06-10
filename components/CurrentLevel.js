@@ -96,7 +96,7 @@ class CurrentLevel extends React.Component<Props> {
             width: 10%;
           }                  
         `}</style>
-        <span className="summary">Graded level: {gradedLevel}</span>
+        <span className="summary">Demonstrated level: {gradedLevel}</span>
         <span className="summary__meta">{nextTotal - gradedTotal} overall points to next level</span>
         <table>
           <tbody>

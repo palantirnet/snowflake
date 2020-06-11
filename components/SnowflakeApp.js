@@ -73,7 +73,7 @@ const emptyState = (): SnowflakeAppState => {
       'MENTORSHIP': 0,
     },
     focusedTrackId: 'CHAPTER_ONE',
-    version: "1.0.6"
+    version: "1.0.7"
   }
 }
 

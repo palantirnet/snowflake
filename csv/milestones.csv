@@ -1,38 +1,38 @@
 milestone,cohort,category,displayName,description
-HEADER_ONE,DEFAULT,A,Servant Leadership,"Demonstrates the capacity to engage with stakeholders both internally and externally, and to develop strong interpersonal relationships with teams and clients to unlock their potential"
-HEADER_TWO,DEFAULT,A,Coaching,"Helps people develop their own independent thinking, guiding them through processes and facilitating learning"
-HEADER_THREE,DEFAULT,A,Facilitation,"Comprehends the ability to lead people through processes towards agreed-upon objectives in a manner that encourages participation, ownership, and creativity"
-HEADER_FOUR,DEFAULT,A,Motivation,Comprehends the ability to energize people to achieve their goals
-PLANNING,DEFAULT,B,Planning and Coordination,"Delivers well-scoped programs of work that meet their goals, on time, to budget, harmoniously"
-COMMUNICATION,DEFAULT,B,Communication and Collaboration,"Focuses on teamwork, communication skills, asking for and giving feedback, collaboration, and documentation"
-PROFESSIONALISM,DEFAULT,B,Client Value,Is focused on delivering repeatable value to our clients by ensuring excellent quality products and services internally and/or externally
+HEADER_ONE,DEFAULT,A,Default 1,Demonstrates proficiency in Palantir’s UX Strategy practice
+HEADER_TWO,DEFAULT,A,Default 2,"Explores goals, business models, users, user experience, information architecture, content structures, taxonomies, technology ecospheres, pain points, and aspirations"
+HEADER_THREE,DEFAULT,A,Default 3,Conducts user research and analyzes data and inputs gathered during discovery in order to inform recommendations
+HEADER_FOUR,DEFAULT,A,Default 4,"Recommends improvements for project strategies, user experience, and information architecture within the framework of the project goals and informed by user research"
+PLANNING,DEFAULT,B,Planning and Coordination,"Delivers well-scoped programs of work that meet their goals, on time, to budget, to deliver client value"
+COMMUNICATION,DEFAULT,B,Communication and Co-Creation,"Focuses on teamwork, communication skills, asking for and receiving feedback, collaboration, and documentation"
+PROFESSIONALISM,DEFAULT,B,Professionalism,"Exemplifies Palantir's values in order to create and collaborate in an open, diverse, and inclusive environment"
 INITIATIVE,DEFAULT,C,Initiative,Challenges the status quo and takes ownership and initiative outside of mandated work
-LEARNING,DEFAULT,C,Maturity,"Strengthens Palantir's values to create and collaborate in open, diverse, and inclusive environments"
-MENTORSHIP,DEFAULT,C,Complexity,"Is able to deal with volatility, uncertainty, ambiguity, and an increasing rate of change in the Complex domain when the outcome is emergent"
-COMPLEXITY,DEFAULT,D,Learning and Career Development,Provides strategic support to individuals to help them build the careers they want
-BIZDEV,DEFAULT,D,Mentorship,"Provides support to others, spreads knowledge, and develops the team outside formal reporting structures"
-CLIENT_VALUE,DEFAULT,D,Influence,Impacts and promotes Palantir's culture and values positively through leadership and representation of our brand
-HEADER_ONE,MANAGEMENT,A,Servant Leadership,"Comprehends the capacity to engage with stakeholders both internally and externally, and to develop strong interpersonal relationships with teams and clients to unlock their potential"
-HEADER_TWO,MANAGEMENT,A,Coaching,"Helps people to develop their own independent thinking, guiding them through processes and facilitating learning"
-HEADER_THREE,MANAGEMENT,A,Facilitation,"Comprehends the ability to lead people through processes towards agreed-upon objectives in a manner that encourages participation, ownership, and creativity"
-HEADER_FOUR,MANAGEMENT,A,Motivation,Comprehends the ability to energize people to achieve their goals
-HEADER_ONE,ENGINEERING,A,Foundations,"Develops expertise and proficiency in our technical domain, with solid understanding of relevant areas        "
-HEADER_TWO,ENGINEERING,A,Coding,"Develops expertise and proficiency in developing and supporting our code base, with solid understanding of relevant areas        "
+LEARNING,DEFAULT,C,Learning and Career Development,Seeks opportunities to further their career and provides strategic support to others to help them build the careers they want
+MENTORSHIP,DEFAULT,C,Mentorship and Coaching,"Provides support to others, spreads knowledge, and develops the team outside formal reporting structures"
+COMPLEXITY,DEFAULT,D,Navigating Complexity,Able to function and adapt behaviors in Cynefin complexity domains to deliver client value
+CLIENT_VALUE,DEFAULT,D,Client Value,Delivers consistent value for the client at every step of a project
+BIZDEV,DEFAULT,D,New Business Development,Contributes to new business development by delivering value on projects and participating in Palantir sales and marketing efforts
+HEADER_ONE,ENGINEERING,A,Engineering Foundations,"Develops expertise and proficiency in our technical domain, with solid understanding of relevant areas"
+HEADER_TWO,ENGINEERING,A,Back-End Coding,"Demonstrates expertise and proficiency in developing and supporting our code base, with solid understanding of relevant areas"
 HEADER_THREE,ENGINEERING,A,DevOps,Develops expertise and proficiency in DevOps
-HEADER_FOUR,ENGINEERING,A,Craft,Embodies and promotes practices to ensure excellent quality products and services
-HEADER_ONE,FRONTEND,A,Foundations,"Develops expertise and proficiency in our technical domain, with solid understanding of relevant areas        "
-HEADER_TWO,FRONTEND,A,Coding,"Develops expertise and proficiency in our front-end code base, with solid understanding of relevant areas	"
-HEADER_THREE,FRONTEND,A,Web Technologies,"Develops expertise in web client technologies, such as HTML, CSS, and JavaScript. Contributes to relevant open source projects      "
-HEADER_FOUR,FRONTEND,A,Craft,Embodies and promotes practices to ensure excellent quality products and services
-HEADER_ONE,PM,A,Foundations,"Develops expertise and proficiency in our project management practice, with solid understanding of relevant areas        "
-HEADER_TWO,PM,A,Plan,"Comprehends the processes and activities to identify, define, combine, unify, and coordinate the various elements within project management such as scope, budget, timelines, and resources        "
-HEADER_THREE,PM,A,Risk Mitigation,"Comprehends the ability to conduct risk planning, identification, analysis, and response planning and controlling risk on a project        "
-HEADER_FOUR,PM,A,Information,"Comprehends the effective exchanges of accurate, appropriate, and relevant information with stakeholders        "
-HEADER_ONE,DESIGN,A,Foundations,"Develops expertise and proficiency in our strategy practice, with solid understanding of relevant areas	"
-HEADER_TWO,DESIGN,A,Discovery and Definition,"Comprehends the analysis of the business model, stakeholders, goals, key performance indicators, and existing technologies and workflows	"
-HEADER_THREE,DESIGN,A,Strategy and Design,Conducts analysis and creates content strategy
-HEADER_FOUR,DESIGN,A,User-centered Design,Relies on an understanding of the end user to guide decision making for product design and development
-HEADER_ONE,STRATEGY,A,Foundations,"Develops expertise and proficiency in our design practice, with solid understanding of relevant areas"
-HEADER_TWO,STRATEGY,A,Information Architecture,"Comprehends the structural designs and organizing principles for information environments, Web sites, and software products"
-HEADER_THREE,STRATEGY,A,Interaction Design,Comprehends the application's workflows and behaviors in response to a user's actions
-HEADER_FOUR,STRATEGY,A,Visual Design,Comprehends the creation of visual elements and application of visual treatments and branding to Web sites and products
+HEADER_FOUR,ENGINEERING,A,Engineering Craft,Embodies and promotes practices to ensure excellent quality products and services
+HEADER_ONE,FED,A,Front-End Foundations,"Develops expertise and proficiency in our technical domain, with solid understanding of relevant areas"
+HEADER_TWO,FED,A,Front-End Coding,"Develops expertise and proficiency in our front-end code base, with solid understanding of relevant areas"
+HEADER_THREE,FED,A,Web Technologies,"Develops expertise in web client technologies, such as HTML, CSS, and JavaScript. Contributes to relevant open source projects"
+HEADER_FOUR,FED,A,Front-End Craft,Embodies and promotes practices to ensure excellent quality products and services
+HEADER_ONE,PM,A,Project Management Foundations,"Develops expertise and proficiency in our project management practice, with solid understanding of relevant areas"
+HEADER_TWO,PM,A,Plan,"Comprehends the processes and activities to identify, define, combine, unify, and coordinate the various elements within project management such as scope, budget, timelines, and resources"
+HEADER_THREE,PM,A,Risk Mitigation,"Comprehends the ability to conduct risk planning, identification, analysis, and response planning and controlling risk on a project"
+HEADER_FOUR,PM,A,Information,"Comprehends the effective exchanges of accurate, appropriate, and relevant information with stakeholders"
+HEADER_ONE,MANAGEMENT,A,Expertise,Uses their knowledge and experience to help guide the business and operations of Palantir
+HEADER_TWO,MANAGEMENT,A,Servant Leadership,"Furthers the mesh organization, developing strong interpersonal relationships to unlock the potential of others"
+HEADER_THREE,MANAGEMENT,A,Facilitation,"Comprehends the ability to lead people through processes towards agreed-upon objectives and positive outcomes in a manner that encourages participation, ownership, and creativity"
+HEADER_FOUR,MANAGEMENT,A,Motivation,Takes initiative and is energizes themselves and others in order to achieve their goals
+HEADER_ONE,DESIGN,A,Design Foundations,Demonstrates proficiency in Palantir’s UX Design practice
+HEADER_TWO,DESIGN,A,UX Design,Understands and applies UX principles to projects
+HEADER_THREE,DESIGN,A,Visual Design,Creates visually compelling and effective designs for client work and internal projects
+HEADER_FOUR,DESIGN,A,Prototyping,"Translates visual designs into HTML and CSS, extending the visual style guide and components in code"
+HEADER_ONE,STRATEGY,A,Strategy Foundations,Demonstrates proficiency in Palantir’s UX Strategy practice
+HEADER_TWO,STRATEGY,A,Discovery and Planning,"Explores goals, business models, users, user experience, information architecture, content structures, taxonomies, technology ecospheres, pain points, and aspirations"
+HEADER_THREE,STRATEGY,A,Research and Analysis,Conducts user research and analyzes data and inputs gathered during discovery in order to inform recommendations
+HEADER_FOUR,STRATEGY,A,Recommendations,"Recommends improvements for project strategies, user experience, and information architecture within the framework of the project goals and informed by user research"

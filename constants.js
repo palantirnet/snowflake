@@ -973,7 +973,7 @@ export const categoryColorScale = d3.scaleOrdinal()
 export const cohorts = [
   {key: 'MANAGEMENT', label: 'Management'},
   {key: 'ENGINEERING', label: 'Engineering'},
-  {key: 'FRONTEND', label: 'Front-end Development'},
+  {key: 'FRONTEND', label: 'Front-End Development'},
   {key: 'PM', label: 'Project Management'},
   {key: 'DESIGN', label: 'User Experience Design'},
   {key: 'STRATEGY', label: 'User Experience Strategy'},

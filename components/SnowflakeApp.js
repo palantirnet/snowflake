@@ -58,21 +58,21 @@ const emptyState = (): SnowflakeAppState => {
     title: '',
     level: 0,
     milestoneByTrack: {
-      'CHAPTER_ONE': 0,
-      'CHAPTER_TWO': 0,
-      'CHAPTER_THREE': 0,
-      'CHAPTER_FOUR': 0,
+      'HEADER_ONE': 0,
+      'HEADER_TWO': 0,
+      'HEADER_THREE': 0,
+      'HEADER_FOUR': 0,
       'PLANNING': 0,
-      'COLLABORATION': 0,
-      'CLIENT_VALUE': 0,
+      'COMMUNICATION': 0,
+      'PROFESSIONALISM': 0,
       'INITIATIVE': 0,
-      'COMPLEXITY': 0,
-      'MATURITY': 0,
       'LEARNING': 0,
-      'INFLUENCE': 0,
       'MENTORSHIP': 0,
+      'COMPLEXITY': 0,
+      'CLIENT_VALUE': 0,
+      'BIZDEV': 0,
     },
-    focusedTrackId: 'CHAPTER_ONE',
+    focusedTrackId: 'HEADER_ONE',
     version: "1.0.7"
   }
 }
@@ -84,21 +84,21 @@ const defaultState = (): SnowflakeAppState => {
     title: 'Project Manager, III',
     level: 1,
     milestoneByTrack: {
-      'CHAPTER_ONE': 0,
-      'CHAPTER_TWO': 0,
-      'CHAPTER_THREE': 0,
-      'CHAPTER_FOUR': 0,
+      'HEADER_ONE': 0,
+      'HEADER_TWO': 0,
+      'HEADER_THREE': 0,
+      'HEADER_FOUR': 0,
       'PLANNING': 0,
-      'COLLABORATION': 0,
-      'CLIENT_VALUE': 0,
+      'COMMUNICATION': 0,
+      'PROFESSIONALISM': 0,
       'INITIATIVE': 0,
-      'COMPLEXITY': 0,
-      'MATURITY': 0,
       'LEARNING': 0,
-      'INFLUENCE': 0,
       'MENTORSHIP': 0,
+      'COMPLEXITY': 0,
+      'CLIENT_VALUE': 0,
+      'BIZDEV': 0,
     },
-    focusedTrackId: 'CHAPTER_ONE'
+    focusedTrackId: 'HEADER_ONE'
   }
 }
 

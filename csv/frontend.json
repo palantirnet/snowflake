@@ -1,5 +1,5 @@
-trackList["CHAPTER_ONE"] = {
-    "milestone": "CHAPTER_ONE",
+trackList["HEADER_ONE"] = {
+    "milestone": "HEADER_ONE",
     "cohort": "FRONTEND",
     "category": "A",
     "displayName": "Foundations",
@@ -67,8 +67,8 @@ trackList["CHAPTER_ONE"] = {
         }
     ]
 }
-trackList["CHAPTER_TWO"] = {
-    "milestone": "CHAPTER_TWO",
+trackList["HEADER_TWO"] = {
+    "milestone": "HEADER_TWO",
     "cohort": "FRONTEND",
     "category": "A",
     "displayName": "Coding",
@@ -131,8 +131,8 @@ trackList["CHAPTER_TWO"] = {
         }
     ]
 }
-trackList["CHAPTER_THREE"] = {
-    "milestone": "CHAPTER_THREE",
+trackList["HEADER_THREE"] = {
+    "milestone": "HEADER_THREE",
     "cohort": "FRONTEND",
     "category": "A",
     "displayName": "Web Technologies",
@@ -188,8 +188,8 @@ trackList["CHAPTER_THREE"] = {
         }
     ]
 }
-trackList["CHAPTER_FOUR"] = {
-    "milestone": "CHAPTER_FOUR",
+trackList["HEADER_FOUR"] = {
+    "milestone": "HEADER_FOUR",
     "cohort": "FRONTEND",
     "category": "A",
     "displayName": "Craft",

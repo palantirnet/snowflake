@@ -1,39 +1,39 @@
 // @flow
 import * as d3 from 'd3'
 
-export type TrackId = 'CHAPTER_ONE' | 'CHAPTER_TWO' | 'CHAPTER_THREE' | 'CHAPTER_FOUR' |
-  'PLANNING' | 'COLLABORATION' | 'CLIENT_VALUE' |
-  'INITIATIVE' | 'COMPLEXITY' | 'MATURITY' |
-  'LEARNING' | 'INFLUENCE' | 'MENTORSHIP'
+export type TrackId = 'HEADER_ONE' | 'HEADER_TWO' | 'HEADER_THREE' | 'HEADER_FOUR' |
+  'PLANNING' | 'COMMUNICATION' | 'PROFESSIONALISM' |
+  'INITIATIVE' | 'LEARNING' | 'MENTORSHIP' |
+  'COMPLEXITY' | 'CLIENT_VALUE' | 'BIZDEV'
 export type Milestone = 0 | 1 | 2 | 3 | 4 | 5
 
 export type MilestoneMap = {
-  'CHAPTER_ONE': Milestone,
-  'CHAPTER_TWO': Milestone,
-  'CHAPTER_THREE': Milestone,
-  'CHAPTER_FOUR': Milestone,
+  'HEADER_ONE': Milestone,
+  'HEADER_TWO': Milestone,
+  'HEADER_THREE': Milestone,
+  'HEADER_FOUR': Milestone,
   'PLANNING': Milestone,
-  'COLLABORATION': Milestone,
-  'CLIENT_VALUE': Milestone,
+  'COMMUNICATION': Milestone,
+  'PROFESSIONALISM': Milestone,
   'INITIATIVE': Milestone,
-  'MATURITY': Milestone,
-  'COMPLEXITY': Milestone,
-  'LEARNING': Milestone,
-  'INFLUENCE': Milestone,
   'MENTORSHIP': Milestone,
+  'LEARNING': Milestone,
+  'COMPLEXITY': Milestone,
+  'CLIENT_VALUE': Milestone,
+  'BIZDEV': Milestone,
 }
 export const milestones = [0, 1, 2, 3, 4, 5]
 
 export const milestoneValues = (trackId: TrackId): string => {
   switch (trackId) {
-      case 'CHAPTER_ONE':
-      case 'CHAPTER_TWO':
-      case 'CHAPTER_THREE':
-      case 'CHAPTER_FOUR':
+      case 'HEADER_ONE':
+      case 'HEADER_TWO':
+      case 'HEADER_THREE':
+      case 'HEADER_FOUR':
           return 'A'
       case "PLANNING":
-      case "COLLABORATION":
-      case "CLIENT_VALUE":
+      case "COMMUNICATION":
+      case "PROFESSIONALISM":
           return 'B'
       default:
           return 'C'
@@ -123,24 +123,24 @@ export type Track = {
 }
 
 type Tracks = {|
-  'CHAPTER_ONE': Track,
-  'CHAPTER_TWO': Track,
-  'CHAPTER_THREE': Track,
-  'CHAPTER_FOUR': Track,
+  'HEADER_ONE': Track,
+  'HEADER_TWO': Track,
+  'HEADER_THREE': Track,
+  'HEADER_FOUR': Track,
   'PLANNING': Track,
-  'COLLABORATION': Track,
-  'CLIENT_VALUE': Track,
+  'COMMUNICATION': Track,
+  'PROFESSIONALISM': Track,
   'INITIATIVE': Track,
-  'MATURITY': Track,
-  'COMPLEXITY': Track,
-  'LEARNING': Track,
   'MENTORSHIP': Track,
-  'INFLUENCE': Track,
+  'LEARNING': Track,
+  'COMPLEXITY': Track,
+  'BIZDEV': Track,
+  'CLIENT_VALUE': Track,
 |}
 
 export const tracks: Tracks = {
-  "CHAPTER_ONE":{
-      "milestone": "CHAPTER_ONE",
+  "HEADER_ONE":{
+      "milestone": "HEADER_ONE",
       "cohort": "DEFAULT",
       "category": "A",
       "displayName": "Servant Leadership",
@@ -197,8 +197,8 @@ export const tracks: Tracks = {
               "examples": []
           }
       ]
-  },"CHAPTER_TWO":{
-      "milestone": "CHAPTER_TWO",
+  },"HEADER_TWO":{
+      "milestone": "HEADER_TWO",
       "cohort": "DEFAULT",
       "category": "A",
       "displayName": "Coaching",
@@ -247,8 +247,8 @@ export const tracks: Tracks = {
               "examples": []
           }
       ]
-  },"CHAPTER_THREE":{
-      "milestone": "CHAPTER_THREE",
+  },"HEADER_THREE":{
+      "milestone": "HEADER_THREE",
       "cohort": "DEFAULT",
       "category": "A",
       "displayName": "Facilitation",
@@ -300,8 +300,8 @@ export const tracks: Tracks = {
               "examples": []
           }
       ]
-  },"CHAPTER_FOUR":{
-      "milestone": "CHAPTER_FOUR",
+  },"HEADER_FOUR":{
+      "milestone": "HEADER_FOUR",
       "cohort": "DEFAULT",
       "category": "A",
       "displayName": "Motivation",
@@ -415,8 +415,8 @@ export const tracks: Tracks = {
               "examples": []
           }
       ]
-  },"COLLABORATION":{
-      "milestone": "COLLABORATION",
+  },"COMMUNICATION":{
+      "milestone": "COMMUNICATION",
       "cohort": "DEFAULT",
       "category": "B",
       "displayName": "Communication and Collaboration",
@@ -480,8 +480,8 @@ export const tracks: Tracks = {
               "examples": []
           }
       ]
-  },"CLIENT_VALUE":{
-      "milestone": "CLIENT_VALUE",
+  },"PROFESSIONALISM":{
+      "milestone": "PROFESSIONALISM",
       "cohort": "DEFAULT",
       "category": "B",
       "displayName": "Client Value",
@@ -601,8 +601,8 @@ export const tracks: Tracks = {
               "examples": []
           }
       ]
-  },"MATURITY":{
-        "milestone": "MATURITY",
+  },"MENTORSHIP":{
+        "milestone": "MENTORSHIP",
         "cohort": "DEFAULT",
         "category": "C",
         "displayName": "Complexity",
@@ -663,8 +663,8 @@ export const tracks: Tracks = {
                 "examples": []
             }
         ]
-    },"COMPLEXITY":{
-      "milestone": "COMPLEXITY",
+    },"LEARNING":{
+      "milestone": "LEARNING",
       "cohort": "DEFAULT",
       "category": "C",
       "displayName": "Maturity",
@@ -725,8 +725,8 @@ export const tracks: Tracks = {
               "examples": []
           }
       ]
-  },"LEARNING":{
-      "milestone": "LEARNING",
+  },"COMPLEXITY":{
+      "milestone": "COMPLEXITY",
       "cohort": "DEFAULT",
       "category": "D",
       "displayName": "Learning and Career Development",
@@ -786,8 +786,8 @@ export const tracks: Tracks = {
               "examples": []
           }
       ]
-  },"MENTORSHIP":{
-      "milestone": "MENTORSHIP",
+  },"BIZDEV":{
+      "milestone": "BIZDEV",
       "cohort": "DEFAULT",
       "category": "D",
       "displayName": "Mentorship",
@@ -848,8 +848,8 @@ export const tracks: Tracks = {
               "examples": []
           }
       ]
-  },"INFLUENCE":{
-      "milestone": "INFLUENCE",
+  },"CLIENT_VALUE":{
+      "milestone": "CLIENT_VALUE",
       "cohort": "DEFAULT",
       "category": "D",
       "displayName": "Influence",
@@ -1423,8 +1423,8 @@ export const trackMap = (trackList: object[], cohort: string): object[] => {
 }
 
 export const defaultTracks = (trackList: object[]): object[] => {
-  trackList["CHAPTER_ONE"] = {
-      "milestone": "CHAPTER_ONE",
+  trackList["HEADER_ONE"] = {
+      "milestone": "HEADER_ONE",
       "cohort": "MANAGEMENT",
       "category": "A",
       "displayName": "Servant Leadership",
@@ -1482,8 +1482,8 @@ export const defaultTracks = (trackList: object[]): object[] => {
           }
       ]
   }
-  trackList["CHAPTER_TWO"] = {
-      "milestone": "CHAPTER_TWO",
+  trackList["HEADER_TWO"] = {
+      "milestone": "HEADER_TWO",
       "cohort": "MANAGEMENT",
       "category": "A",
       "displayName": "Coaching",
@@ -1533,8 +1533,8 @@ export const defaultTracks = (trackList: object[]): object[] => {
           }
       ]
   }
-  trackList["CHAPTER_THREE"] = {
-      "milestone": "CHAPTER_THREE",
+  trackList["HEADER_THREE"] = {
+      "milestone": "HEADER_THREE",
       "cohort": "MANAGEMENT",
       "category": "A",
       "displayName": "Facilitation",
@@ -1586,8 +1586,8 @@ export const defaultTracks = (trackList: object[]): object[] => {
           }
       ]
   }
-  trackList["CHAPTER_FOUR"] = {
-      "milestone": "CHAPTER_FOUR",
+  trackList["HEADER_FOUR"] = {
+      "milestone": "HEADER_FOUR",
       "cohort": "MANAGEMENT",
       "category": "A",
       "displayName": "Motivation",
@@ -1644,8 +1644,8 @@ export const defaultTracks = (trackList: object[]): object[] => {
 }
 
 export const engineeringTracks = (trackList: object[]): object[] => {
-  trackList["CHAPTER_ONE"] = {
-      "milestone": "CHAPTER_ONE",
+  trackList["HEADER_ONE"] = {
+      "milestone": "HEADER_ONE",
       "cohort": "ENGINEERING",
       "category": "A",
       "displayName": "Foundations",
@@ -1709,8 +1709,8 @@ export const engineeringTracks = (trackList: object[]): object[] => {
           }
       ]
   }
-  trackList["CHAPTER_TWO"] = {
-      "milestone": "CHAPTER_TWO",
+  trackList["HEADER_TWO"] = {
+      "milestone": "HEADER_TWO",
       "cohort": "ENGINEERING",
       "category": "A",
       "displayName": "Coding",
@@ -1774,8 +1774,8 @@ export const engineeringTracks = (trackList: object[]): object[] => {
           }
       ]
   }
-  trackList["CHAPTER_THREE"] = {
-      "milestone": "CHAPTER_THREE",
+  trackList["HEADER_THREE"] = {
+      "milestone": "HEADER_THREE",
       "cohort": "ENGINEERING",
       "category": "A",
       "displayName": "DevOps",
@@ -1829,8 +1829,8 @@ export const engineeringTracks = (trackList: object[]): object[] => {
           }
       ]
   }
-  trackList["CHAPTER_FOUR"] = {
-      "milestone": "CHAPTER_FOUR",
+  trackList["HEADER_FOUR"] = {
+      "milestone": "HEADER_FOUR",
       "cohort": "ENGINEERING",
       "category": "A",
       "displayName": "Craft",
@@ -1895,8 +1895,8 @@ export const engineeringTracks = (trackList: object[]): object[] => {
 }
 
 export const frontendTracks = (trackList: object[]): object[] => {
-  trackList["CHAPTER_ONE"] = {
-      "milestone": "CHAPTER_ONE",
+  trackList["HEADER_ONE"] = {
+      "milestone": "HEADER_ONE",
       "cohort": "FRONTEND",
       "category": "A",
       "displayName": "Foundations",
@@ -1964,8 +1964,8 @@ export const frontendTracks = (trackList: object[]): object[] => {
           }
       ]
   }
-  trackList["CHAPTER_TWO"] = {
-      "milestone": "CHAPTER_TWO",
+  trackList["HEADER_TWO"] = {
+      "milestone": "HEADER_TWO",
       "cohort": "FRONTEND",
       "category": "A",
       "displayName": "Coding",
@@ -2028,8 +2028,8 @@ export const frontendTracks = (trackList: object[]): object[] => {
           }
       ]
   }
-  trackList["CHAPTER_THREE"] = {
-      "milestone": "CHAPTER_THREE",
+  trackList["HEADER_THREE"] = {
+      "milestone": "HEADER_THREE",
       "cohort": "FRONTEND",
       "category": "A",
       "displayName": "Web Technologies",
@@ -2085,8 +2085,8 @@ export const frontendTracks = (trackList: object[]): object[] => {
           }
       ]
   }
-  trackList["CHAPTER_FOUR"] = {
-      "milestone": "CHAPTER_FOUR",
+  trackList["HEADER_FOUR"] = {
+      "milestone": "HEADER_FOUR",
       "cohort": "FRONTEND",
       "category": "A",
       "displayName": "Craft",
@@ -2149,8 +2149,8 @@ export const frontendTracks = (trackList: object[]): object[] => {
 }
 
 export const uxTracks = (trackList: object[]): object[] => {
-  trackList["CHAPTER_ONE"] = {
-      "milestone": "CHAPTER_ONE",
+  trackList["HEADER_ONE"] = {
+      "milestone": "HEADER_ONE",
       "cohort": "UX",
       "category": "A",
       "displayName": "Foundations",
@@ -2222,8 +2222,8 @@ export const uxTracks = (trackList: object[]): object[] => {
           }
       ]
   }
-  trackList["CHAPTER_TWO"] = {
-      "milestone": "CHAPTER_TWO",
+  trackList["HEADER_TWO"] = {
+      "milestone": "HEADER_TWO",
       "cohort": "UX",
       "category": "A",
       "displayName": "Discovery and Definition",
@@ -2287,8 +2287,8 @@ export const uxTracks = (trackList: object[]): object[] => {
           }
       ]
   }
-  trackList["CHAPTER_THREE"] = {
-      "milestone": "CHAPTER_THREE",
+  trackList["HEADER_THREE"] = {
+      "milestone": "HEADER_THREE",
       "cohort": "UX",
       "category": "A",
       "displayName": "Strategy and Design",
@@ -2344,8 +2344,8 @@ export const uxTracks = (trackList: object[]): object[] => {
           }
       ]
   }
-  trackList["CHAPTER_FOUR"] = {
-      "milestone": "CHAPTER_FOUR",
+  trackList["HEADER_FOUR"] = {
+      "milestone": "HEADER_FOUR",
       "cohort": "UX",
       "category": "A",
       "displayName": "User-centered Design",
@@ -2405,8 +2405,8 @@ export const uxTracks = (trackList: object[]): object[] => {
 }
 
 export const uiTracks = (trackList: object[]): object[] => {
-  trackList["CHAPTER_ONE"] = {
-      "milestone": "CHAPTER_ONE",
+  trackList["HEADER_ONE"] = {
+      "milestone": "HEADER_ONE",
       "cohort": "UI",
       "category": "A",
       "displayName": "Foundations",
@@ -2472,8 +2472,8 @@ export const uiTracks = (trackList: object[]): object[] => {
           }
       ]
   }
-  trackList["CHAPTER_TWO"] = {
-      "milestone": "CHAPTER_TWO",
+  trackList["HEADER_TWO"] = {
+      "milestone": "HEADER_TWO",
       "cohort": "UI",
       "category": "A",
       "displayName": "Information Architecture",
@@ -2529,8 +2529,8 @@ export const uiTracks = (trackList: object[]): object[] => {
           }
       ]
   }
-  trackList["CHAPTER_THREE"] = {
-      "milestone": "CHAPTER_THREE",
+  trackList["HEADER_THREE"] = {
+      "milestone": "HEADER_THREE",
       "cohort": "UI",
       "category": "A",
       "displayName": "Interaction Design",
@@ -2587,8 +2587,8 @@ export const uiTracks = (trackList: object[]): object[] => {
           }
       ]
   }
-  trackList["CHAPTER_FOUR"] = {
-      "milestone": "CHAPTER_FOUR",
+  trackList["HEADER_FOUR"] = {
+      "milestone": "HEADER_FOUR",
       "cohort": "UI",
       "category": "A",
       "displayName": "Visual Design",
@@ -2646,8 +2646,8 @@ export const uiTracks = (trackList: object[]): object[] => {
 }
 
 export const pmTracks = (trackList: object[]): object[] => {
-  trackList["CHAPTER_ONE"] = {
-      "milestone": "CHAPTER_ONE",
+  trackList["HEADER_ONE"] = {
+      "milestone": "HEADER_ONE",
       "cohort": "PM",
       "category": "A",
       "displayName": "Foundations",
@@ -2718,8 +2718,8 @@ export const pmTracks = (trackList: object[]): object[] => {
           }
       ]
   }
-  trackList["CHAPTER_TWO"] = {
-      "milestone": "CHAPTER_TWO",
+  trackList["HEADER_TWO"] = {
+      "milestone": "HEADER_TWO",
       "cohort": "PM",
       "category": "A",
       "displayName": "Plan",
@@ -2783,8 +2783,8 @@ export const pmTracks = (trackList: object[]): object[] => {
           }
       ]
   }
-  trackList["CHAPTER_THREE"] = {
-      "milestone": "CHAPTER_THREE",
+  trackList["HEADER_THREE"] = {
+      "milestone": "HEADER_THREE",
       "cohort": "PM",
       "category": "A",
       "displayName": "Risk Mitigation",
@@ -2841,8 +2841,8 @@ export const pmTracks = (trackList: object[]): object[] => {
           }
       ]
   }
-  trackList["CHAPTER_FOUR"] = {
-      "milestone": "CHAPTER_FOUR",
+  trackList["HEADER_FOUR"] = {
+      "milestone": "HEADER_FOUR",
       "cohort": "PM",
       "category": "A",
       "displayName": "Information",

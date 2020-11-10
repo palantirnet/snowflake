@@ -1,5 +1,5 @@
-"CHAPTER_ONE":{
-    "milestone": "CHAPTER_ONE",
+"HEADER_ONE":{
+    "milestone": "HEADER_ONE",
     "cohort": "DEFAULT",
     "category": "A",
     "displayName": "Servant Leadership",
@@ -56,8 +56,8 @@
             "examples": []
         }
     ]
-},"CHAPTER_TWO":{
-    "milestone": "CHAPTER_TWO",
+},"HEADER_TWO":{
+    "milestone": "HEADER_TWO",
     "cohort": "DEFAULT",
     "category": "A",
     "displayName": "Coaching",
@@ -106,8 +106,8 @@
             "examples": []
         }
     ]
-},"CHAPTER_THREE":{
-    "milestone": "CHAPTER_THREE",
+},"HEADER_THREE":{
+    "milestone": "HEADER_THREE",
     "cohort": "DEFAULT",
     "category": "A",
     "displayName": "Facilitation",
@@ -159,8 +159,8 @@
             "examples": []
         }
     ]
-},"CHAPTER_FOUR":{
-    "milestone": "CHAPTER_FOUR",
+},"HEADER_FOUR":{
+    "milestone": "HEADER_FOUR",
     "cohort": "DEFAULT",
     "category": "A",
     "displayName": "Motivation",
@@ -274,8 +274,8 @@
             "examples": []
         }
     ]
-},"COLLABORATION":{
-    "milestone": "COLLABORATION",
+},"COMMUNICATION":{
+    "milestone": "COMMUNICATION",
     "cohort": "DEFAULT",
     "category": "B",
     "displayName": "Communication and Collaboration",
@@ -339,8 +339,8 @@
             "examples": []
         }
     ]
-},"CLIENT_VALUE":{
-    "milestone": "CLIENT_VALUE",
+},"PROFESSIONALISM":{
+    "milestone": "PROFESSIONALISM",
     "cohort": "DEFAULT",
     "category": "B",
     "displayName": "Client Value",
@@ -464,8 +464,8 @@
             "examples": []
         }
     ]
-},"COMPLEXITY":{
-    "milestone": "COMPLEXITY",
+},"LEARNING":{
+    "milestone": "LEARNING",
     "cohort": "DEFAULT",
     "category": "C",
     "displayName": "Maturity",
@@ -526,8 +526,8 @@
             "examples": []
         }
     ]
-},"MATURITY":{
-    "milestone": "MATURITY",
+},"MENTORSHIP":{
+    "milestone": "MENTORSHIP",
     "cohort": "DEFAULT",
     "category": "C",
     "displayName": "Complexity",
@@ -588,8 +588,8 @@
             "examples": []
         }
     ]
-},"LEARNING":{
-    "milestone": "LEARNING",
+},"COMPLEXITY":{
+    "milestone": "COMPLEXITY",
     "cohort": "DEFAULT",
     "category": "D",
     "displayName": "Learning and Career Development",
@@ -649,8 +649,8 @@
             "examples": []
         }
     ]
-},"MENTORSHIP":{
-    "milestone": "MENTORSHIP",
+},"BIZDEV":{
+    "milestone": "BIZDEV",
     "cohort": "DEFAULT",
     "category": "D",
     "displayName": "Mentorship",
@@ -711,8 +711,8 @@
             "examples": []
         }
     ]
-},"INFLUENCE":{
-    "milestone": "INFLUENCE",
+},"CLIENT_VALUE":{
+    "milestone": "CLIENT_VALUE",
     "cohort": "DEFAULT",
     "category": "D",
     "displayName": "Influence",

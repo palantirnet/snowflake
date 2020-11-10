@@ -1,5 +1,5 @@
-trackList["CHAPTER_ONE"] = {
-    "milestone": "CHAPTER_ONE",
+trackList["HEADER_ONE"] = {
+    "milestone": "HEADER_ONE",
     "cohort": "UI",
     "category": "A",
     "displayName": "Foundations",
@@ -65,8 +65,8 @@ trackList["CHAPTER_ONE"] = {
         }
     ]
 }
-trackList["CHAPTER_TWO"] = {
-    "milestone": "CHAPTER_TWO",
+trackList["HEADER_TWO"] = {
+    "milestone": "HEADER_TWO",
     "cohort": "UI",
     "category": "A",
     "displayName": "Information Architecture",
@@ -122,8 +122,8 @@ trackList["CHAPTER_TWO"] = {
         }
     ]
 }
-trackList["CHAPTER_THREE"] = {
-    "milestone": "CHAPTER_THREE",
+trackList["HEADER_THREE"] = {
+    "milestone": "HEADER_THREE",
     "cohort": "UI",
     "category": "A",
     "displayName": "Interaction Design",
@@ -180,8 +180,8 @@ trackList["CHAPTER_THREE"] = {
         }
     ]
 }
-trackList["CHAPTER_FOUR"] = {
-    "milestone": "CHAPTER_FOUR",
+trackList["HEADER_FOUR"] = {
+    "milestone": "HEADER_FOUR",
     "cohort": "UI",
     "category": "A",
     "displayName": "Visual Design",

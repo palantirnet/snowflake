@@ -633,7 +633,7 @@ HEADER_ONE,FRONTEND,Foundations,1,1,Is building proficiency with our web technol
 HEADER_ONE,FRONTEND,Foundations,1,2,"Has experience with web development frameworks, HTML, CSS, JavaScript, and website accessibility"
 HEADER_ONE,FRONTEND,Foundations,1,3,Is ble to perform assigned tasks and tickets with occasional assistance
 HEADER_ONE,FRONTEND,Foundations,1,4,Is able to help estimate tickets while working on refining estimation skills
-HEADER_ONE,FRONTEND,Foundations,1,5,"Has an understanding of wireframing, UX design, and UI patterns"
+HEADER_ONE,FRONTEND,Foundations,1,5,"Has an understanding of wireframing, DESIGN design, and STRATEGY patterns"
 HEADER_ONE,FRONTEND,Foundations,1,6,Has experience developing and testing across multiple browsers
 HEADER_ONE,FRONTEND,Foundations,2,1,"Focuses on expanding experience and proficiency in our web technology practices, with solid understanding of relevant areas"
 HEADER_ONE,FRONTEND,Foundations,2,2,"Is well versed with web development frameworks, HTML, CSS, JavaScript and website accessibility"
@@ -708,7 +708,7 @@ HEADER_THREE,FRONTEND,Web Technologies,3,4,Prototypes with code using modern fro
 HEADER_THREE,FRONTEND,Web Technologies,3,5,
 HEADER_THREE,FRONTEND,Web Technologies,3,6,
 HEADER_THREE,FRONTEND,Web Technologies,4,1,Pioneers architecture migrations that reduce programmer burden
-HEADER_THREE,FRONTEND,Web Technologies,4,2,Implements complex UI transitions that bring delight
+HEADER_THREE,FRONTEND,Web Technologies,4,2,Implements complex STRATEGY transitions that bring delight
 HEADER_THREE,FRONTEND,Web Technologies,4,3,Makes architectural decisions that eliminate entire classes of bugs
 HEADER_THREE,FRONTEND,Web Technologies,4,4,
 HEADER_THREE,FRONTEND,Web Technologies,4,5,
@@ -732,13 +732,13 @@ HEADER_FOUR,FRONTEND,Craft,2,4,
 HEADER_FOUR,FRONTEND,Craft,2,5,
 HEADER_FOUR,FRONTEND,Craft,2,6,
 HEADER_FOUR,FRONTEND,Craft,3,1,Supports complex and secure components for modern browsers written in the latest web standards
-HEADER_FOUR,FRONTEND,Craft,3,2,Works with UX to develop and maintain processes that ensure our tools and practices are up to date
+HEADER_FOUR,FRONTEND,Craft,3,2,Works with DESIGN to develop and maintain processes that ensure our tools and practices are up to date
 HEADER_FOUR,FRONTEND,Craft,3,3,Gives thoughtful front-end code reviews as a domain expert
 HEADER_FOUR,FRONTEND,Craft,3,4,Implements systems that enable better testing
 HEADER_FOUR,FRONTEND,Craft,3,5,Adds tooling to improve front-end code base quality
 HEADER_FOUR,FRONTEND,Craft,3,6,Maintains high coding standards and practices to exercise quality control on all aspects of web development
 HEADER_FOUR,FRONTEND,Craft,4,1,Takes the lead on browser/device acceptance testing and bug fixing
-HEADER_FOUR,FRONTEND,Craft,4,2,Collaborates with UX designers to promote and achieve optimal solutions for clients
+HEADER_FOUR,FRONTEND,Craft,4,2,Collaborates with DESIGN designers to promote and achieve optimal solutions for clients
 HEADER_FOUR,FRONTEND,Craft,4,3,Leads client demos
 HEADER_FOUR,FRONTEND,Craft,4,4,Maintains and improves front-end code bases across a wide variety of projects
 HEADER_FOUR,FRONTEND,Craft,4,5,Improves quality of work to meet the level of Palantir's best solutions through repeated iteration
@@ -749,254 +749,254 @@ HEADER_FOUR,FRONTEND,Craft,5,3,Secures time and resources from execs to support 
 HEADER_FOUR,FRONTEND,Craft,5,4,"Creates a compelling technical vision with company-level impact, anticipating future needs"
 HEADER_FOUR,FRONTEND,Craft,5,5,
 HEADER_FOUR,FRONTEND,Craft,5,6,
-HEADER_ONE,UX,Foundations,1,1,Is building proficiency in our user experience practice and becoming comfortable with learning new technologies and skills
-HEADER_ONE,UX,Foundations,1,2,"Has experience with web accessibility, usability and core design tools. Understands web design constraints and opportunities"
-HEADER_ONE,UX,Foundations,1,3,"Understands and applies how to use an existing pattern library to create wireframes, working with a more senior designer as a guide or mentor"
-HEADER_ONE,UX,Foundations,1,4,Has knowledge in marketing and consumer behavior trends applicable to their work
-HEADER_ONE,UX,Foundations,1,5,"Develops user-centered website strategies with guidance, in alignment with client goals and objectives"
-HEADER_ONE,UX,Foundations,1,6,"Has hands-on experience with UX tools which may include Sketch, InVision, prototyping tools, and Google Analytics"
-HEADER_ONE,UX,Foundations,2,1,"Focuses on expanding experience and proficiency in our user experience practice, and establishing and promoting brand guidelines, best practices, and standards"
-HEADER_ONE,UX,Foundations,2,2,"Is well-versed with web accessibility, usability, and core design tools. Has a deep understanding of web design constraints"
-HEADER_ONE,UX,Foundations,2,3,"Applies existing team pattern libraries, provides examples of patterns in the wild, and explores multiple design options"
-HEADER_ONE,UX,Foundations,2,4,Works with other team members to understand constraints and design feasibility
-HEADER_ONE,UX,Foundations,2,5,"Contributes to strategic positioning, organizational insight, and client road maps"
-HEADER_ONE,UX,Foundations,2,6,Is well-versed in marketing and consumer behavior trends
-HEADER_ONE,UX,Foundations,2,7,"Develops user-centered website strategies that support user tasks, satisfy client goals, and contribute original documentation for projects"
-HEADER_ONE,UX,Foundations,2,8,Sketches and creates wireframes
-HEADER_ONE,UX,Foundations,2,9,"Designs and performs competitive analysis, proactively researches examples in the wild, seeks out industry trends, and performs and analyzes usability test plans"
-HEADER_ONE,UX,Foundations,2,10,"Collaborates with project managers, designers, and engineers to scope time and effort involved in design projects"
-HEADER_ONE,UX,Foundations,3,1,"Effectively leads and takes ownership of the UX process, articulates strategy, best practices, and process collaborating with designers to inform and define the project"
-HEADER_ONE,UX,Foundations,3,2,"Is always able to articulate the ""why"" of design decisions to clients and the Palantir team"
-HEADER_ONE,UX,Foundations,3,3,"Always explores multiple options, evaluates and articulates pros and cons of choices, recommends user experience decisions, understands when to use low- and high-fidelity design tools, and contributes to existing team pattern libraries"
-HEADER_ONE,UX,Foundations,3,4,Constantly partners with engineers and developers to understand technology system constraints and align strategy and design work in an efficient and effective way at the project level
-HEADER_ONE,UX,Foundations,3,5,"Designs, performs, and analyzes usability test plans"
-HEADER_ONE,UX,Foundations,3,6,Is able to articulate the difference and relationship between the different IA and content strategy deliverables
-HEADER_ONE,UX,Foundations,3,7,Collaborates with project managers and engineers to define and implement innovative solutions for the product direction
-HEADER_ONE,UX,Foundations,4,1,"Efficiently balances and manages complex user, business, and technical requirements to make design decisions"
-HEADER_ONE,UX,Foundations,4,2,"Guides junior team members in critical, high-level, design problem solving"
-HEADER_ONE,UX,Foundations,4,3,"Strategically analyzes the risks, benefits, and opportunities of various solutions"
-HEADER_ONE,UX,Foundations,4,4,Seeks out discipline-wide opportunities for improvement
-HEADER_ONE,UX,Foundations,4,5,Considers client constraints and technical feasibility of potential design solutions
-HEADER_ONE,UX,Foundations,4,6,
-HEADER_ONE,UX,Foundations,5,1,Guides UX team members by providing strategic direction that best honors the client's business
-HEADER_ONE,UX,Foundations,5,2,"Develops a unique user experience practice approach that outlines and defines activities, deliverables, and value to be used in sales and marketing initiatives"
-HEADER_ONE,UX,Foundations,5,3,Designs and builds industry-leading solutions to solve complex UX problems and advocates for the best user experience possible
-HEADER_ONE,UX,Foundations,5,4,Serves as client focal point for all UX practices
-HEADER_ONE,UX,Foundations,5,5,"Anticipates technical challenges, exploring alternatives and trade-offs thoroughly"
-HEADER_ONE,UX,Foundations,5,6,Is recognized as a leader and contributor across the organization
-HEADER_TWO,UX,Discovery and Definition,1,1,"Gather business requirements and user insights through surveys, user tests, and interviews with the assistance of senior strategists"
-HEADER_TWO,UX,Discovery and Definition,1,2,Uses basic feedback techniques to improve relatively simple strategy concepts and techniques
-HEADER_TWO,UX,Discovery and Definition,1,3,"Through observation and interaction with senior strategists, is building the skills and expertise to plan information validation activities and incorporate user and stakeholder feedback into design iterations"
-HEADER_TWO,UX,Discovery and Definition,1,4,"Understands client business/objectives and identifies opportunities for client ""wins"" through digital design, tools, and experiences"
-HEADER_TWO,UX,Discovery and Definition,1,5,
-HEADER_TWO,UX,Discovery and Definition,1,6,
-HEADER_TWO,UX,Discovery and Definition,2,1,Conducts validations/interviews with users and stakeholders with assistance of a more senior strategist
-HEADER_TWO,UX,Discovery and Definition,2,2,Applies feedback techniques to improve discovery and definition strategies
-HEADER_TWO,UX,Discovery and Definition,2,3,Works with more senior team members to plan information validation activities and incorporate user feedback into design changes
-HEADER_TWO,UX,Discovery and Definition,2,4,Generates users and stakeholders interview questions and documentation
-HEADER_TWO,UX,Discovery and Definition,2,5,"Works with FEDs and engineers to research technical documentation, APIs, integration with third party technologies, etc. to confirm project requirements and expectations "
-HEADER_TWO,UX,Discovery and Definition,2,6,
-HEADER_TWO,UX,Discovery and Definition,3,1,"Plans moderately complicated requirements-gathering, analysis, design-validation, and usability-testing activities"
-HEADER_TWO,UX,Discovery and Definition,3,2,Independently conducts information-validation activities with internal and external stakeholders
-HEADER_TWO,UX,Discovery and Definition,3,3,Conducts gap and task analysis
-HEADER_TWO,UX,Discovery and Definition,3,4,Communicates usability findings and provides recommendations for improving user-interface experience
-HEADER_TWO,UX,Discovery and Definition,3,5,Facilitates the planning and execution of on-site discovery workshops
-HEADER_TWO,UX,Discovery and Definition,3,6,Conducts comparative analysis
-HEADER_TWO,UX,Discovery and Definition,3,7,Perform content audits and competitor site analysis
-HEADER_TWO,UX,Discovery and Definition,4,1,Independently conducts all aspects of complex user-research programs— from early-stage requirements to summative usability testing
-HEADER_TWO,UX,Discovery and Definition,4,2,"Adapts user-research techniques to inform both new and ongoing, complex, product-development effort"
-HEADER_TWO,UX,Discovery and Definition,4,3,"Communicates usability findings, metrics, and associated design strategies to large, distributed product teams"
-HEADER_TWO,UX,Discovery and Definition,4,4,Discusses usability metrics and their impact on product ROI
-HEADER_TWO,UX,Discovery and Definition,4,5,
-HEADER_TWO,UX,Discovery and Definition,4,6,
-HEADER_TWO,UX,Discovery and Definition,5,1,"Expertly conducts all stages of user research— including market analysis, requirements definition, early-to-mid-stage design validations, and summative usability--testing activities"
-HEADER_TWO,UX,Discovery and Definition,5,2,Simultaneously plans and drives multiple user-research activities across widely divergent product domains
-HEADER_TWO,UX,Discovery and Definition,5,3,"Drives and conducts all aspects of formal summative testing, including the use of metrics and competitive benchmark testing"
-HEADER_TWO,UX,Discovery and Definition,5,4,Communicates usability metrics and findings to clients and the Palantir team
-HEADER_TWO,UX,Discovery and Definition,5,5,"Clearly provides clients with a plan, tools, behaviors, and best practices for addressing their usability issues"
-HEADER_TWO,UX,Discovery and Definition,5,6,Creates new user-elicitation methods and techniques to suit novel research needs and requirements
-HEADER_THREE,UX,Strategy and Design,1,1,Understands learnings from discovery and research to inform audience definition and identify key personas
-HEADER_THREE,UX,Strategy and Design,1,2,"Synthesizes findings from discovery process, identifying opportunities and issues with guidance of senior strategists"
-HEADER_THREE,UX,Strategy and Design,1,3,
-HEADER_THREE,UX,Strategy and Design,1,4,
-HEADER_THREE,UX,Strategy and Design,1,5,
-HEADER_THREE,UX,Strategy and Design,1,6,
-HEADER_THREE,UX,Strategy and Design,2,1,"Synthesizes findings from discovery process, effectively identifying opportunities and issues"
-HEADER_THREE,UX,Strategy and Design,2,2,Leverages learnings from discovery and research to inform audience definition and identify key personas
-HEADER_THREE,UX,Strategy and Design,2,3,Demonstrates user journeys through journey mapping
-HEADER_THREE,UX,Strategy and Design,2,4,
-HEADER_THREE,UX,Strategy and Design,2,5,
-HEADER_THREE,UX,Strategy and Design,2,6,
-HEADER_THREE,UX,Strategy and Design,3,1,Works with designers as appropriate to translate strategic recommendations into wireframes and documentation that lead to intuitive user experiences
-HEADER_THREE,UX,Strategy and Design,3,2,"Synthesizes findings from discovery process, identifying opportunities and issues, and recommends solutions that meet client objectives"
-HEADER_THREE,UX,Strategy and Design,3,3,"Understands user needs and intents then translate that to information architecture and content outline(s), collaborating with designers"
-HEADER_THREE,UX,Strategy and Design,3,4,Collaborates with designers on design strategy and visual design application for projects
-HEADER_THREE,UX,Strategy and Design,3,5,Conducts usability tests
-HEADER_THREE,UX,Strategy and Design,3,6,
-HEADER_THREE,UX,Strategy and Design,4,1,"Synthesizes findings from discovery process, identifying opportunities and issues, and recommends solutions that meet client objectives, demonstrate a level of excellence, and may be achieved within budget"
-HEADER_THREE,UX,Strategy and Design,4,2,Provides high-level sitemap and wireframes or works with designers as appropriate to translate strategic recommendations into wireframes and documentation that lead to intuitive user experiences
-HEADER_THREE,UX,Strategy and Design,4,3,Crafts high-level content strategy recommendations
-HEADER_THREE,UX,Strategy and Design,4,4,"Guides the creation of wireframes for key pages in the new website, and explains wireframes to the client"
-HEADER_THREE,UX,Strategy and Design,4,5,
-HEADER_THREE,UX,Strategy and Design,4,6,
-HEADER_THREE,UX,Strategy and Design,5,1,"Demonstrates ability to generate and translate insights into actionable digital opportunities through reports, presentations, personas, user flows, journey maps, etc."
-HEADER_THREE,UX,Strategy and Design,5,2,"Balances creativity with structure, collaborating with designers, project managers, and engineers"
-HEADER_THREE,UX,Strategy and Design,5,3,"Advocates for pushing the limits on a project's capabilities, both from a visual and functional perspective"
-HEADER_THREE,UX,Strategy and Design,5,4,Articulates a design strategy or approach that will impact the user experience across products or platforms and supports these ideas with sound reasoning and data
-HEADER_THREE,UX,Strategy and Design,5,5,
-HEADER_THREE,UX,Strategy and Design,5,6,
-HEADER_FOUR,UX,User-centered Design,1,1,"Conducts basic, early-stage design validations with stakeholders"
-HEADER_FOUR,UX,User-centered Design,1,2,Uses basic feedback techniques to improve relatively simple design concepts
-HEADER_FOUR,UX,User-centered Design,1,3,Helps create clean and simple user-centred designs with guidance of senior teammates
-HEADER_FOUR,UX,User-centered Design,1,4,
-HEADER_FOUR,UX,User-centered Design,1,5,
-HEADER_FOUR,UX,User-centered Design,1,6,
-HEADER_FOUR,UX,User-centered Design,2,1,Conducts design validations with stakeholders with assistance of a more senior designer
-HEADER_FOUR,UX,User-centered Design,2,2,Applies feedback techniques to improve design concepts
-HEADER_FOUR,UX,User-centered Design,2,3,Works with more senior team members to plan design validation activities and incorporate user feedback into design iteration
-HEADER_FOUR,UX,User-centered Design,2,4,"Generates user profiles, recruitment copy, test scripts, and reports"
-HEADER_FOUR,UX,User-centered Design,2,5,
-HEADER_FOUR,UX,User-centered Design,2,6,
-HEADER_FOUR,UX,User-centered Design,3,1,"Designs and delivers wireframes, user stories, user journeys, and mockups optimized for a wide range of devices and interfaces"
-HEADER_FOUR,UX,User-centered Design,3,2,Independently conducts design validation activities with internal and external stakeholders
-HEADER_FOUR,UX,User-centered Design,3,3,"Translates concepts into user flows, wireframes, mockups, and prototypes that lead to intuitive user experiences"
-HEADER_FOUR,UX,User-centered Design,3,4,Assists the front-end developers to ensure the UX design achieves design goals and meets end-user needs
-HEADER_FOUR,UX,User-centered Design,3,5,
-HEADER_FOUR,UX,User-centered Design,3,6,
-HEADER_FOUR,UX,User-centered Design,4,1,Demonstrates the ability to identify design problems and devise solutions
-HEADER_FOUR,UX,User-centered Design,4,2,Takes a user-centered design approach and rapidly tests and iterates the work
-HEADER_FOUR,UX,User-centered Design,4,3,Ensures design production is efficient and delivers at the highest quality in accordance with UX's best practices and processes
-HEADER_FOUR,UX,User-centered Design,4,4,
-HEADER_FOUR,UX,User-centered Design,4,5,
-HEADER_FOUR,UX,User-centered Design,4,6,
-HEADER_FOUR,UX,User-centered Design,5,1,"Makes strategic design and user experience decisions related to both core and new functions, and features"
-HEADER_FOUR,UX,User-centered Design,5,2,"Creates high-quality design deliverables and executes based on UX goals and priorities, acting as an expert in the field"
-HEADER_FOUR,UX,User-centered Design,5,3,Stays on top of UX design trends and looks for creative ways to inspire delightful experiences
-HEADER_FOUR,UX,User-centered Design,5,4,
-HEADER_FOUR,UX,User-centered Design,5,5,
-HEADER_FOUR,UX,User-centered Design,5,6,
-HEADER_ONE,UI,Foundations,1,1,Is building proficiency in our design practice and becoming comfortable with learning new technologies and skills
-HEADER_ONE,UI,Foundations,1,2,"Has experience with web accessibility, usability and core development tools"
-HEADER_ONE,UI,Foundations,1,3,"Understands web design constraints, including CSS, HTML, browser usability, and cross-platform compatibility"
-HEADER_ONE,UI,Foundations,1,4,
-HEADER_ONE,UI,Foundations,1,5,
-HEADER_ONE,UI,Foundations,1,6,
-HEADER_ONE,UI,Foundations,2,1,"Focuses on expanding experience and proficiency in our design practice, establishing and promoting brand guidelines, best practices and standards"
-HEADER_ONE,UI,Foundations,2,2,"Is well-versed with web accessibility, usability, and core design tools"
-HEADER_ONE,UI,Foundations,2,3,"Collaborates with project managers, strategists, and engineers to scope time and effort involved in design projects"
-HEADER_ONE,UI,Foundations,2,4,Serves as a strategic visual design resource
-HEADER_ONE,UI,Foundations,2,5,"Has a deep understanding of web design constraints, including CSS, HTML, browser usability, and cross-platform compatibility"
-HEADER_ONE,UI,Foundations,2,6,"Designs a web experience that's best for the user and accurately reflects the client's goals, objectives, and brand identity"
-HEADER_ONE,UI,Foundations,3,1,"Is always able to articulate the ""why"" of design decisions"
-HEADER_ONE,UI,Foundations,3,2,Constantly seeks input from the engineering and implementation team to validate and ensure that the design is executable
-HEADER_ONE,UI,Foundations,3,3,Executes all visual design stages from concept to HTML/CSS browser
-HEADER_ONE,UI,Foundations,3,4,"Has experience designing from user experience journeys, and realistic use cases to create functional and delightful designs"
-HEADER_ONE,UI,Foundations,3,5,"Drives the design process and serves as a gatekeeper and clients ""brand expert"""
-HEADER_ONE,UI,Foundations,3,6,Conceptualizes original ideas that bring simplicity and user friendliness to complex design roadblocks
-HEADER_ONE,UI,Foundations,3,7,"Collaborates with project managers and engineers to define and implement innovative solutions for the product direction, design and interactions"
-HEADER_ONE,UI,Foundations,3,8,Serves as a resident expert of digital tools and is skilled in developing digital design concepts
-HEADER_ONE,UI,Foundations,4,1,"Efficiently balances and manages complex user, business, and technical requirements to make design decisions"
-HEADER_ONE,UI,Foundations,4,2,"Guides junior team members in critical, high-level, design problem solving"
-HEADER_ONE,UI,Foundations,4,3,"Strategically analyzes the risks, benefits, and opportunities of various solutions"
-HEADER_ONE,UI,Foundations,4,4,Seeks out chapter-wide opportunities for improvements
-HEADER_ONE,UI,Foundations,4,5,Ability to understand constraints and technical feasibility prior to client presentations
-HEADER_ONE,UI,Foundations,4,6,
-HEADER_ONE,UI,Foundations,5,1,Guides and directs UI team members by providing strategic direction to best deliver client's business goals
-HEADER_ONE,UI,Foundations,5,2,Is able to articulate a unique user experience approach that delivers client value for use in sales and marketing initiatives
-HEADER_ONE,UI,Foundations,5,3,Designs and builds industry-leading solutions to solve UI complex problems and advocates for the best user experience possible
-HEADER_ONE,UI,Foundations,5,4,Serves as client focal point for all UI practices
-HEADER_ONE,UI,Foundations,5,5,"Anticipates technical challenges, exploring alternatives and trade offs thoroughly"
-HEADER_ONE,UI,Foundations,5,6,Seen as a leader and contributor in the organization
-HEADER_TWO,UI,Information Architecture,1,1,Employs basic information-architecture concepts correctly
-HEADER_TWO,UI,Information Architecture,1,2,Evaluates structural design decisions for feature sets that are well defined or limited in scope with the assistance of senior designers
-HEADER_TWO,UI,Information Architecture,1,3,Understands the basic usability principles and trade offs behind their own design concepts
-HEADER_TWO,UI,Information Architecture,1,4,
-HEADER_TWO,UI,Information Architecture,1,5,
-HEADER_TWO,UI,Information Architecture,1,6,
-HEADER_TWO,UI,Information Architecture,2,1,Employs complicated information-architecture concepts correctly
-HEADER_TWO,UI,Information Architecture,2,2,Makes good structural design decisions for feature sets that are well defined or limited in scope
-HEADER_TWO,UI,Information Architecture,2,3,"Applies existing information patterns, working with a more senior designer as a guide"
-HEADER_TWO,UI,Information Architecture,2,4,
-HEADER_TWO,UI,Information Architecture,2,5,
-HEADER_TWO,UI,Information Architecture,2,6,
-HEADER_TWO,UI,Information Architecture,3,1,"Explores multiple, alternative information-architecture solutions before choosing a design direction"
-HEADER_TWO,UI,Information Architecture,3,2,"Balances relatively complicated user, business, and technical requirements to arrive at sound information-architecture designs"
-HEADER_TWO,UI,Information Architecture,3,3,Can explain the usability rationale and trade offs of one information architecture versus another
-HEADER_TWO,UI,Information Architecture,3,4,
-HEADER_TWO,UI,Information Architecture,3,5,
-HEADER_TWO,UI,Information Architecture,3,6,
-HEADER_TWO,UI,Information Architecture,4,1,Creates new architectural design patterns for a product when necessary
-HEADER_TWO,UI,Information Architecture,4,2,Employs complex information-architecture concepts quickly and correctly
-HEADER_TWO,UI,Information Architecture,4,3,"Explores multiple, alternative product information architectures to create a broad range of alternative design concepts"
-HEADER_TWO,UI,Information Architecture,4,4,Understands the usability rationale and trade-offs for different product-level information architectures and can clearly articulate these to the team
-HEADER_TWO,UI,Information Architecture,4,5,
-HEADER_TWO,UI,Information Architecture,4,6,
-HEADER_TWO,UI,Information Architecture,5,1,Creates new architectural design patterns that impact entire product lines and user-interface frameworks
-HEADER_TWO,UI,Information Architecture,5,2,"Creates insightful, timely, compelling information-architecture designs for highly complex problem spaces"
-HEADER_TWO,UI,Information Architecture,5,3,"Efficiently balances and manages complex user, business, and technical requirements to make sound information-architecture design decisions"
-HEADER_TWO,UI,Information Architecture,5,4,"Anticipates and thinks through the entire breadth of impacts that information-architecture decisions can have on users, product teams, and UX designers"
-HEADER_TWO,UI,Information Architecture,5,5,Understands and can compellingly articulate the usability trade-offs of various information-architecture design approaches for entire product families and frameworks
-HEADER_TWO,UI,Information Architecture,5,6,
-HEADER_THREE,UI,Interaction Design,1,1,"Effectively solves routine interaction design problems, gathering the information necessary to weigh a limited set of options and arrive at sound conclusions"
-HEADER_THREE,UI,Interaction Design,1,2,Escalates problems that are beyond the scope of their design capabilities for resolution by a more experienced designer
-HEADER_THREE,UI,Interaction Design,1,3,Writes select components of interaction design strategy documentation
-HEADER_THREE,UI,Interaction Design,1,4,
-HEADER_THREE,UI,Interaction Design,1,5,
-HEADER_THREE,UI,Interaction Design,1,6,
-HEADER_THREE,UI,Interaction Design,2,1,Efficiently solves moderately difficult interaction design problems that impact people within their team or other related team
-HEADER_THREE,UI,Interaction Design,2,2,"Applies existing interaction patterns, working with a more senior designer as a guide or mentor"
-HEADER_THREE,UI,Interaction Design,2,3,
-HEADER_THREE,UI,Interaction Design,2,4,
-HEADER_THREE,UI,Interaction Design,2,5,
-HEADER_THREE,UI,Interaction Design,2,6,
-HEADER_THREE,UI,Interaction Design,3,1,Efficiently and creatively solves complicated interaction design problems that impact the stakeholders
-HEADER_THREE,UI,Interaction Design,3,2,Looks beyond obvious solutions and experiments with different approaches to solving problems
-HEADER_THREE,UI,Interaction Design,3,3,"Develops solutions for problems that stretch their own design capabilities, but requests review and approval from a more senior designer"
-HEADER_THREE,UI,Interaction Design,3,4,Facilitates effective problem solving in meetings and teams
-HEADER_THREE,UI,Interaction Design,3,5,
-HEADER_THREE,UI,Interaction Design,3,6,
-HEADER_THREE,UI,Interaction Design,4,1,Efficiently solves complex and difficult interaction design problems that impact the team or entire organization
-HEADER_THREE,UI,Interaction Design,4,2,Accurately defines the amount and kinds of information that is needed to gather for problem solving
-HEADER_THREE,UI,Interaction Design,4,3,Anticipates and proactively works to circumvent roadblocks to solutions
-HEADER_THREE,UI,Interaction Design,4,4,Creates new interaction design patterns for a product when necessary
-HEADER_THREE,UI,Interaction Design,4,5,Identifies underlying or hidden problems or trends across the organization
-HEADER_THREE,UI,Interaction Design,4,6,
-HEADER_THREE,UI,Interaction Design,5,1,Efficiently and creatively solves even the most complex and difficult interaction design problems that impact the team or entire company
-HEADER_THREE,UI,Interaction Design,5,2,Creates new interaction design patterns that impact entire product lines and user interface frameworks
-HEADER_THREE,UI,Interaction Design,5,3,"Asks critical, insightful questions and probes all fruitful sources for relevant information to facilitate problem solving"
-HEADER_THREE,UI,Interaction Design,5,4,"Leads the team in critical, high-level design problem solving"
-HEADER_THREE,UI,Interaction Design,5,5,"Strategically analyzes the risks, benefits, and opportunities of various solutions"
-HEADER_THREE,UI,Interaction Design,5,6,
-HEADER_FOUR,UI,Visual Design,1,1,Competently creates basic layouts and produces mockups of designs with the guidance of senior designers
-HEADER_FOUR,UI,Visual Design,1,2,Turns image-based designs into a functional HTML and CSS code-based style guide
-HEADER_FOUR,UI,Visual Design,1,3,
-HEADER_FOUR,UI,Visual Design,1,4,
-HEADER_FOUR,UI,Visual Design,1,5,
-HEADER_FOUR,UI,Visual Design,1,6,
-HEADER_FOUR,UI,Visual Design,2,1,"Builds accurate wireframes, following visual design guidelines"
-HEADER_FOUR,UI,Visual Design,2,2,Collaborates with other visual designers to produce graphics resource files for user interfaces
-HEADER_FOUR,UI,Visual Design,2,3,
-HEADER_FOUR,UI,Visual Design,2,4,
-HEADER_FOUR,UI,Visual Design,2,5,
-HEADER_FOUR,UI,Visual Design,2,6,
-HEADER_FOUR,UI,Visual Design,3,1,Creates sophisticated layouts and produce mockups of designs
-HEADER_FOUR,UI,Visual Design,3,2,"Builds complicated wireframes, following visual design guidelines"
-HEADER_FOUR,UI,Visual Design,3,3,"Uses various techniques to create drafts, models, and prototypes"
-HEADER_FOUR,UI,Visual Design,3,4,
-HEADER_FOUR,UI,Visual Design,3,5,
-HEADER_FOUR,UI,Visual Design,3,6,
-HEADER_FOUR,UI,Visual Design,4,1,"Builds complex, accurate wireframes, following visual design guidelines"
-HEADER_FOUR,UI,Visual Design,4,2,"Collaborates with strategists, project managers, and engineers to understand how all aspects of a product's functionality would work within an established visual design framework"
-HEADER_FOUR,UI,Visual Design,4,3,"Maintains an awareness of trends in visual design and guides other visual designers in implementing cutting-edge, visual design solutions for their products"
-HEADER_FOUR,UI,Visual Design,4,4,Has a strong understanding of web design systems and helps create a standardized toolbox of components to draw from
-HEADER_FOUR,UI,Visual Design,4,5,
-HEADER_FOUR,UI,Visual Design,4,6,
-HEADER_FOUR,UI,Visual Design,5,1,"Expertly builds complex, accurate wireframes, following visual design guidelines"
-HEADER_FOUR,UI,Visual Design,5,2,Guides and directs the UI design team to understand how all aspects of a product's functionality would work within an established visual design framework
-HEADER_FOUR,UI,Visual Design,5,3,Stays abreast of trends in visual design and expertly guides other visual designers in implementing cutting-edge solutions for their products
-HEADER_FOUR,UI,Visual Design,5,4,"Advocates for pushing the limits on a project's capabilities, both from a visual and functional perspective"
-HEADER_FOUR,UI,Visual Design,5,5,
-HEADER_FOUR,UI,Visual Design,5,6,
+HEADER_ONE,DESIGN,Foundations,1,1,Is building proficiency in our user experience practice and becoming comfortable with learning new technologies and skills
+HEADER_ONE,DESIGN,Foundations,1,2,"Has experience with web accessibility, usability and core design tools. Understands web design constraints and opportunities"
+HEADER_ONE,DESIGN,Foundations,1,3,"Understands and applies how to use an existing pattern library to create wireframes, working with a more senior designer as a guide or mentor"
+HEADER_ONE,DESIGN,Foundations,1,4,Has knowledge in marketing and consumer behavior trends applicable to their work
+HEADER_ONE,DESIGN,Foundations,1,5,"Develops user-centered website strategies with guidance, in alignment with client goals and objectives"
+HEADER_ONE,DESIGN,Foundations,1,6,"Has hands-on experience with DESIGN tools which may include Sketch, InVision, prototyping tools, and Google Analytics"
+HEADER_ONE,DESIGN,Foundations,2,1,"Focuses on expanding experience and proficiency in our user experience practice, and establishing and promoting brand guidelines, best practices, and standards"
+HEADER_ONE,DESIGN,Foundations,2,2,"Is well-versed with web accessibility, usability, and core design tools. Has a deep understanding of web design constraints"
+HEADER_ONE,DESIGN,Foundations,2,3,"Applies existing team pattern libraries, provides examples of patterns in the wild, and explores multiple design options"
+HEADER_ONE,DESIGN,Foundations,2,4,Works with other team members to understand constraints and design feasibility
+HEADER_ONE,DESIGN,Foundations,2,5,"Contributes to strategic positioning, organizational insight, and client road maps"
+HEADER_ONE,DESIGN,Foundations,2,6,Is well-versed in marketing and consumer behavior trends
+HEADER_ONE,DESIGN,Foundations,2,7,"Develops user-centered website strategies that support user tasks, satisfy client goals, and contribute original documentation for projects"
+HEADER_ONE,DESIGN,Foundations,2,8,Sketches and creates wireframes
+HEADER_ONE,DESIGN,Foundations,2,9,"Designs and performs competitive analysis, proactively researches examples in the wild, seeks out industry trends, and performs and analyzes usability test plans"
+HEADER_ONE,DESIGN,Foundations,2,10,"Collaborates with project managers, designers, and engineers to scope time and effort involved in design projects"
+HEADER_ONE,DESIGN,Foundations,3,1,"Effectively leads and takes ownership of the DESIGN process, articulates strategy, best practices, and process collaborating with designers to inform and define the project"
+HEADER_ONE,DESIGN,Foundations,3,2,"Is always able to articulate the ""why"" of design decisions to clients and the Palantir team"
+HEADER_ONE,DESIGN,Foundations,3,3,"Always explores multiple options, evaluates and articulates pros and cons of choices, recommends user experience decisions, understands when to use low- and high-fidelity design tools, and contributes to existing team pattern libraries"
+HEADER_ONE,DESIGN,Foundations,3,4,Constantly partners with engineers and developers to understand technology system constraints and align strategy and design work in an efficient and effective way at the project level
+HEADER_ONE,DESIGN,Foundations,3,5,"Designs, performs, and analyzes usability test plans"
+HEADER_ONE,DESIGN,Foundations,3,6,Is able to articulate the difference and relationship between the different IA and content strategy deliverables
+HEADER_ONE,DESIGN,Foundations,3,7,Collaborates with project managers and engineers to define and implement innovative solutions for the product direction
+HEADER_ONE,DESIGN,Foundations,4,1,"Efficiently balances and manages complex user, business, and technical requirements to make design decisions"
+HEADER_ONE,DESIGN,Foundations,4,2,"Guides junior team members in critical, high-level, design problem solving"
+HEADER_ONE,DESIGN,Foundations,4,3,"Strategically analyzes the risks, benefits, and opportunities of various solutions"
+HEADER_ONE,DESIGN,Foundations,4,4,Seeks out discipline-wide opportunities for improvement
+HEADER_ONE,DESIGN,Foundations,4,5,Considers client constraints and technical feasibility of potential design solutions
+HEADER_ONE,DESIGN,Foundations,4,6,
+HEADER_ONE,DESIGN,Foundations,5,1,Guides DESIGN team members by providing strategic direction that best honors the client's business
+HEADER_ONE,DESIGN,Foundations,5,2,"Develops a unique user experience practice approach that outlines and defines activities, deliverables, and value to be used in sales and marketing initiatives"
+HEADER_ONE,DESIGN,Foundations,5,3,Designs and builds industry-leading solutions to solve complex DESIGN problems and advocates for the best user experience possible
+HEADER_ONE,DESIGN,Foundations,5,4,Serves as client focal point for all DESIGN practices
+HEADER_ONE,DESIGN,Foundations,5,5,"Anticipates technical challenges, exploring alternatives and trade-offs thoroughly"
+HEADER_ONE,DESIGN,Foundations,5,6,Is recognized as a leader and contributor across the organization
+HEADER_TWO,DESIGN,Discovery and Definition,1,1,"Gather business requirements and user insights through surveys, user tests, and interviews with the assistance of senior strategists"
+HEADER_TWO,DESIGN,Discovery and Definition,1,2,Uses basic feedback techniques to improve relatively simple strategy concepts and techniques
+HEADER_TWO,DESIGN,Discovery and Definition,1,3,"Through observation and interaction with senior strategists, is building the skills and expertise to plan information validation activities and incorporate user and stakeholder feedback into design iterations"
+HEADER_TWO,DESIGN,Discovery and Definition,1,4,"Understands client business/objectives and identifies opportunities for client ""wins"" through digital design, tools, and experiences"
+HEADER_TWO,DESIGN,Discovery and Definition,1,5,
+HEADER_TWO,DESIGN,Discovery and Definition,1,6,
+HEADER_TWO,DESIGN,Discovery and Definition,2,1,Conducts validations/interviews with users and stakeholders with assistance of a more senior strategist
+HEADER_TWO,DESIGN,Discovery and Definition,2,2,Applies feedback techniques to improve discovery and definition strategies
+HEADER_TWO,DESIGN,Discovery and Definition,2,3,Works with more senior team members to plan information validation activities and incorporate user feedback into design changes
+HEADER_TWO,DESIGN,Discovery and Definition,2,4,Generates users and stakeholders interview questions and documentation
+HEADER_TWO,DESIGN,Discovery and Definition,2,5,"Works with FEDs and engineers to research technical documentation, APIs, integration with third party technologies, etc. to confirm project requirements and expectations "
+HEADER_TWO,DESIGN,Discovery and Definition,2,6,
+HEADER_TWO,DESIGN,Discovery and Definition,3,1,"Plans moderately complicated requirements-gathering, analysis, design-validation, and usability-testing activities"
+HEADER_TWO,DESIGN,Discovery and Definition,3,2,Independently conducts information-validation activities with internal and external stakeholders
+HEADER_TWO,DESIGN,Discovery and Definition,3,3,Conducts gap and task analysis
+HEADER_TWO,DESIGN,Discovery and Definition,3,4,Communicates usability findings and provides recommendations for improving user-interface experience
+HEADER_TWO,DESIGN,Discovery and Definition,3,5,Facilitates the planning and execution of on-site discovery workshops
+HEADER_TWO,DESIGN,Discovery and Definition,3,6,Conducts comparative analysis
+HEADER_TWO,DESIGN,Discovery and Definition,3,7,Perform content audits and competitor site analysis
+HEADER_TWO,DESIGN,Discovery and Definition,4,1,Independently conducts all aspects of complex user-research programs— from early-stage requirements to summative usability testing
+HEADER_TWO,DESIGN,Discovery and Definition,4,2,"Adapts user-research techniques to inform both new and ongoing, complex, product-development effort"
+HEADER_TWO,DESIGN,Discovery and Definition,4,3,"Communicates usability findings, metrics, and associated design strategies to large, distributed product teams"
+HEADER_TWO,DESIGN,Discovery and Definition,4,4,Discusses usability metrics and their impact on product ROI
+HEADER_TWO,DESIGN,Discovery and Definition,4,5,
+HEADER_TWO,DESIGN,Discovery and Definition,4,6,
+HEADER_TWO,DESIGN,Discovery and Definition,5,1,"Expertly conducts all stages of user research— including market analysis, requirements definition, early-to-mid-stage design validations, and summative usability--testing activities"
+HEADER_TWO,DESIGN,Discovery and Definition,5,2,Simultaneously plans and drives multiple user-research activities across widely divergent product domains
+HEADER_TWO,DESIGN,Discovery and Definition,5,3,"Drives and conducts all aspects of formal summative testing, including the use of metrics and competitive benchmark testing"
+HEADER_TWO,DESIGN,Discovery and Definition,5,4,Communicates usability metrics and findings to clients and the Palantir team
+HEADER_TWO,DESIGN,Discovery and Definition,5,5,"Clearly provides clients with a plan, tools, behaviors, and best practices for addressing their usability issues"
+HEADER_TWO,DESIGN,Discovery and Definition,5,6,Creates new user-elicitation methods and techniques to suit novel research needs and requirements
+HEADER_THREE,DESIGN,Strategy and Design,1,1,Understands learnings from discovery and research to inform audience definition and identify key personas
+HEADER_THREE,DESIGN,Strategy and Design,1,2,"Synthesizes findings from discovery process, identifying opportunities and issues with guidance of senior strategists"
+HEADER_THREE,DESIGN,Strategy and Design,1,3,
+HEADER_THREE,DESIGN,Strategy and Design,1,4,
+HEADER_THREE,DESIGN,Strategy and Design,1,5,
+HEADER_THREE,DESIGN,Strategy and Design,1,6,
+HEADER_THREE,DESIGN,Strategy and Design,2,1,"Synthesizes findings from discovery process, effectively identifying opportunities and issues"
+HEADER_THREE,DESIGN,Strategy and Design,2,2,Leverages learnings from discovery and research to inform audience definition and identify key personas
+HEADER_THREE,DESIGN,Strategy and Design,2,3,Demonstrates user journeys through journey mapping
+HEADER_THREE,DESIGN,Strategy and Design,2,4,
+HEADER_THREE,DESIGN,Strategy and Design,2,5,
+HEADER_THREE,DESIGN,Strategy and Design,2,6,
+HEADER_THREE,DESIGN,Strategy and Design,3,1,Works with designers as appropriate to translate strategic recommendations into wireframes and documentation that lead to intuitive user experiences
+HEADER_THREE,DESIGN,Strategy and Design,3,2,"Synthesizes findings from discovery process, identifying opportunities and issues, and recommends solutions that meet client objectives"
+HEADER_THREE,DESIGN,Strategy and Design,3,3,"Understands user needs and intents then translate that to information architecture and content outline(s), collaborating with designers"
+HEADER_THREE,DESIGN,Strategy and Design,3,4,Collaborates with designers on design strategy and visual design application for projects
+HEADER_THREE,DESIGN,Strategy and Design,3,5,Conducts usability tests
+HEADER_THREE,DESIGN,Strategy and Design,3,6,
+HEADER_THREE,DESIGN,Strategy and Design,4,1,"Synthesizes findings from discovery process, identifying opportunities and issues, and recommends solutions that meet client objectives, demonstrate a level of excellence, and may be achieved within budget"
+HEADER_THREE,DESIGN,Strategy and Design,4,2,Provides high-level sitemap and wireframes or works with designers as appropriate to translate strategic recommendations into wireframes and documentation that lead to intuitive user experiences
+HEADER_THREE,DESIGN,Strategy and Design,4,3,Crafts high-level content strategy recommendations
+HEADER_THREE,DESIGN,Strategy and Design,4,4,"Guides the creation of wireframes for key pages in the new website, and explains wireframes to the client"
+HEADER_THREE,DESIGN,Strategy and Design,4,5,
+HEADER_THREE,DESIGN,Strategy and Design,4,6,
+HEADER_THREE,DESIGN,Strategy and Design,5,1,"Demonstrates ability to generate and translate insights into actionable digital opportunities through reports, presentations, personas, user flows, journey maps, etc."
+HEADER_THREE,DESIGN,Strategy and Design,5,2,"Balances creativity with structure, collaborating with designers, project managers, and engineers"
+HEADER_THREE,DESIGN,Strategy and Design,5,3,"Advocates for pushing the limits on a project's capabilities, both from a visual and functional perspective"
+HEADER_THREE,DESIGN,Strategy and Design,5,4,Articulates a design strategy or approach that will impact the user experience across products or platforms and supports these ideas with sound reasoning and data
+HEADER_THREE,DESIGN,Strategy and Design,5,5,
+HEADER_THREE,DESIGN,Strategy and Design,5,6,
+HEADER_FOUR,DESIGN,User-centered Design,1,1,"Conducts basic, early-stage design validations with stakeholders"
+HEADER_FOUR,DESIGN,User-centered Design,1,2,Uses basic feedback techniques to improve relatively simple design concepts
+HEADER_FOUR,DESIGN,User-centered Design,1,3,Helps create clean and simple user-centred designs with guidance of senior teammates
+HEADER_FOUR,DESIGN,User-centered Design,1,4,
+HEADER_FOUR,DESIGN,User-centered Design,1,5,
+HEADER_FOUR,DESIGN,User-centered Design,1,6,
+HEADER_FOUR,DESIGN,User-centered Design,2,1,Conducts design validations with stakeholders with assistance of a more senior designer
+HEADER_FOUR,DESIGN,User-centered Design,2,2,Applies feedback techniques to improve design concepts
+HEADER_FOUR,DESIGN,User-centered Design,2,3,Works with more senior team members to plan design validation activities and incorporate user feedback into design iteration
+HEADER_FOUR,DESIGN,User-centered Design,2,4,"Generates user profiles, recruitment copy, test scripts, and reports"
+HEADER_FOUR,DESIGN,User-centered Design,2,5,
+HEADER_FOUR,DESIGN,User-centered Design,2,6,
+HEADER_FOUR,DESIGN,User-centered Design,3,1,"Designs and delivers wireframes, user stories, user journeys, and mockups optimized for a wide range of devices and interfaces"
+HEADER_FOUR,DESIGN,User-centered Design,3,2,Independently conducts design validation activities with internal and external stakeholders
+HEADER_FOUR,DESIGN,User-centered Design,3,3,"Translates concepts into user flows, wireframes, mockups, and prototypes that lead to intuitive user experiences"
+HEADER_FOUR,DESIGN,User-centered Design,3,4,Assists the front-end developers to ensure the DESIGN design achieves design goals and meets end-user needs
+HEADER_FOUR,DESIGN,User-centered Design,3,5,
+HEADER_FOUR,DESIGN,User-centered Design,3,6,
+HEADER_FOUR,DESIGN,User-centered Design,4,1,Demonstrates the ability to identify design problems and devise solutions
+HEADER_FOUR,DESIGN,User-centered Design,4,2,Takes a user-centered design approach and rapidly tests and iterates the work
+HEADER_FOUR,DESIGN,User-centered Design,4,3,Ensures design production is efficient and delivers at the highest quality in accordance with DESIGN's best practices and processes
+HEADER_FOUR,DESIGN,User-centered Design,4,4,
+HEADER_FOUR,DESIGN,User-centered Design,4,5,
+HEADER_FOUR,DESIGN,User-centered Design,4,6,
+HEADER_FOUR,DESIGN,User-centered Design,5,1,"Makes strategic design and user experience decisions related to both core and new functions, and features"
+HEADER_FOUR,DESIGN,User-centered Design,5,2,"Creates high-quality design deliverables and executes based on DESIGN goals and priorities, acting as an expert in the field"
+HEADER_FOUR,DESIGN,User-centered Design,5,3,Stays on top of DESIGN design trends and looks for creative ways to inspire delightful experiences
+HEADER_FOUR,DESIGN,User-centered Design,5,4,
+HEADER_FOUR,DESIGN,User-centered Design,5,5,
+HEADER_FOUR,DESIGN,User-centered Design,5,6,
+HEADER_ONE,STRATEGY,Foundations,1,1,Is building proficiency in our design practice and becoming comfortable with learning new technologies and skills
+HEADER_ONE,STRATEGY,Foundations,1,2,"Has experience with web accessibility, usability and core development tools"
+HEADER_ONE,STRATEGY,Foundations,1,3,"Understands web design constraints, including CSS, HTML, browser usability, and cross-platform compatibility"
+HEADER_ONE,STRATEGY,Foundations,1,4,
+HEADER_ONE,STRATEGY,Foundations,1,5,
+HEADER_ONE,STRATEGY,Foundations,1,6,
+HEADER_ONE,STRATEGY,Foundations,2,1,"Focuses on expanding experience and proficiency in our design practice, establishing and promoting brand guidelines, best practices and standards"
+HEADER_ONE,STRATEGY,Foundations,2,2,"Is well-versed with web accessibility, usability, and core design tools"
+HEADER_ONE,STRATEGY,Foundations,2,3,"Collaborates with project managers, strategists, and engineers to scope time and effort involved in design projects"
+HEADER_ONE,STRATEGY,Foundations,2,4,Serves as a strategic visual design resource
+HEADER_ONE,STRATEGY,Foundations,2,5,"Has a deep understanding of web design constraints, including CSS, HTML, browser usability, and cross-platform compatibility"
+HEADER_ONE,STRATEGY,Foundations,2,6,"Designs a web experience that's best for the user and accurately reflects the client's goals, objectives, and brand identity"
+HEADER_ONE,STRATEGY,Foundations,3,1,"Is always able to articulate the ""why"" of design decisions"
+HEADER_ONE,STRATEGY,Foundations,3,2,Constantly seeks input from the engineering and implementation team to validate and ensure that the design is executable
+HEADER_ONE,STRATEGY,Foundations,3,3,Executes all visual design stages from concept to HTML/CSS browser
+HEADER_ONE,STRATEGY,Foundations,3,4,"Has experience designing from user experience journeys, and realistic use cases to create functional and delightful designs"
+HEADER_ONE,STRATEGY,Foundations,3,5,"Drives the design process and serves as a gatekeeper and clients ""brand expert"""
+HEADER_ONE,STRATEGY,Foundations,3,6,Conceptualizes original ideas that bring simplicity and user friendliness to complex design roadblocks
+HEADER_ONE,STRATEGY,Foundations,3,7,"Collaborates with project managers and engineers to define and implement innovative solutions for the product direction, design and interactions"
+HEADER_ONE,STRATEGY,Foundations,3,8,Serves as a resident expert of digital tools and is skilled in developing digital design concepts
+HEADER_ONE,STRATEGY,Foundations,4,1,"Efficiently balances and manages complex user, business, and technical requirements to make design decisions"
+HEADER_ONE,STRATEGY,Foundations,4,2,"Guides junior team members in critical, high-level, design problem solving"
+HEADER_ONE,STRATEGY,Foundations,4,3,"Strategically analyzes the risks, benefits, and opportunities of various solutions"
+HEADER_ONE,STRATEGY,Foundations,4,4,Seeks out chapter-wide opportunities for improvements
+HEADER_ONE,STRATEGY,Foundations,4,5,Ability to understand constraints and technical feasibility prior to client presentations
+HEADER_ONE,STRATEGY,Foundations,4,6,
+HEADER_ONE,STRATEGY,Foundations,5,1,Guides and directs STRATEGY team members by providing strategic direction to best deliver client's business goals
+HEADER_ONE,STRATEGY,Foundations,5,2,Is able to articulate a unique user experience approach that delivers client value for use in sales and marketing initiatives
+HEADER_ONE,STRATEGY,Foundations,5,3,Designs and builds industry-leading solutions to solve STRATEGY complex problems and advocates for the best user experience possible
+HEADER_ONE,STRATEGY,Foundations,5,4,Serves as client focal point for all STRATEGY practices
+HEADER_ONE,STRATEGY,Foundations,5,5,"Anticipates technical challenges, exploring alternatives and trade offs thoroughly"
+HEADER_ONE,STRATEGY,Foundations,5,6,Seen as a leader and contributor in the organization
+HEADER_TWO,STRATEGY,Information Architecture,1,1,Employs basic information-architecture concepts correctly
+HEADER_TWO,STRATEGY,Information Architecture,1,2,Evaluates structural design decisions for feature sets that are well defined or limited in scope with the assistance of senior designers
+HEADER_TWO,STRATEGY,Information Architecture,1,3,Understands the basic usability principles and trade offs behind their own design concepts
+HEADER_TWO,STRATEGY,Information Architecture,1,4,
+HEADER_TWO,STRATEGY,Information Architecture,1,5,
+HEADER_TWO,STRATEGY,Information Architecture,1,6,
+HEADER_TWO,STRATEGY,Information Architecture,2,1,Employs complicated information-architecture concepts correctly
+HEADER_TWO,STRATEGY,Information Architecture,2,2,Makes good structural design decisions for feature sets that are well defined or limited in scope
+HEADER_TWO,STRATEGY,Information Architecture,2,3,"Applies existing information patterns, working with a more senior designer as a guide"
+HEADER_TWO,STRATEGY,Information Architecture,2,4,
+HEADER_TWO,STRATEGY,Information Architecture,2,5,
+HEADER_TWO,STRATEGY,Information Architecture,2,6,
+HEADER_TWO,STRATEGY,Information Architecture,3,1,"Explores multiple, alternative information-architecture solutions before choosing a design direction"
+HEADER_TWO,STRATEGY,Information Architecture,3,2,"Balances relatively complicated user, business, and technical requirements to arrive at sound information-architecture designs"
+HEADER_TWO,STRATEGY,Information Architecture,3,3,Can explain the usability rationale and trade offs of one information architecture versus another
+HEADER_TWO,STRATEGY,Information Architecture,3,4,
+HEADER_TWO,STRATEGY,Information Architecture,3,5,
+HEADER_TWO,STRATEGY,Information Architecture,3,6,
+HEADER_TWO,STRATEGY,Information Architecture,4,1,Creates new architectural design patterns for a product when necessary
+HEADER_TWO,STRATEGY,Information Architecture,4,2,Employs complex information-architecture concepts quickly and correctly
+HEADER_TWO,STRATEGY,Information Architecture,4,3,"Explores multiple, alternative product information architectures to create a broad range of alternative design concepts"
+HEADER_TWO,STRATEGY,Information Architecture,4,4,Understands the usability rationale and trade-offs for different product-level information architectures and can clearly articulate these to the team
+HEADER_TWO,STRATEGY,Information Architecture,4,5,
+HEADER_TWO,STRATEGY,Information Architecture,4,6,
+HEADER_TWO,STRATEGY,Information Architecture,5,1,Creates new architectural design patterns that impact entire product lines and user-interface frameworks
+HEADER_TWO,STRATEGY,Information Architecture,5,2,"Creates insightful, timely, compelling information-architecture designs for highly complex problem spaces"
+HEADER_TWO,STRATEGY,Information Architecture,5,3,"Efficiently balances and manages complex user, business, and technical requirements to make sound information-architecture design decisions"
+HEADER_TWO,STRATEGY,Information Architecture,5,4,"Anticipates and thinks through the entire breadth of impacts that information-architecture decisions can have on users, product teams, and DESIGN designers"
+HEADER_TWO,STRATEGY,Information Architecture,5,5,Understands and can compellingly articulate the usability trade-offs of various information-architecture design approaches for entire product families and frameworks
+HEADER_TWO,STRATEGY,Information Architecture,5,6,
+HEADER_THREE,STRATEGY,Interaction Design,1,1,"Effectively solves routine interaction design problems, gathering the information necessary to weigh a limited set of options and arrive at sound conclusions"
+HEADER_THREE,STRATEGY,Interaction Design,1,2,Escalates problems that are beyond the scope of their design capabilities for resolution by a more experienced designer
+HEADER_THREE,STRATEGY,Interaction Design,1,3,Writes select components of interaction design strategy documentation
+HEADER_THREE,STRATEGY,Interaction Design,1,4,
+HEADER_THREE,STRATEGY,Interaction Design,1,5,
+HEADER_THREE,STRATEGY,Interaction Design,1,6,
+HEADER_THREE,STRATEGY,Interaction Design,2,1,Efficiently solves moderately difficult interaction design problems that impact people within their team or other related team
+HEADER_THREE,STRATEGY,Interaction Design,2,2,"Applies existing interaction patterns, working with a more senior designer as a guide or mentor"
+HEADER_THREE,STRATEGY,Interaction Design,2,3,
+HEADER_THREE,STRATEGY,Interaction Design,2,4,
+HEADER_THREE,STRATEGY,Interaction Design,2,5,
+HEADER_THREE,STRATEGY,Interaction Design,2,6,
+HEADER_THREE,STRATEGY,Interaction Design,3,1,Efficiently and creatively solves complicated interaction design problems that impact the stakeholders
+HEADER_THREE,STRATEGY,Interaction Design,3,2,Looks beyond obvious solutions and experiments with different approaches to solving problems
+HEADER_THREE,STRATEGY,Interaction Design,3,3,"Develops solutions for problems that stretch their own design capabilities, but requests review and approval from a more senior designer"
+HEADER_THREE,STRATEGY,Interaction Design,3,4,Facilitates effective problem solving in meetings and teams
+HEADER_THREE,STRATEGY,Interaction Design,3,5,
+HEADER_THREE,STRATEGY,Interaction Design,3,6,
+HEADER_THREE,STRATEGY,Interaction Design,4,1,Efficiently solves complex and difficult interaction design problems that impact the team or entire organization
+HEADER_THREE,STRATEGY,Interaction Design,4,2,Accurately defines the amount and kinds of information that is needed to gather for problem solving
+HEADER_THREE,STRATEGY,Interaction Design,4,3,Anticipates and proactively works to circumvent roadblocks to solutions
+HEADER_THREE,STRATEGY,Interaction Design,4,4,Creates new interaction design patterns for a product when necessary
+HEADER_THREE,STRATEGY,Interaction Design,4,5,Identifies underlying or hidden problems or trends across the organization
+HEADER_THREE,STRATEGY,Interaction Design,4,6,
+HEADER_THREE,STRATEGY,Interaction Design,5,1,Efficiently and creatively solves even the most complex and difficult interaction design problems that impact the team or entire company
+HEADER_THREE,STRATEGY,Interaction Design,5,2,Creates new interaction design patterns that impact entire product lines and user interface frameworks
+HEADER_THREE,STRATEGY,Interaction Design,5,3,"Asks critical, insightful questions and probes all fruitful sources for relevant information to facilitate problem solving"
+HEADER_THREE,STRATEGY,Interaction Design,5,4,"Leads the team in critical, high-level design problem solving"
+HEADER_THREE,STRATEGY,Interaction Design,5,5,"Strategically analyzes the risks, benefits, and opportunities of various solutions"
+HEADER_THREE,STRATEGY,Interaction Design,5,6,
+HEADER_FOUR,STRATEGY,Visual Design,1,1,Competently creates basic layouts and produces mockups of designs with the guidance of senior designers
+HEADER_FOUR,STRATEGY,Visual Design,1,2,Turns image-based designs into a functional HTML and CSS code-based style guide
+HEADER_FOUR,STRATEGY,Visual Design,1,3,
+HEADER_FOUR,STRATEGY,Visual Design,1,4,
+HEADER_FOUR,STRATEGY,Visual Design,1,5,
+HEADER_FOUR,STRATEGY,Visual Design,1,6,
+HEADER_FOUR,STRATEGY,Visual Design,2,1,"Builds accurate wireframes, following visual design guidelines"
+HEADER_FOUR,STRATEGY,Visual Design,2,2,Collaborates with other visual designers to produce graphics resource files for user interfaces
+HEADER_FOUR,STRATEGY,Visual Design,2,3,
+HEADER_FOUR,STRATEGY,Visual Design,2,4,
+HEADER_FOUR,STRATEGY,Visual Design,2,5,
+HEADER_FOUR,STRATEGY,Visual Design,2,6,
+HEADER_FOUR,STRATEGY,Visual Design,3,1,Creates sophisticated layouts and produce mockups of designs
+HEADER_FOUR,STRATEGY,Visual Design,3,2,"Builds complicated wireframes, following visual design guidelines"
+HEADER_FOUR,STRATEGY,Visual Design,3,3,"Uses various techniques to create drafts, models, and prototypes"
+HEADER_FOUR,STRATEGY,Visual Design,3,4,
+HEADER_FOUR,STRATEGY,Visual Design,3,5,
+HEADER_FOUR,STRATEGY,Visual Design,3,6,
+HEADER_FOUR,STRATEGY,Visual Design,4,1,"Builds complex, accurate wireframes, following visual design guidelines"
+HEADER_FOUR,STRATEGY,Visual Design,4,2,"Collaborates with strategists, project managers, and engineers to understand how all aspects of a product's functionality would work within an established visual design framework"
+HEADER_FOUR,STRATEGY,Visual Design,4,3,"Maintains an awareness of trends in visual design and guides other visual designers in implementing cutting-edge, visual design solutions for their products"
+HEADER_FOUR,STRATEGY,Visual Design,4,4,Has a strong understanding of web design systems and helps create a standardized toolbox of components to draw from
+HEADER_FOUR,STRATEGY,Visual Design,4,5,
+HEADER_FOUR,STRATEGY,Visual Design,4,6,
+HEADER_FOUR,STRATEGY,Visual Design,5,1,"Expertly builds complex, accurate wireframes, following visual design guidelines"
+HEADER_FOUR,STRATEGY,Visual Design,5,2,Guides and directs the STRATEGY design team to understand how all aspects of a product's functionality would work within an established visual design framework
+HEADER_FOUR,STRATEGY,Visual Design,5,3,Stays abreast of trends in visual design and expertly guides other visual designers in implementing cutting-edge solutions for their products
+HEADER_FOUR,STRATEGY,Visual Design,5,4,"Advocates for pushing the limits on a project's capabilities, both from a visual and functional perspective"
+HEADER_FOUR,STRATEGY,Visual Design,5,5,
+HEADER_FOUR,STRATEGY,Visual Design,5,6,
 HEADER_ONE,PM,Foundations,1,1,Is building proficiency in our PM practice and becoming comfortable with learning new skills
 HEADER_ONE,PM,Foundations,1,2,"Actively listens, understands, and responds to clients and team members"
 HEADER_ONE,PM,Foundations,1,3,Measures project performance using appropriate tools and techniques
@@ -1018,7 +1018,7 @@ HEADER_ONE,PM,Foundations,3,4,Serves as an internal quality control check for th
 HEADER_ONE,PM,Foundations,3,5,Is well-versed with project management methodologies and tools
 HEADER_ONE,PM,Foundations,3,6,"Works within the given parameters delivered from Sales, such as problem statement, budget, deliverables, and timeline"
 HEADER_ONE,PM,Foundations,3,7,Creates and maintains comprehensive project documentation and presents it to the appropriate stakeholders
-HEADER_ONE,PM,Foundations,3,8,"Has a strong understanding of the fact that UX and Engineering use different terminology, have a different cadence to their work, provide different deliverables, and even different definitions of work"
+HEADER_ONE,PM,Foundations,3,8,"Has a strong understanding of the fact that DESIGN and Engineering use different terminology, have a different cadence to their work, provide different deliverables, and even different definitions of work"
 HEADER_ONE,PM,Foundations,4,1,Helps the client and team define success criteria and disseminates these to involved parties throughout the project and program life cycle
 HEADER_ONE,PM,Foundations,4,2,"Establishes practices, templates, policies, tools, and partnerships to expand and mature the project management capabilities for the organization"
 HEADER_ONE,PM,Foundations,4,3,Sets and continually manages project expectations while delegating and managing deliverables with team members and stakeholders

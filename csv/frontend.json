@@ -12,7 +12,7 @@ trackList["HEADER_ONE"] = {
                 "Has experience with web development frameworks, HTML, CSS, JavaScript, and website accessibility",
                 "Is ble to perform assigned tasks and tickets with occasional assistance",
                 "Is able to help estimate tickets while working on refining estimation skills",
-                "Has an understanding of wireframing, UX design, and UI patterns",
+                "Has an understanding of wireframing, DESIGN design, and STRATEGY patterns",
                 "Has experience developing and testing across multiple browsers"
             ],
             "examples": []
@@ -171,7 +171,7 @@ trackList["HEADER_THREE"] = {
             "summary": "Builds complex, reusable architectures that pioneer best practices and enable engineers to work more effectively\t",
             "signals": [
                 "Pioneers architecture migrations that reduce programmer burden",
-                "Implements complex UI transitions that bring delight",
+                "Implements complex STRATEGY transitions that bring delight",
                 "Makes architectural decisions that eliminate entire classes of bugs"
             ],
             "examples": []
@@ -216,7 +216,7 @@ trackList["HEADER_FOUR"] = {
             "summary": "Improves others' ability to deliver great quality work\t",
             "signals": [
                 "Supports complex and secure components for modern browsers written in the latest web standards",
-                "Works with UX to develop and maintain processes that ensure our tools and practices are up to date",
+                "Works with DESIGN to develop and maintain processes that ensure our tools and practices are up to date",
                 "Gives thoughtful front-end code reviews as a domain expert",
                 "Implements systems that enable better testing",
                 "Adds tooling to improve front-end code base quality",
@@ -228,7 +228,7 @@ trackList["HEADER_FOUR"] = {
             "summary": "Proactively advocates for and models great quality and tackles difficult and subtle system issues        ",
             "signals": [
                 "Takes the lead on browser\/device acceptance testing and bug fixing",
-                "Collaborates with UX designers to promote and achieve optimal solutions for clients",
+                "Collaborates with DESIGN designers to promote and achieve optimal solutions for clients",
                 "Leads client demos",
                 "Maintains and improves front-end code bases across a wide variety of projects",
                 "Improves quality of work to meet the level of Palantir's best solutions through repeated iteration"

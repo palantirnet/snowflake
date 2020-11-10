@@ -144,43 +144,43 @@ HEADER_FOUR,PM,Information,2,Disseminates information effectively
 HEADER_FOUR,PM,Information,3,"Disseminates information effectively, engaging with stakeholders"
 HEADER_FOUR,PM,Information,4,Ensures quality of information and guidance to proactive respond to stakeholders
 HEADER_FOUR,PM,Information,5,"Effectively manages high-level information to diverse audience, ensuring stakeholder engagement"
-HEADER_ONE,UX,Foundations,1,"Works effectively within established structures, following current best practices"
-HEADER_ONE,UX,Foundations,2,"Develops new instances for best practices, or minor improvements to existing practices and standards"
-HEADER_ONE,UX,Foundations,3,"Designs complicated user experiences, mastering delivery"
-HEADER_ONE,UX,Foundations,4,Develops complex user experience strategies and guides other UX team members
-HEADER_ONE,UX,Foundations,5,"Is an industry-leading expert in multiple areas of our business, is deeply knowledgeable in several domains, and sets strategic foundational direction for the UX team"
-HEADER_TWO,UX,Discovery and Definition,1,"Works in the discovery and definition process with guidance, following current best practices"
-HEADER_TWO,UX,Discovery and Definition,2,"Works effectively in the discovery and definition process with guidance, focusing on expanding experience and proficiency"
-HEADER_TWO,UX,Discovery and Definition,3,Effectively leads the discovery and definition process
-HEADER_TWO,UX,Discovery and Definition,4,Independently leads all aspects of the discovery and definition process
-HEADER_TWO,UX,Discovery and Definition,5,"Guides and leads all stages of the discovery and definition process, developing new concepts"
-HEADER_THREE,UX,Strategy and Design,1,"Works in the strategy and design process with guidance, following current best practices"
-HEADER_THREE,UX,Strategy and Design,2,"Works effectively in the strategy and design process with guidance, focusing on expanding experience and proficiency"
-HEADER_THREE,UX,Strategy and Design,3,Effectively develops complicated content strategy
-HEADER_THREE,UX,Strategy and Design,4,Creates high-quality complex content strategy
-HEADER_THREE,UX,Strategy and Design,5,"Delivers and guides high-quality content strategy, deeply knowledgeable and sets new trends and solutions for the UX team"
-HEADER_FOUR,UX,User-centered Design,1,"Works in the design validation process with guidance, following current best practices"
-HEADER_FOUR,UX,User-centered Design,2,"Works effectively in the design validation process with guidance, focusing on expanding experience and proficiency"
-HEADER_FOUR,UX,User-centered Design,3,Effectively leads the design process
-HEADER_FOUR,UX,User-centered Design,4,Independently leads all aspects of the design process
-HEADER_FOUR,UX,User-centered Design,5,"Guides and leads all stages of the design process, developing new concepts"
-HEADER_ONE,UI,Foundations,1,"Works effectively within established structures, following current best practices"
-HEADER_ONE,UI,Foundations,2,"Works effectively within established structures, focusing on expanding experience and proficiency"
-HEADER_ONE,UI,Foundations,3,"Designs complicated user experience design solutions, mastering delivery"
-HEADER_ONE,UI,Foundations,4,Develops complex user experience strategies and guides other UI team members
-HEADER_ONE,UI,Foundations,5,"Is an industry-leading expert in multiple areas of business, deeply knowledgeable in several domains, and sets strategic foundational direction for the UI team"
-HEADER_TWO,UI,Information Architecture,1,Organizes simple informational elements within an existing product framework with guidance
-HEADER_TWO,UI,Information Architecture,2,Organizes complicated informational elements within an existing product framework
-HEADER_TWO,UI,Information Architecture,3,Organizes relatively complicated information elements within an existing product framework
-HEADER_TWO,UI,Information Architecture,4,Organizes complex information elements into new product frameworks
-HEADER_TWO,UI,Information Architecture,5,Designs and structures the key information elements of entire products and families of products
-HEADER_THREE,UI,Interaction Design,1,Solves routine interaction-design problems effectively with guidance
-HEADER_THREE,UI,Interaction Design,2,Solves moderately difficult interaction-design problems and develops solutions with guidance
-HEADER_THREE,UI,Interaction Design,3,Solves complicated interaction-design problems and creates new interaction-design patterns  with guidance
-HEADER_THREE,UI,Interaction Design,4,Efficiently solves complex interaction-design problems and creates new interaction-design patterns
-HEADER_THREE,UI,Interaction Design,5,Efficiently leads and solves high-level complex interaction-design problems and creates new interaction-design patterns
-HEADER_FOUR,UI,Visual Design,1,Creates basic visual elements with guidance
-HEADER_FOUR,UI,Visual Design,2,"Creates accurate visual elements, following best practices"
-HEADER_FOUR,UI,Visual Design,3,"Creates sophisticated and complicated visual elements, following best practices	"
-HEADER_FOUR,UI,Visual Design,4,Delivers complex visual elements and guides other designers
-HEADER_FOUR,UI,Visual Design,5,"Delivers and guides high-quality visual elements, deeply knowledgeable and sets new trends and solutions for the UI team"
+HEADER_ONE,DESIGN,Foundations,1,"Works effectively within established structures, following current best practices"
+HEADER_ONE,DESIGN,Foundations,2,"Develops new instances for best practices, or minor improvements to existing practices and standards"
+HEADER_ONE,DESIGN,Foundations,3,"Designs complicated user experiences, mastering delivery"
+HEADER_ONE,DESIGN,Foundations,4,Develops complex user experience strategies and guides other DESIGN team members
+HEADER_ONE,DESIGN,Foundations,5,"Is an industry-leading expert in multiple areas of our business, is deeply knowledgeable in several domains, and sets strategic foundational direction for the DESIGN team"
+HEADER_TWO,DESIGN,Discovery and Definition,1,"Works in the discovery and definition process with guidance, following current best practices"
+HEADER_TWO,DESIGN,Discovery and Definition,2,"Works effectively in the discovery and definition process with guidance, focusing on expanding experience and proficiency"
+HEADER_TWO,DESIGN,Discovery and Definition,3,Effectively leads the discovery and definition process
+HEADER_TWO,DESIGN,Discovery and Definition,4,Independently leads all aspects of the discovery and definition process
+HEADER_TWO,DESIGN,Discovery and Definition,5,"Guides and leads all stages of the discovery and definition process, developing new concepts"
+HEADER_THREE,DESIGN,Strategy and Design,1,"Works in the strategy and design process with guidance, following current best practices"
+HEADER_THREE,DESIGN,Strategy and Design,2,"Works effectively in the strategy and design process with guidance, focusing on expanding experience and proficiency"
+HEADER_THREE,DESIGN,Strategy and Design,3,Effectively develops complicated content strategy
+HEADER_THREE,DESIGN,Strategy and Design,4,Creates high-quality complex content strategy
+HEADER_THREE,DESIGN,Strategy and Design,5,"Delivers and guides high-quality content strategy, deeply knowledgeable and sets new trends and solutions for the DESIGN team"
+HEADER_FOUR,DESIGN,User-centered Design,1,"Works in the design validation process with guidance, following current best practices"
+HEADER_FOUR,DESIGN,User-centered Design,2,"Works effectively in the design validation process with guidance, focusing on expanding experience and proficiency"
+HEADER_FOUR,DESIGN,User-centered Design,3,Effectively leads the design process
+HEADER_FOUR,DESIGN,User-centered Design,4,Independently leads all aspects of the design process
+HEADER_FOUR,DESIGN,User-centered Design,5,"Guides and leads all stages of the design process, developing new concepts"
+HEADER_ONE,STRATEGY,Foundations,1,"Works effectively within established structures, following current best practices"
+HEADER_ONE,STRATEGY,Foundations,2,"Works effectively within established structures, focusing on expanding experience and proficiency"
+HEADER_ONE,STRATEGY,Foundations,3,"Designs complicated user experience design solutions, mastering delivery"
+HEADER_ONE,STRATEGY,Foundations,4,Develops complex user experience strategies and guides other STRATEGY team members
+HEADER_ONE,STRATEGY,Foundations,5,"Is an industry-leading expert in multiple areas of business, deeply knowledgeable in several domains, and sets strategic foundational direction for the STRATEGY team"
+HEADER_TWO,STRATEGY,Information Architecture,1,Organizes simple informational elements within an existing product framework with guidance
+HEADER_TWO,STRATEGY,Information Architecture,2,Organizes complicated informational elements within an existing product framework
+HEADER_TWO,STRATEGY,Information Architecture,3,Organizes relatively complicated information elements within an existing product framework
+HEADER_TWO,STRATEGY,Information Architecture,4,Organizes complex information elements into new product frameworks
+HEADER_TWO,STRATEGY,Information Architecture,5,Designs and structures the key information elements of entire products and families of products
+HEADER_THREE,STRATEGY,Interaction Design,1,Solves routine interaction-design problems effectively with guidance
+HEADER_THREE,STRATEGY,Interaction Design,2,Solves moderately difficult interaction-design problems and develops solutions with guidance
+HEADER_THREE,STRATEGY,Interaction Design,3,Solves complicated interaction-design problems and creates new interaction-design patterns  with guidance
+HEADER_THREE,STRATEGY,Interaction Design,4,Efficiently solves complex interaction-design problems and creates new interaction-design patterns
+HEADER_THREE,STRATEGY,Interaction Design,5,Efficiently leads and solves high-level complex interaction-design problems and creates new interaction-design patterns
+HEADER_FOUR,STRATEGY,Visual Design,1,Creates basic visual elements with guidance
+HEADER_FOUR,STRATEGY,Visual Design,2,"Creates accurate visual elements, following best practices"
+HEADER_FOUR,STRATEGY,Visual Design,3,"Creates sophisticated and complicated visual elements, following best practices	"
+HEADER_FOUR,STRATEGY,Visual Design,4,Delivers complex visual elements and guides other designers
+HEADER_FOUR,STRATEGY,Visual Design,5,"Delivers and guides high-quality visual elements, deeply knowledgeable and sets new trends and solutions for the STRATEGY team"

@@ -1,6 +1,6 @@
 trackList["HEADER_ONE"] = {
     "milestone": "HEADER_ONE",
-    "cohort": "UI",
+    "cohort": "STRATEGY",
     "category": "A",
     "displayName": "Foundations",
     "description": "Develops expertise and proficiency in our design practice, with solid understanding of relevant areas",
@@ -41,7 +41,7 @@ trackList["HEADER_ONE"] = {
             "examples": []
         },
         {
-            "summary": "Develops complex user experience strategies and guides other UI team members",
+            "summary": "Develops complex user experience strategies and guides other STRATEGY team members",
             "signals": [
                 "Efficiently balances and manages complex user, business, and technical requirements to make design decisions",
                 "Guides junior team members in critical, high-level, design problem solving",
@@ -52,12 +52,12 @@ trackList["HEADER_ONE"] = {
             "examples": []
         },
         {
-            "summary": "Is an industry-leading expert in multiple areas of business, deeply knowledgeable in several domains, and sets strategic foundational direction for the UI team",
+            "summary": "Is an industry-leading expert in multiple areas of business, deeply knowledgeable in several domains, and sets strategic foundational direction for the STRATEGY team",
             "signals": [
-                "Guides and directs UI team members by providing strategic direction to best deliver client's business goals",
+                "Guides and directs STRATEGY team members by providing strategic direction to best deliver client's business goals",
                 "Is able to articulate a unique user experience approach that delivers client value for use in sales and marketing initiatives",
-                "Designs and builds industry-leading solutions to solve UI complex problems and advocates for the best user experience possible",
-                "Serves as client focal point for all UI practices",
+                "Designs and builds industry-leading solutions to solve STRATEGY complex problems and advocates for the best user experience possible",
+                "Serves as client focal point for all STRATEGY practices",
                 "Anticipates technical challenges, exploring alternatives and trade offs thoroughly",
                 "Seen as a leader and contributor in the organization"
             ],
@@ -67,7 +67,7 @@ trackList["HEADER_ONE"] = {
 }
 trackList["HEADER_TWO"] = {
     "milestone": "HEADER_TWO",
-    "cohort": "UI",
+    "cohort": "STRATEGY",
     "category": "A",
     "displayName": "Information Architecture",
     "description": "Comprehends the structural designs and organizing principles for information environments, Web sites, and software products",
@@ -115,7 +115,7 @@ trackList["HEADER_TWO"] = {
                 "Creates new architectural design patterns that impact entire product lines and user-interface frameworks",
                 "Creates insightful, timely, compelling information-architecture designs for highly complex problem spaces",
                 "Efficiently balances and manages complex user, business, and technical requirements to make sound information-architecture design decisions",
-                "Anticipates and thinks through the entire breadth of impacts that information-architecture decisions can have on users, product teams, and UX designers",
+                "Anticipates and thinks through the entire breadth of impacts that information-architecture decisions can have on users, product teams, and DESIGN designers",
                 "Understands and can compellingly articulate the usability trade-offs of various information-architecture design approaches for entire product families and frameworks"
             ],
             "examples": []
@@ -124,7 +124,7 @@ trackList["HEADER_TWO"] = {
 }
 trackList["HEADER_THREE"] = {
     "milestone": "HEADER_THREE",
-    "cohort": "UI",
+    "cohort": "STRATEGY",
     "category": "A",
     "displayName": "Interaction Design",
     "description": "Comprehends the application's workflows and behaviors in response to a user's actions",
@@ -182,7 +182,7 @@ trackList["HEADER_THREE"] = {
 }
 trackList["HEADER_FOUR"] = {
     "milestone": "HEADER_FOUR",
-    "cohort": "UI",
+    "cohort": "STRATEGY",
     "category": "A",
     "displayName": "Visual Design",
     "description": "Comprehends the creation of visual elements and application of visual treatments and branding to Web sites and products",
@@ -223,10 +223,10 @@ trackList["HEADER_FOUR"] = {
             "examples": []
         },
         {
-            "summary": "Delivers and guides high-quality visual elements, deeply knowledgeable and sets new trends and solutions for the UI team",
+            "summary": "Delivers and guides high-quality visual elements, deeply knowledgeable and sets new trends and solutions for the STRATEGY team",
             "signals": [
                 "Expertly builds complex, accurate wireframes, following visual design guidelines",
-                "Guides and directs the UI design team to understand how all aspects of a product's functionality would work within an established visual design framework",
+                "Guides and directs the STRATEGY design team to understand how all aspects of a product's functionality would work within an established visual design framework",
                 "Stays abreast of trends in visual design and expertly guides other visual designers in implementing cutting-edge solutions for their products",
                 "Advocates for pushing the limits on a project's capabilities, both from a visual and functional perspective"
             ],

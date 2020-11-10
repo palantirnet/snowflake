@@ -954,8 +954,8 @@ export const cohorts = [
   {key: 'ENGINEERING', label: 'Engineering'},
   {key: 'FRONTEND', label: 'Front-end Development'},
   {key: 'PM', label: 'Project Management'},
-  {key: 'UX', label: 'User Experience Design'},
-  {key: 'UI', label: 'User Interface Design'},
+  {key: 'DESIGN', label: 'User Experience Design'},
+  {key: 'STRATEGY', label: 'User Experience Strategy'},
 ]
 /* Get the title data */
 export const titles = [
@@ -1146,31 +1146,31 @@ export const titles = [
         "cohort": "User Experience Design"
     },
     {
-        "label": "UX Architect, I",
+        "label": "DESIGN Architect, I",
         "minPoints": "180",
         "maxPoints": "219",
         "cohort": "User Experience Design"
     },
     {
-        "label": "UX Architect, II",
+        "label": "DESIGN Architect, II",
         "minPoints": "220",
         "maxPoints": "269",
         "cohort": "User Experience Design"
     },
     {
-        "label": "Sr. UX Architect, I",
+        "label": "Sr. DESIGN Architect, I",
         "minPoints": "270",
         "maxPoints": "319",
         "cohort": "User Experience Design"
     },
     {
-        "label": "Sr. UX Architect, II",
+        "label": "Sr. DESIGN Architect, II",
         "minPoints": "320",
         "maxPoints": "369",
         "cohort": "User Experience Design"
     },
     {
-        "label": "Sr. UX Architect, III",
+        "label": "Sr. DESIGN Architect, III",
         "minPoints": "370",
         "maxPoints": "400",
         "cohort": "User Experience Design"
@@ -1218,31 +1218,31 @@ export const titles = [
         "cohort": "User Interface Design"
     },
     {
-        "label": "UX Architect, I",
+        "label": "DESIGN Architect, I",
         "minPoints": "180",
         "maxPoints": "219",
         "cohort": "User Interface Design"
     },
     {
-        "label": "UX Architect, II",
+        "label": "DESIGN Architect, II",
         "minPoints": "220",
         "maxPoints": "269",
         "cohort": "User Interface Design"
     },
     {
-        "label": "Sr. UX Architect, I",
+        "label": "Sr. DESIGN Architect, I",
         "minPoints": "270",
         "maxPoints": "319",
         "cohort": "User Interface Design"
     },
     {
-        "label": "Sr. UX Architect, II",
+        "label": "Sr. DESIGN Architect, II",
         "minPoints": "320",
         "maxPoints": "369",
         "cohort": "User Interface Design"
     },
     {
-        "label": "Sr. UX Architect, III",
+        "label": "Sr. DESIGN Architect, III",
         "minPoints": "370",
         "maxPoints": "400",
         "cohort": "User Interface Design"
@@ -1409,9 +1409,9 @@ export const trackMap = (trackList: object[], cohort: string): object[] => {
       return engineeringTracks(trackList)
     case 'Front-end Development':
       return frontendTracks(trackList)
-    case 'User Experience Design':
+    case 'User Experience Strategy':
       return uxTracks(trackList)
-    case 'User Interface Design':
+    case 'User Experience Design':
       return uiTracks(trackList)
     case 'Project Management':
       return pmTracks(trackList)
@@ -1909,7 +1909,7 @@ export const frontendTracks = (trackList: object[]): object[] => {
                   "Has experience with web development frameworks, HTML, CSS, JavaScript, and website accessibility",
                   "Is ble to perform assigned tasks and tickets with occasional assistance",
                   "Is able to help estimate tickets while working on refining estimation skills",
-                  "Has an understanding of wireframing, UX design, and UI patterns",
+                  "Has an understanding of wireframing, DESIGN design, and STRATEGY patterns",
                   "Has experience developing and testing across multiple browsers"
               ],
               "examples": []
@@ -2068,7 +2068,7 @@ export const frontendTracks = (trackList: object[]): object[] => {
               "summary": "Builds complex, reusable architectures that pioneer best practices and enable engineers to work more effectively\t",
               "signals": [
                   "Pioneers architecture migrations that reduce programmer burden",
-                  "Implements complex UI transitions that bring delight",
+                  "Implements complex STRATEGY transitions that bring delight",
                   "Makes architectural decisions that eliminate entire classes of bugs"
               ],
               "examples": []
@@ -2113,7 +2113,7 @@ export const frontendTracks = (trackList: object[]): object[] => {
               "summary": "Improves others' ability to deliver great quality work\t",
               "signals": [
                   "Supports complex and secure components for modern browsers written in the latest web standards",
-                  "Works with UX to develop and maintain processes that ensure our tools and practices are up to date",
+                  "Works with DESIGN to develop and maintain processes that ensure our tools and practices are up to date",
                   "Gives thoughtful front-end code reviews as a domain expert",
                   "Implements systems that enable better testing",
                   "Adds tooling to improve front-end code base quality",
@@ -2125,7 +2125,7 @@ export const frontendTracks = (trackList: object[]): object[] => {
               "summary": "Proactively advocates for and models great quality and tackles difficult and subtle system issues        ",
               "signals": [
                   "Takes the lead on browser\/device acceptance testing and bug fixing",
-                  "Collaborates with UX designers to promote and achieve optimal solutions for clients",
+                  "Collaborates with DESIGN designers to promote and achieve optimal solutions for clients",
                   "Leads client demos",
                   "Maintains and improves front-end code bases across a wide variety of projects",
                   "Improves quality of work to meet the level of Palantir's best solutions through repeated iteration"
@@ -2151,7 +2151,7 @@ export const frontendTracks = (trackList: object[]): object[] => {
 export const uxTracks = (trackList: object[]): object[] => {
   trackList["HEADER_ONE"] = {
       "milestone": "HEADER_ONE",
-      "cohort": "UX",
+      "cohort": "DESIGN",
       "category": "A",
       "displayName": "Foundations",
       "description": "Develops expertise and proficiency in our strategy practice, with solid understanding of relevant areas\t",
@@ -2164,7 +2164,7 @@ export const uxTracks = (trackList: object[]): object[] => {
                   "Understands and applies how to use an existing pattern library to create wireframes, working with a more senior designer as a guide or mentor",
                   "Has knowledge in marketing and consumer behavior trends applicable to their work",
                   "Develops user-centered website strategies with guidance, in alignment with client goals and objectives",
-                  "Has hands-on experience with UX tools which may include Sketch, InVision, prototyping tools, and Google Analytics"
+                  "Has hands-on experience with DESIGN tools which may include Sketch, InVision, prototyping tools, and Google Analytics"
               ],
               "examples": []
           },
@@ -2187,7 +2187,7 @@ export const uxTracks = (trackList: object[]): object[] => {
           {
               "summary": "Designs complicated user experiences, mastering delivery",
               "signals": [
-                  "Effectively leads and takes ownership of the UX process, articulates strategy, best practices, and process collaborating with designers to inform and define the project",
+                  "Effectively leads and takes ownership of the DESIGN process, articulates strategy, best practices, and process collaborating with designers to inform and define the project",
                   "Is always able to articulate the \"why\" of design decisions to clients and the Palantir team",
                   "Always explores multiple options, evaluates and articulates pros and cons of choices, recommends user experience decisions, understands when to use low- and high-fidelity design tools, and contributes to existing team pattern libraries",
                   "Constantly partners with engineers and developers to understand technology system constraints and align strategy and design work in an efficient and effective way at the project level",
@@ -2198,7 +2198,7 @@ export const uxTracks = (trackList: object[]): object[] => {
               "examples": []
           },
           {
-              "summary": "Develops complex user experience strategies and guides other UX team members",
+              "summary": "Develops complex user experience strategies and guides other DESIGN team members",
               "signals": [
                   "Efficiently balances and manages complex user, business, and technical requirements to make design decisions",
                   "Guides junior team members in critical, high-level, design problem solving",
@@ -2209,12 +2209,12 @@ export const uxTracks = (trackList: object[]): object[] => {
               "examples": []
           },
           {
-              "summary": "Is an industry-leading expert in multiple areas of our business, is deeply knowledgeable in several domains, and sets strategic foundational direction for the UX team",
+              "summary": "Is an industry-leading expert in multiple areas of our business, is deeply knowledgeable in several domains, and sets strategic foundational direction for the DESIGN team",
               "signals": [
-                  "Guides UX team members by providing strategic direction that best honors the client's business",
+                  "Guides DESIGN team members by providing strategic direction that best honors the client's business",
                   "Develops a unique user experience practice approach that outlines and defines activities, deliverables, and value to be used in sales and marketing initiatives",
-                  "Designs and builds industry-leading solutions to solve complex UX problems and advocates for the best user experience possible",
-                  "Serves as client focal point for all UX practices",
+                  "Designs and builds industry-leading solutions to solve complex DESIGN problems and advocates for the best user experience possible",
+                  "Serves as client focal point for all DESIGN practices",
                   "Anticipates technical challenges, exploring alternatives and trade-offs thoroughly",
                   "Is recognized as a leader and contributor across the organization"
               ],
@@ -2224,7 +2224,7 @@ export const uxTracks = (trackList: object[]): object[] => {
   }
   trackList["HEADER_TWO"] = {
       "milestone": "HEADER_TWO",
-      "cohort": "UX",
+      "cohort": "DESIGN",
       "category": "A",
       "displayName": "Discovery and Definition",
       "description": "Comprehends the analysis of the business model, stakeholders, goals, key performance indicators, and existing technologies and workflows\t",
@@ -2289,7 +2289,7 @@ export const uxTracks = (trackList: object[]): object[] => {
   }
   trackList["HEADER_THREE"] = {
       "milestone": "HEADER_THREE",
-      "cohort": "UX",
+      "cohort": "DESIGN",
       "category": "A",
       "displayName": "Strategy and Design",
       "description": "Conducts analysis and creates content strategy",
@@ -2333,7 +2333,7 @@ export const uxTracks = (trackList: object[]): object[] => {
               "examples": []
           },
           {
-              "summary": "Delivers and guides high-quality content strategy, deeply knowledgeable and sets new trends and solutions for the UX team",
+              "summary": "Delivers and guides high-quality content strategy, deeply knowledgeable and sets new trends and solutions for the DESIGN team",
               "signals": [
                   "Demonstrates ability to generate and translate insights into actionable digital opportunities through reports, presentations, personas, user flows, journey maps, etc.",
                   "Balances creativity with structure, collaborating with designers, project managers, and engineers",
@@ -2346,7 +2346,7 @@ export const uxTracks = (trackList: object[]): object[] => {
   }
   trackList["HEADER_FOUR"] = {
       "milestone": "HEADER_FOUR",
-      "cohort": "UX",
+      "cohort": "DESIGN",
       "category": "A",
       "displayName": "User-centered Design",
       "description": "Relies on an understanding of the end user to guide decision making for product design and development",
@@ -2376,7 +2376,7 @@ export const uxTracks = (trackList: object[]): object[] => {
                   "Designs and delivers wireframes, user stories, user journeys, and mockups optimized for a wide range of devices and interfaces",
                   "Independently conducts design validation activities with internal and external stakeholders",
                   "Translates concepts into user flows, wireframes, mockups, and prototypes that lead to intuitive user experiences",
-                  "Assists the front-end developers to ensure the UX design achieves design goals and meets end-user needs"
+                  "Assists the front-end developers to ensure the DESIGN design achieves design goals and meets end-user needs"
               ],
               "examples": []
           },
@@ -2385,7 +2385,7 @@ export const uxTracks = (trackList: object[]): object[] => {
               "signals": [
                   "Demonstrates the ability to identify design problems and devise solutions",
                   "Takes a user-centered design approach and rapidly tests and iterates the work",
-                  "Ensures design production is efficient and delivers at the highest quality in accordance with UX's best practices and processes"
+                  "Ensures design production is efficient and delivers at the highest quality in accordance with DESIGN's best practices and processes"
               ],
               "examples": []
           },
@@ -2393,8 +2393,8 @@ export const uxTracks = (trackList: object[]): object[] => {
               "summary": "Guides and leads all stages of the design process, developing new concepts",
               "signals": [
                   "Makes strategic design and user experience decisions related to both core and new functions, and features",
-                  "Creates high-quality design deliverables and executes based on UX goals and priorities, acting as an expert in the field",
-                  "Stays on top of UX design trends and looks for creative ways to inspire delightful experiences"
+                  "Creates high-quality design deliverables and executes based on DESIGN goals and priorities, acting as an expert in the field",
+                  "Stays on top of DESIGN design trends and looks for creative ways to inspire delightful experiences"
               ],
               "examples": []
           }
@@ -2407,7 +2407,7 @@ export const uxTracks = (trackList: object[]): object[] => {
 export const uiTracks = (trackList: object[]): object[] => {
   trackList["HEADER_ONE"] = {
       "milestone": "HEADER_ONE",
-      "cohort": "UI",
+      "cohort": "STRATEGY",
       "category": "A",
       "displayName": "Foundations",
       "description": "Develops expertise and proficiency in our design practice, with solid understanding of relevant areas",
@@ -2448,7 +2448,7 @@ export const uiTracks = (trackList: object[]): object[] => {
               "examples": []
           },
           {
-              "summary": "Develops complex user experience strategies and guides other UI team members",
+              "summary": "Develops complex user experience strategies and guides other STRATEGY team members",
               "signals": [
                   "Efficiently balances and manages complex user, business, and technical requirements to make design decisions",
                   "Guides junior team members in critical, high-level, design problem solving",
@@ -2459,12 +2459,12 @@ export const uiTracks = (trackList: object[]): object[] => {
               "examples": []
           },
           {
-              "summary": "Is an industry-leading expert in multiple areas of business, deeply knowledgeable in several domains, and sets strategic foundational direction for the UI team",
+              "summary": "Is an industry-leading expert in multiple areas of business, deeply knowledgeable in several domains, and sets strategic foundational direction for the STRATEGY team",
               "signals": [
-                  "Guides and directs UI team members by providing strategic direction to best deliver client's business goals",
+                  "Guides and directs STRATEGY team members by providing strategic direction to best deliver client's business goals",
                   "Is able to articulate a unique user experience approach that delivers client value for use in sales and marketing initiatives",
-                  "Designs and builds industry-leading solutions to solve UI complex problems and advocates for the best user experience possible",
-                  "Serves as client focal point for all UI practices",
+                  "Designs and builds industry-leading solutions to solve STRATEGY complex problems and advocates for the best user experience possible",
+                  "Serves as client focal point for all STRATEGY practices",
                   "Anticipates technical challenges, exploring alternatives and trade offs thoroughly",
                   "Seen as a leader and contributor in the organization"
               ],
@@ -2474,7 +2474,7 @@ export const uiTracks = (trackList: object[]): object[] => {
   }
   trackList["HEADER_TWO"] = {
       "milestone": "HEADER_TWO",
-      "cohort": "UI",
+      "cohort": "STRATEGY",
       "category": "A",
       "displayName": "Information Architecture",
       "description": "Comprehends the structural designs and organizing principles for information environments, Web sites, and software products",
@@ -2522,7 +2522,7 @@ export const uiTracks = (trackList: object[]): object[] => {
                   "Creates new architectural design patterns that impact entire product lines and user-interface frameworks",
                   "Creates insightful, timely, compelling information-architecture designs for highly complex problem spaces",
                   "Efficiently balances and manages complex user, business, and technical requirements to make sound information-architecture design decisions",
-                  "Anticipates and thinks through the entire breadth of impacts that information-architecture decisions can have on users, product teams, and UX designers",
+                  "Anticipates and thinks through the entire breadth of impacts that information-architecture decisions can have on users, product teams, and DESIGN designers",
                   "Understands and can compellingly articulate the usability trade-offs of various information-architecture design approaches for entire product families and frameworks"
               ],
               "examples": []
@@ -2531,7 +2531,7 @@ export const uiTracks = (trackList: object[]): object[] => {
   }
   trackList["HEADER_THREE"] = {
       "milestone": "HEADER_THREE",
-      "cohort": "UI",
+      "cohort": "STRATEGY",
       "category": "A",
       "displayName": "Interaction Design",
       "description": "Comprehends the application's workflows and behaviors in response to a user's actions",
@@ -2589,7 +2589,7 @@ export const uiTracks = (trackList: object[]): object[] => {
   }
   trackList["HEADER_FOUR"] = {
       "milestone": "HEADER_FOUR",
-      "cohort": "UI",
+      "cohort": "STRATEGY",
       "category": "A",
       "displayName": "Visual Design",
       "description": "Comprehends the creation of visual elements and application of visual treatments and branding to Web sites and products",
@@ -2630,10 +2630,10 @@ export const uiTracks = (trackList: object[]): object[] => {
               "examples": []
           },
           {
-              "summary": "Delivers and guides high-quality visual elements, deeply knowledgeable and sets new trends and solutions for the UI team",
+              "summary": "Delivers and guides high-quality visual elements, deeply knowledgeable and sets new trends and solutions for the STRATEGY team",
               "signals": [
                   "Expertly builds complex, accurate wireframes, following visual design guidelines",
-                  "Guides and directs the UI design team to understand how all aspects of a product's functionality would work within an established visual design framework",
+                  "Guides and directs the STRATEGY design team to understand how all aspects of a product's functionality would work within an established visual design framework",
                   "Stays abreast of trends in visual design and expertly guides other visual designers in implementing cutting-edge solutions for their products",
                   "Advocates for pushing the limits on a project's capabilities, both from a visual and functional perspective"
               ],
@@ -2689,7 +2689,7 @@ export const pmTracks = (trackList: object[]): object[] => {
                   "Is well-versed with project management methodologies and tools",
                   "Works within the given parameters delivered from Sales, such as problem statement, budget, deliverables, and timeline",
                   "Creates and maintains comprehensive project documentation and presents it to the appropriate stakeholders",
-                  "Has a strong understanding of the fact that UX and Engineering use different terminology, have a different cadence to their work, provide different deliverables, and even different definitions of work"
+                  "Has a strong understanding of the fact that DESIGN and Engineering use different terminology, have a different cadence to their work, provide different deliverables, and even different definitions of work"
               ],
               "examples": []
           },

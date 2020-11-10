@@ -93,6 +93,7 @@ export const pointsToLevels = {
   '300': '13',
   '330': '14',
   '360': '15',
+  '10000' : '16',
 }
 
 export const maxLevel = 360

@@ -1,0 +1,795 @@
+"HEADER_ONE":{
+    "milestone": "HEADER_ONE",
+    "cohort": "DEFAULT",
+    "category": "A",
+    "displayName": "Default 1",
+    "description": "Demonstrates proficiency in Palantir\u2019s UX Strategy practice",
+    "milestones": [
+        {
+            "summary": "Demonstrates proficiency in Palantir\u2019s UX Strategy practice",
+            "signals": [
+                "Is building proficiency in Palantir\u2019s UX Strategy practice"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Demonstrates proficiency in Palantir\u2019s UX Strategy practice",
+            "signals": [
+                "Is building proficiency in Palantir\u2019s UX Strategy practice"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Demonstrates proficiency in Palantir\u2019s UX Strategy practice",
+            "signals": [
+                "Is building proficiency in Palantir\u2019s UX Strategy practice"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Demonstrates proficiency in Palantir\u2019s UX Strategy practice",
+            "signals": [
+                "Is building proficiency in Palantir\u2019s UX Strategy practice"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Demonstrates proficiency in Palantir\u2019s UX Strategy practice",
+            "signals": [],
+            "examples": []
+        }
+    ]
+},"HEADER_TWO":{
+    "milestone": "HEADER_TWO",
+    "cohort": "DEFAULT",
+    "category": "A",
+    "displayName": "Default 2",
+    "description": "Explores goals, business models, users, user experience, information architecture, content structures, taxonomies, technology ecospheres, pain points, and aspirations",
+    "milestones": [
+        {
+            "summary": "Explores goals, business models, users, user experience, information architecture, content structures, taxonomies, technology ecospheres, pain points, and aspirations",
+            "signals": [
+                "Is developing an understanding of the connections between business goals, user interactions, content strategy, and information architecture"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Explores goals, business models, users, user experience, information architecture, content structures, taxonomies, technology ecospheres, pain points, and aspirations",
+            "signals": [
+                "Is developing an understanding of the connections between business goals, user interactions, content strategy, and information architecture"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Explores goals, business models, users, user experience, information architecture, content structures, taxonomies, technology ecospheres, pain points, and aspirations",
+            "signals": [
+                "Is developing an understanding of the connections between business goals, user interactions, content strategy, and information architecture"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Explores goals, business models, users, user experience, information architecture, content structures, taxonomies, technology ecospheres, pain points, and aspirations",
+            "signals": [
+                "Is developing an understanding of the connections between business goals, user interactions, content strategy, and information architecture"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Explores goals, business models, users, user experience, information architecture, content structures, taxonomies, technology ecospheres, pain points, and aspirations",
+            "signals": [],
+            "examples": []
+        }
+    ]
+},"HEADER_THREE":{
+    "milestone": "HEADER_THREE",
+    "cohort": "DEFAULT",
+    "category": "A",
+    "displayName": "Default 3",
+    "description": "Conducts user research and analyzes data and inputs gathered during discovery in order to inform recommendations",
+    "milestones": [
+        {
+            "summary": "Conducts user research and analyzes data and inputs gathered during discovery in order to inform recommendations",
+            "signals": [
+                "Understands the founding principles of UX design and usability"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Conducts user research and analyzes data and inputs gathered during discovery in order to inform recommendations",
+            "signals": [
+                "Understands the founding principles of UX design and usability"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Conducts user research and analyzes data and inputs gathered during discovery in order to inform recommendations",
+            "signals": [
+                "Understands the founding principles of UX design and usability"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Conducts user research and analyzes data and inputs gathered during discovery in order to inform recommendations",
+            "signals": [
+                "Understands the founding principles of UX design and usability"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Conducts user research and analyzes data and inputs gathered during discovery in order to inform recommendations",
+            "signals": [],
+            "examples": []
+        }
+    ]
+},"HEADER_FOUR":{
+    "milestone": "HEADER_FOUR",
+    "cohort": "DEFAULT",
+    "category": "A",
+    "displayName": "Default 4",
+    "description": "Recommends improvements for project strategies, user experience, and information architecture within the framework of the project goals and informed by user research",
+    "milestones": [
+        {
+            "summary": "Recommends improvements for project strategies, user experience, and information architecture within the framework of the project goals and informed by user research",
+            "signals": [
+                "Is becoming familiar with the technical strengths and constraints within our preferred technology solutions"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Recommends improvements for project strategies, user experience, and information architecture within the framework of the project goals and informed by user research",
+            "signals": [
+                "Is becoming familiar with the technical strengths and constraints within our preferred technology solutions"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Recommends improvements for project strategies, user experience, and information architecture within the framework of the project goals and informed by user research",
+            "signals": [
+                "Is becoming familiar with the technical strengths and constraints within our preferred technology solutions"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Recommends improvements for project strategies, user experience, and information architecture within the framework of the project goals and informed by user research",
+            "signals": [
+                "Is becoming familiar with the technical strengths and constraints within our preferred technology solutions"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Recommends improvements for project strategies, user experience, and information architecture within the framework of the project goals and informed by user research",
+            "signals": [],
+            "examples": []
+        }
+    ]
+},"PLANNING":{
+    "milestone": "PLANNING",
+    "cohort": "DEFAULT",
+    "category": "B",
+    "displayName": "Planning and Coordination",
+    "description": "Delivers well-scoped programs of work that meet their goals, on time, to budget, to deliver client value",
+    "milestones": [
+        {
+            "summary": "Delivers well-scoped programs of work that meet their goals, on time, to budget, to deliver client value",
+            "signals": [
+                "Is learning how to break down and accurately estimate their own work",
+                "Works with more experienced teammates to set project goals and break down larger projects into discrete tasks",
+                "Reaches out to others in a timely manner when in need of help",
+                "Commits to and completes their work within expected time frame, holding themselves accountable",
+                "Understands how their work fits within the broader scope and objectives of a project",
+                "Delivers consistently good outcomes within project scope, following quality standards"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Delivers well-scoped programs of work that meet their goals, on time, to budget, to deliver client value",
+            "signals": [
+                "Consistently and accurately estimates the amount of time a given task will take",
+                "Is becoming more proficient with their ability to break down tasks, plan and estimate their assigned work, and propose scope changes in order to deliver on time",
+                "Prioritizes tasks in alignment with project goals",
+                "Defines and hits interim milestones",
+                "Realizes when progress toward desired results is stalling and takes action to get things back on track",
+                "Researches and considers alternative approaches",
+                "Devotes time to find the most effective ways to meet commitments"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Delivers well-scoped programs of work that meet their goals, on time, to budget, to deliver client value",
+            "signals": [
+                "Integrates business needs into project planning",
+                "Can smoothly and successfully execute an initiative, set milestones for a team, and proactively ensure all core goals are achieved even if plans need to be changed to do so",
+                "Prioritizes the most important work for the company, team, and client",
+                "Delegates tasks to others appropriately",
+                "Adapts and changes direction quickly based on shifting company and project needs",
+                "When working on more than one or a portfolio of projects, is constantly aware of the bigger picture and what impact it has on planning work and managing one\u2019s time"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Delivers well-scoped programs of work that meet their goals, on time, to budget, to deliver client value",
+            "signals": [
+                "Successfully plans and executes projects involving multiple stakeholders and complex requirements, while prioritizing strategically",
+                "Leads teams of teams, and coordinates effective cross-functional collaboration",
+                "Manages dependencies on their other projects and team commitments",
+                "Helps define the vision for long-term projects and enable others to participate in their design and implementation",
+                "Is proactive in identifying and planning for needs both in the near- and long-term for Palantir and our clients",
+                "Provides clarity in order to prioritize the most important work for the project and the company",
+                "Leverages repeated project patterns of what\u2019s working and works to mitigate what's not",
+                "Works at all levels of the organization to positively impact the team and deliver client value",
+                "Improves team inclusivity"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Delivers well-scoped programs of work that meet their goals, on time, to budget, to deliver client value",
+            "signals": [
+                "Plans and executes large, complex projects with interdependencies across teams and systems",
+                "Considers constraints, opportunities, and business objectives when planning",
+                "Successfully supports and guides others to make plans for complex efforts that start out with unclear or competing goals",
+                "Supports teams in making difficult decisions when there are multiple paths\/options to take",
+                "Leads projects or initiatives that are critical to the future of Palantir"
+            ],
+            "examples": []
+        }
+    ]
+},"COMMUNICATION":{
+    "milestone": "COMMUNICATION",
+    "cohort": "DEFAULT",
+    "category": "B",
+    "displayName": "Communication and Co-Creation",
+    "description": "Focuses on teamwork, communication skills, asking for and receiving feedback, collaboration, and documentation",
+    "milestones": [
+        {
+            "summary": "Focuses on teamwork, communication skills, asking for and receiving feedback, collaboration, and documentation",
+            "signals": [
+                "Communicates their work status clearly and effectively to internal team members and client stakeholders",
+                "Writes clear comments and documentation",
+                "Presents their work to the client with coaching",
+                "Is learning to work collaboratively on a self-organizing team and speak up in meetings",
+                "Proactively asks questions and reaches out for help to get unblocked",
+                "Voices concerns or need for clarification to their project teams and, if necessary, escalates concerns to discipline leaders or POD representatives",
+                "Is developing the ability to communicate complicated concepts simply and successfully to an audience unfamiliar with the subject matter",
+                "Accepts feedback graciously and learns from experience",
+                "Is learning about other disciplines at Palantir and how they deliver value to the team and to clients"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Focuses on teamwork, communication skills, asking for and receiving feedback, collaboration, and documentation",
+            "signals": [
+                "Communicates clearly at team and client-facing meetings (e.g., escalating blockers quickly, clarifying requirements, and sharing assumptions)",
+                "Adapts messages for a diverse audience, choosing appropriate tools and approaches for accurate and timely communication",
+                "Presents effectively to familiar audiences",
+                "Presents their work to the client without coaching",
+                "Takes initiative to lend their expertise as part of a self-organizing team"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Focuses on teamwork, communication skills, asking for and receiving feedback, collaboration, and documentation",
+            "signals": [
+                "Communicates issues, risks, and decisions clearly and proactively to a cross-functional audience, effectively managing conversations related to bad news or conflict",
+                "Builds cross-functional relationships with project team, chapter members, and clients",
+                "Seeks to understand other points of view",
+                "Engages in productive dialogue even when there are conflicting views, both inside and outside the team Mastering the ability to communicate complicated concepts simply and successfully to ensure understanding and appropriate action.",
+                "Presents effectively to audiences both familiar and unfamiliar",
+                "Makes room for others on self-organizing teams and knows when to lend their expertise",
+                "Communicates complicated concepts simply and successfully to an audience unfamiliar with the subject matter"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Focuses on teamwork, communication skills, asking for and receiving feedback, collaboration, and documentation",
+            "signals": [
+                "Communicates complex concepts and issues and easily makes compelling presentations to sophisticated audiences",
+                "Works effectively with key stakeholders to solve problems, identify paths forward, and\/or make critical project decisions",
+                "Deescalates conflicts and builds bridges between team members",
+                "Holds others and themselves accountable for their commitments and results",
+                "Spurs and facilitates meaningful discussion around complex issues",
+                "Offers insightful perspectives",
+                "Works towards consensus when making decisions, discerning what\u2019s best for the project, client, and team",
+                "Takes initiative to help outside of direct responsibilities",
+                "Knows when to \u201cstep up or step back\u201d on self-organizing teams"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Focuses on teamwork, communication skills, asking for and receiving feedback, collaboration, and documentation",
+            "signals": [
+                "Comfortably communicates and presents complex issues to diverse audiences inside and outside the company",
+                "Ensures productive communication among teams and stakeholders, including the right people at the right times",
+                "Proactively identifies and remedies communication gaps and issues",
+                "Is relied upon as one of the best communicators of complicated subjects, trade-offs, and difficult decisions",
+                "Clearly communicates company-level objectives and how they relate to experiments and initiatives"
+            ],
+            "examples": []
+        }
+    ]
+},"PROFESSIONALISM":{
+    "milestone": "PROFESSIONALISM",
+    "cohort": "DEFAULT",
+    "category": "B",
+    "displayName": "Professionalism",
+    "description": "Exemplifies Palantir's values in order to create and collaborate in an open, diverse, and inclusive environment",
+    "milestones": [
+        {
+            "summary": "Exemplifies Palantir's values in order to create and collaborate in an open, diverse, and inclusive environment",
+            "signals": [
+                "Exhibits Palantir\u2019s core values of collaboration, bringing out the best in each other\u2014curiosity, thinking ahead, and accessibility",
+                "Brings their best self to work and makes space for others to do so as well",
+                "Treats clients and colleagues with respect",
+                "Takes responsibility for their own words and actions",
+                "Effectively deals with and understands opposing views and is open to learning from feedback",
+                "Objectively evaluates whether they\u2019ve met their goals",
+                "Is viewed as a trustworthy team member who keeps their commitments"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Exemplifies Palantir's values in order to create and collaborate in an open, diverse, and inclusive environment",
+            "signals": [
+                "Quickly integrates complicated information to identify strategies and solutions with the assistance of teammates and senior colleagues",
+                "Demonstrates keen insights into situations",
+                "Demonstrates a sense of agency",
+                "Accepts difficult tasks and gets right to work",
+                "Responds flexibly and strategically to ongoing change",
+                "Trusts teammates, assumes positive intent, and is able to disagree and commit",
+                "Is able to deliver their work despite inevitable distractions",
+                "Exhibits a growth mindset in regards to feedback"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Exemplifies Palantir's values in order to create and collaborate in an open, diverse, and inclusive environment",
+            "signals": [
+                "Is aware of their own strengths and weaknesses",
+                "Helps others identify the desired results of their assignments",
+                "Gives thoughtful feedback as a domain expert",
+                "Adopts a proactive approach instead of a reactive one",
+                "Demonstrates critical inquiry",
+                "Demonstrates humility and patience",
+                "Promotes exploration and experimentation as a response to uncertainty",
+                "Leads\/facilitates client presentations",
+                "Coaches others who need guidance presenting their work",
+                "Celebrates and shares success with the team"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Exemplifies Palantir's values in order to create and collaborate in an open, diverse, and inclusive environment",
+            "signals": [
+                "Moves through the change curve with positivity and intention",
+                "Creates space for everyone at Palantir to contribute, supporting growth of team members",
+                "Uses their position to raise difficult issues on behalf of others"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Exemplifies Palantir's values in order to create and collaborate in an open, diverse, and inclusive environment",
+            "signals": [
+                "Has a holistic vision of their role",
+                "Creates an organizational framework that facilitates a positive work environment",
+                "Helps others to move through the change curve, from resistors to adopters",
+                "Has energy and energizes those around them",
+                "Sets the tone and influences policies to further an open, diverse, and inclusive Palantir",
+                "Models professionalism and cultivates it in others"
+            ],
+            "examples": []
+        }
+    ]
+},"INITIATIVE":{
+    "milestone": "INITIATIVE",
+    "cohort": "DEFAULT",
+    "category": "C",
+    "displayName": "Initiative",
+    "description": "Challenges the status quo and takes ownership and initiative outside of mandated work",
+    "milestones": [
+        {
+            "summary": "Challenges the status quo and takes ownership and initiative outside of mandated work",
+            "signals": [
+                "Is becoming comfortable owning small tasks, but proactively engages with more experienced teammates when tackling larger issues",
+                "Contributes their talent and expertise without prompting to achieve project results",
+                "Asks their team probing questions to understand other points of view"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Challenges the status quo and takes ownership and initiative outside of mandated work",
+            "signals": [
+                "Works efficiently and puts in the time and effort necessary to deliver great outcomes",
+                "Regularly leads smaller projects or tasks, but relies on more experienced teammates when working on major project investments",
+                "Seeks insights from others to help problem-solve project ambiguity",
+                "Proactively takes on executable tasks when blocked elsewhere",
+                "Proactively seeks help when blocked",
+                "Consistently delivers on reasonably well-defined projects"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Challenges the status quo and takes ownership and initiative outside of mandated work",
+            "signals": [
+                "Leads small and medium-sized projects",
+                "Takes ownership of tasks that nobody owns or wants",
+                "Seeks out others involved in a situation to learn their perspectives",
+                "Leaves things better than when they found them",
+                "Relied on to remove blockers for others",
+                "Demonstrates the ability to handle major tasks from definition through execution with consistently successful outcomes"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Challenges the status quo and takes ownership and initiative outside of mandated work",
+            "signals": [
+                "Takes on a leadership role of multiple, large projects or initiatives",
+                "Develops and tests new ways to solve systemic issues",
+                "Improves complicated organizational processes",
+                "Works with ambiguity and a growth mindset",
+                "Exemplifies grit and determination in the face of persistent obstacles",
+                "Is integral to major new company-wide initiatives",
+                "Seeks creative and innovative ways to improve and develop what they are doing",
+                "Effectively copes with change"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Challenges the status quo and takes ownership and initiative outside of mandated work",
+            "signals": [
+                "Champions and initiates new approaches and ideas to solve new classes of problems",
+                "Initiates major new company-wide initiatives",
+                "Galvanizes the entire company and garners buy-in for new strategies",
+                "Improves complex organizational processes",
+                "Defines policies for the company that encourage quality work and maximize client value",
+                "Identifies and eliminates single points of failure throughout the organization",
+                "Secures time and resources from executive leadership to deliver great quality"
+            ],
+            "examples": []
+        }
+    ]
+},"LEARNING":{
+    "milestone": "LEARNING",
+    "cohort": "DEFAULT",
+    "category": "C",
+    "displayName": "Learning and Career Development",
+    "description": "Seeks opportunities to further their career and provides strategic support to others to help them build the careers they want",
+    "milestones": [
+        {
+            "summary": "Seeks opportunities to further their career and provides strategic support to others to help them build the careers they want",
+            "signals": [
+                "Shares their career and professional development interests and goals with their POD",
+                "Takes advantage of professional development opportunities",
+                "Shares opportunities for improvements and recognizes achievements for themselves and others",
+                "Shares learnings from previous projects with project teams",
+                "Collects and delivers feedback in a timely, constructive manner"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Seeks opportunities to further their career and provides strategic support to others to help them build the careers they want",
+            "signals": [
+                "Embraces big challenges as opportunities for growth and learning",
+                "Helps a group member have an appropriate role on the team",
+                "Understands and can communicate the value of the work done by each of their coworkers on the project",
+                "Pursues learning goals on project teams",
+                "Contributes to Palantir\u2019s sustainable and repeatable processes by sharing knowledge (e.g., through blog posts, contributing to Playbooks, etc.)",
+                "Works closely with others to help them learn new skills or continue to improve skills",
+                "Seeks feedback to improve and receives it well. Give timely, helpful feedback to peers"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Seeks opportunities to further their career and provides strategic support to others to help them build the careers they want",
+            "signals": [
+                "Advocates for aligning people with appropriate roles within organization",
+                "May participate in the hiring process, meeting with candidates and offering thoughts to the discipline\/hiring lead",
+                "Fosters a psychologically safe environment for dialogue and learning",
+                "Helps others achieve learning goals on project teams"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Seeks opportunities to further their career and provides strategic support to others to help them build the careers they want",
+            "signals": [
+                "Facilitates conversations that are aimed at co-creation",
+                "Is a POD representative successful at fulfilling those duties",
+                "Helps the team plan and implement discipline-related learning activities",
+                "Discusses career paths and helps create plans for others' professional growth",
+                "Advocates for aligning people with appropriate roles within organization",
+                "Elevates emerging leaders"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Seeks opportunities to further their career and provides strategic support to others to help them build the careers they want",
+            "signals": [
+                "Identifies leadership development opportunities for senior leadership",
+                "Pushes everyone to be as good as they can be, with empathy",
+                "Provides coaching to group leaders",
+                "Supports and develops senior leaders",
+                "Serves as an advisor to company leaders"
+            ],
+            "examples": []
+        }
+    ]
+},"MENTORSHIP":{
+    "milestone": "MENTORSHIP",
+    "cohort": "DEFAULT",
+    "category": "C",
+    "displayName": "Mentorship and Coaching",
+    "description": "Provides support to others, spreads knowledge, and develops the team outside formal reporting structures",
+    "milestones": [
+        {
+            "summary": "Provides support to others, spreads knowledge, and develops the team outside formal reporting structures",
+            "signals": [
+                "Asks for support and advice",
+                "Open to giving and receiving feedback",
+                "Is reflective about their experiences",
+                "Comfortable sharing their opinions and experiences to further a project team\u2019s health",
+                "Acts as an onboarding buddy"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Provides support to others, spreads knowledge, and develops the team outside formal reporting structures",
+            "signals": [
+                "Takes time to understand and explain concepts and best practices",
+                "Helps others identify the desired results of their assignments",
+                "Makes themself available for informal support and advice",
+                "Provides sound advice when asked",
+                "Offers unprompted feedback to help growth, with empathy",
+                "Avoids siloing information when it can be usefully shared with others",
+                "Finds ways to ramp up and engage new team members",
+                "Creates space for people to talk through challenges",
+                "Acts as a positive role model"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Provides support to others, spreads knowledge, and develops the team outside formal reporting structures",
+            "signals": [
+                "Holds others accountable for their commitments, results, and successful outcomes",
+                "Asks questions to illuminate concepts, rather than stating them",
+                "Uses lessons learned to guide individuals and teams",
+                "Finds approaches that work best for a team member's personality",
+                "Brings resources, critical readings, opportunities, or experiences to the attention of others",
+                "Acts as a sounding board for peers and more junior team members",
+                "Provides help on how to have difficult conversations",
+                "Knows the difference between mentoring and coaching",
+                "Gives feedback that describes the situation, behavior, and impact (SBI model)",
+                "Asks powerful, open-ended questions to help other problem solve and envision future states"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Provides support to others, spreads knowledge, and develops the team outside formal reporting structures",
+            "signals": [
+                "Identifies gaps in team learning\/knowledge and finds ways to bridge those gaps",
+                "Models positive mentoring and teaching behaviors",
+                "Provides discipline\/cohort support and\/or facilitation",
+                "Exhibits enthusiasm for sharing their knowledge and expertise",
+                "Helps individuals find new and challenging opportunities within the organization",
+                "Helps individuals maintain resilience in periods of change",
+                "Shares knowledge and expertise with the team through formal mentoring and coaching"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Provides support to others, spreads knowledge, and develops the team outside formal reporting structures",
+            "signals": [
+                "Helps others maximize their potential through mentorship and coaching",
+                "Empowers team members to develop themselves",
+                "Leads others through change, providing scaffolding to empower and support others",
+                "Models productive and healthy mentor relationships",
+                "Seeks out experiments and innovative learning practices that are beneficial to and to Palantir",
+                "Helps individuals to move out of their comfort zone and try new things",
+                "Is a sought after coach and mentor"
+            ],
+            "examples": []
+        }
+    ]
+},"COMPLEXITY":{
+    "milestone": "COMPLEXITY",
+    "cohort": "DEFAULT",
+    "category": "D",
+    "displayName": "Navigating Complexity",
+    "description": "Able to function and adapt behaviors in Cynefin complexity domains to deliver client value",
+    "milestones": [
+        {
+            "summary": "Able to function and adapt behaviors in Cynefin complexity domains to deliver client value",
+            "signals": [
+                "Understands the difference between complexity domains (i.e. obvious, complicated, complex, chaos, disorder)",
+                "Operates successfully in obvious domain with little or no supervision",
+                "Is gaining an understanding of and experience with best practices (the complicated domain)",
+                "Once made aware, adjusts approach to meet client needs in a changing system"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Able to function and adapt behaviors in Cynefin complexity domains to deliver client value",
+            "signals": [
+                "Knows in which complexity domain (obvious, complicated, complex, chaos, disorder) they are working",
+                "Operates successfully in complicated domain with little or no supervision",
+                "Identifies and deals with complicated situations to provide the best possible solutions",
+                "Applies best practices to the situation at hand (the complicated domain)",
+                "Adjusts approach to meet client needs in a changing system between the obvious and complicated domains",
+                "Recognizes when in the complex, chaotic or disorderly domains and brings it to the attention of project leaders to seek their assistance"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Able to function and adapt behaviors in Cynefin complexity domains to deliver client value",
+            "signals": [
+                "Guides others to understand in which complexity domain (obvious, complicated, complex, chaos, disorder) they are working",
+                "Operates successfully in complex domain with little or no supervision",
+                "Identifies \u201cknown unknowns\u201d",
+                "Adapts best practices when called for in the complicated domain",
+                "Able to adjust approach to meet client needs in a changing system between the complicated and complex domains",
+                "Recognizes when in the complex domain and able to make recommendations to the internal and client teams",
+                "When in a leadership role on a project, does not micromanage other team members and is able to guide them through solutions to issues that arise in the obvious, complicated, and complex domains"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Able to function and adapt behaviors in Cynefin complexity domains to deliver client value",
+            "signals": [
+                "Investigates issues as they arise in order to respond appropriately",
+                "In the complicated domain, chooses between multiple \u201cright\u201d answers to the problem at hand and provide rationale for the decision(s)",
+                "Has a reservoir of experiences in complicated and complex situations from which to draw when answers are not clear",
+                "Coaches others to find creative solutions to complex problems",
+                "High tolerance for risk",
+                "Holds and shares relevant industry leading practices",
+                "Understands and shares institutional knowledge",
+                "Seeks to cultivate innovation in the face of uncertainty, both internally and externally",
+                "Offers new perspectives to overcome complexity constraints",
+                "Selects systems thinking approaches to fit with the level of complexity and the nature of the environment",
+                "When faced with uncertainty, uses an inclusive leadership approach and does not revert to traditional command and control methods"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Able to function and adapt behaviors in Cynefin complexity domains to deliver client value",
+            "signals": [
+                "Makes sense of complex data and inputs",
+                "Guides others in the complex domain to choose between multiple \u201cright\u201d answers to the problem at hand and provide rationale for the decision(s)",
+                "Builds the capacity in others to cope with complexity and chaos",
+                "Functions at a high level when faced with \u201cunknown unknowns\u201d",
+                "Sought after resource and expert in complex situations when answers are not clear",
+                "When faced with chaos, realizes their management style needs to change and is able to make difficult decisions with little information"
+            ],
+            "examples": []
+        }
+    ]
+},"CLIENT_VALUE":{
+    "milestone": "CLIENT_VALUE",
+    "cohort": "DEFAULT",
+    "category": "D",
+    "displayName": "Client Value",
+    "description": "Delivers consistent value for the client at every step of a project",
+    "milestones": [
+        {
+            "summary": "Delivers consistent value for the client at every step of a project",
+            "signals": [
+                "Understands the difference between Palantir service lines",
+                "Ensures that they are meeting team expectations on ticketed work",
+                "When they see an issue that would impede delivering client value, they raise the issue to project leadership",
+                "Offers solutions to project leadership when issues arise",
+                "Asks focused, relevant questions of the client and the team",
+                "Demonstrates active listening skills"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Delivers consistent value for the client at every step of a project",
+            "signals": [
+                "Is aware of the three types of consulting (i.e. Expert, Collaborative, Pair of Hands) and knows in which one they are operating",
+                "Helps others identify solutions to client issues that arise",
+                "Able to articulate the \u201cwhy\u201d or rationale behind each ticket\/task on which they are working",
+                "Understands the project\u2019s KPIs (Key Performance Indicators) and works towards implementing solutions in support of them",
+                "Contributes questions to the discovery process that reveal espoused v. actual need",
+                "Leverages learnings from previous projects to benefit the team and the client",
+                "Presents their own work",
+                "Understands their communication style and is aware of the styles of others"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Delivers consistent value for the client at every step of a project",
+            "signals": [
+                "Guides a portion of and\/or designs and leads the discovery process",
+                "Guides the client throughout the project to ensure work product is geared towards solving their unique problems",
+                "Contributes KPIs and\/or goals for the project based on data gleaned during the discovery phase",
+                "Anticipates unusual issues and problems, taking steps to minimize impact on outcomes",
+                "Through conversation and high-quality work, builds trust with the client in a sincere and authentic manner",
+                "Is viewed as a reliable resource to the client in their area of expertise",
+                "Guides others to make successful client presentations",
+                "Is self-aware and is able to adapt their communication style to meet the needs of the client"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Delivers consistent value for the client at every step of a project",
+            "signals": [
+                "Defines the client\u2019s unique business problem",
+                "Is viewed by the client as an expert in their cohort\/area of expertise",
+                "Sets up other team members for success on the project helping them get their expertise used to deliver value",
+                "Coaches the client to be self-sufficient when appropriate",
+                "Has successful, difficult conversations with the client that amicably resolve the issue in a way that benefits Palantir and the client"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Delivers consistent value for the client at every step of a project",
+            "signals": [
+                "Coaches those designing and leading the discovery process",
+                "Coaches those defining the client\u2019s unique business problem and guiding client in solving it",
+                "Seeks out situations that are complex and guides others to find innovative solutions",
+                "Guides others to have successful, difficult conversations with the client",
+                "Bases authority on experience, knowledge and relationship building, not position in the company"
+            ],
+            "examples": []
+        }
+    ]
+},"BIZDEV":{
+    "milestone": "BIZDEV",
+    "cohort": "DEFAULT",
+    "category": "D",
+    "displayName": "New Business Development",
+    "description": "Contributes to new business development by delivering value on projects and participating in Palantir sales and marketing efforts",
+    "milestones": [
+        {
+            "summary": "Contributes to new business development by delivering value on projects and participating in Palantir sales and marketing efforts",
+            "signals": [
+                "Completes their work on time and within scope",
+                "Draws attention to blockers so that the team can help resolve or mitigate them",
+                "Understands the difference between a consultancy and an agency and approaches work with the mindset of a consultant",
+                "Is trusted by team members to deliver high quality work on time and on budget"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Contributes to new business development by delivering value on projects and participating in Palantir sales and marketing efforts",
+            "signals": [
+                "Identifies opportunities for project growth and alerts project leadership",
+                "Understands the SOW (Statement of Work) and how their role and expertise fits in the project",
+                "Articulates their own reasons for how Palantir differs from the competition",
+                "Writes blog posts"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Contributes to new business development by delivering value on projects and participating in Palantir sales and marketing efforts",
+            "signals": [
+                "Writes proposals for project extensions",
+                "Lends expertise to develop sales and marketing tools (e.g., validate and shape proposals, support ot P.net, development of pitch decks, proposals, etc.)",
+                "Participates in new business pitch meetings",
+                "Attends conferences on behalf of Palantir and participates in speaking to current and prospective clients"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Contributes to new business development by delivering value on projects and participating in Palantir sales and marketing efforts",
+            "signals": [
+                "Is in a leadership role on projects",
+                "Writes case studies",
+                "Writes large estimates and\/or proposals; determines a project\u2019s size and shape",
+                "Speaks at events where current and potential clients are in attendance",
+                "Participates in \/ leads efforts to transition clients between service lines",
+                "Identifies opportunities to pursue new types of projects\/work",
+                "Plays a significant\/leadership role in landing new business",
+                "Fosters ongoing relationships with clients"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Contributes to new business development by delivering value on projects and participating in Palantir sales and marketing efforts",
+            "signals": [
+                "Works with the sales team to co-create strategic approach to pitches",
+                "Conceives of new products and\/or service lines",
+                "Develops brand and marketing strategy for Palantir",
+                "Negotiates contracting terms",
+                "Acts as an expert resource to the estimating team"
+            ],
+            "examples": []
+        }
+    ]
+},

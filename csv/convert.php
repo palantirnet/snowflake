@@ -25,18 +25,20 @@ function create_examples($debug = FALSE) {
     $temp = $milestone;
     $summary = '';
 
-    $signals = [];
     $summary = $milestone['description'];
-    foreach ($examples as $example) {
-      if (!empty($example['example']) && $example['milestone'] == $temp['milestone'] && $example['cohort'] == $temp['cohort']) {
-        $signals[] = $example['example'];
+    for ($i = 1; $i < 6; $i++) {
+      $signals = [];
+      foreach ($examples as $example) {
+        if (!empty($example['example']) && $example['level'] == $i && $example['milestone'] == $temp['milestone'] && $example['cohort'] == $temp['cohort']) {
+          $signals[] = $example['example'];
+        }
       }
+      $temp['milestones'][] = [
+        'summary' => $summary,
+        'signals' => $signals,
+        'examples' => [],
+      ];
     }
-    $temp['milestones'][] = [
-      'summary' => $summary,
-      'signals' => $signals,
-      'examples' => [],
-    ];
     if ($milestone['cohort'] == 'DEFAULT') {
       $output .= '"' . $milestone['milestone'] . '":';
       $output .= json_encode($temp, JSON_PRETTY_PRINT) . ',';

@@ -1,0 +1,252 @@
+trackList["HEADER_ONE"] = {
+    "milestone": "HEADER_ONE",
+    "cohort": "FED",
+    "category": "A",
+    "displayName": "Front-End Foundations",
+    "description": "Develops expertise and proficiency in our technical domain, with solid understanding of relevant areas",
+    "milestones": [
+        {
+            "summary": "Develops expertise and proficiency in our technical domain, with solid understanding of relevant areas",
+            "signals": [
+                "Is building proficiency with our web technologies and becoming comfortable with learning new technologies and skills",
+                "Has experience with web development frameworks, HTML, CSS, JavaScript, and website accessibility",
+                "Performs assigned tasks and tickets with occasional assistance",
+                "Helps estimate tickets while working on refining estimation skills",
+                "Has an understanding of wireframing, UX design, and UI patterns",
+                "Has experience developing and testing across multiple browsers"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Develops expertise and proficiency in our technical domain, with solid understanding of relevant areas",
+            "signals": [
+                "Focuses on expanding experience and proficiency in our web technology practices, with solid understanding of relevant areas",
+                "Is well versed with web development frameworks, HTML, CSS, JavaScript and website accessibility",
+                "Performs assigned tasks and tickets close to estimated time with minimal assistance",
+                "Provides reliable estimates for tickets given a complete context",
+                "Has a practical understanding of DevOps and how it is related to their work",
+                "Makes open source contributions and proactively does so"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Develops expertise and proficiency in our technical domain, with solid understanding of relevant areas",
+            "signals": [
+                "Independently scopes and implements solutions for their project\/team",
+                "Is proficient in all relevant technical skills and is able to move quickly.",
+                "Maintains awareness of industry trends and tools",
+                "Completes tickets reasonably close to estimated time without needing to be reminded",
+                "Demonstrates the ability to come up with solid technical solutions to ambiguous or open-ended problems",
+                "Often gives support to others in their areas of strongest skill",
+                "Accurately estimates ticketed work"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Develops expertise and proficiency in our technical domain, with solid understanding of relevant areas",
+            "signals": [
+                "Has a deep understanding of our architecture and how their domain fits within it.",
+                "Systematically thinks through potential design impacts on other teams and the company",
+                "Is an expert in our processes, also helping define them.",
+                "Keeps tests up to date",
+                "Independently scopes, designs, and delivers solutions for large, complex challenges",
+                "Debugs expertly within their primary focus area",
+                "Provides oversight, coaching, and guidance through code and design reviews",
+                "Incredibly knowledgeable in their area of expertise, often to a degree that is recognized far beyond Palantir"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Develops expertise and proficiency in our technical domain, with solid understanding of relevant areas",
+            "signals": [
+                "Is viewed as a domain leader and contributor across the organization",
+                "Primary expert in multiple areas of our stack, incredibly knowledgeable in several domains",
+                "Designs and builds industry-leading techniques to solve complex problems",
+                "Anticipates technical challenges and thoroughly explores alternatives and trade-offs",
+                "Focuses on technical decision making, leading work that affects one or more complex systems and mission-critical areas",
+                "Explores technologies with sizable potential impact for Palantir"
+            ],
+            "examples": []
+        }
+    ]
+}
+trackList["HEADER_TWO"] = {
+    "milestone": "HEADER_TWO",
+    "cohort": "FED",
+    "category": "A",
+    "displayName": "Front-End Coding",
+    "description": "Develops expertise and proficiency in our front-end code base, with solid understanding of relevant areas",
+    "milestones": [
+        {
+            "summary": "Develops expertise and proficiency in our front-end code base, with solid understanding of relevant areas",
+            "signals": [
+                "Writes front-end code that is sometimes production-ready, but usually requires iteration before shipping",
+                "Is becoming comfortable working with one or two areas of front-end code",
+                "Receives and integrates feedback from front-end code reviews to ship high-quality code",
+                "Participates in front-end code reviews and architecture design"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Develops expertise and proficiency in our front-end code base, with solid understanding of relevant areas",
+            "signals": [
+                "Writes front-end code that usually ships promptly by receiving and successfully integrating critical input from code reviews. Work rarely needs to be rewritten before delivery",
+                "Follows style guides",
+                "Ships maintainable front-end code that works and is understandable by teammates",
+                "Is becoming comfortable diving in and making changes to many areas of code, not just a single area of code",
+                "Provides helpful, timely front-end code reviews"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Develops expertise and proficiency in our front-end code base, with solid understanding of relevant areas",
+            "signals": [
+                "Consistently delivers front-end code that sets the standard for quality and maintainability",
+                "Understands large swaths of the code base with a deep knowledge and ability to \"reach in and touch the right levers.\" Able to move rapidly as a result",
+                "Writes consistently reliable code, so input from code reviewers is high-level only",
+                "Provides front-end code review feedback that is sought after, respected, and often instructional",
+                "Writes meaningful front-end code reviews",
+                "Translates design solutions into high-quality front-end code"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Develops expertise and proficiency in our front-end code base, with solid understanding of relevant areas",
+            "signals": [
+                "Has all the skills necessary to ship quickly",
+                "Has built expertise in some relevant technical skills; good understanding of full stack",
+                "Provides mentorship and technical guidance to more junior teammates",
+                "Provides highly insightful code review feedback that addresses high-level thoughts",
+                "Writes highly insightful, comprehensive front-end code reviews"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Develops expertise and proficiency in our front-end code base, with solid understanding of relevant areas",
+            "signals": [
+                "Builds cutting-edge web applications, with a focus on client side",
+                "Leads code testing integration and oversees quality system performance",
+                "Is seen as a leader who advances the state of the art, and is a contributor to the broader technical community",
+                "Constantly learning new web technologies, can navigate and make legacy front-end code maintainable",
+                "Leads code reviews and guides software architecture decisions"
+            ],
+            "examples": []
+        }
+    ]
+}
+trackList["HEADER_THREE"] = {
+    "milestone": "HEADER_THREE",
+    "cohort": "FED",
+    "category": "A",
+    "displayName": "Web Technologies",
+    "description": "Develops expertise in web client technologies, such as HTML, CSS, and JavaScript. Contributes to relevant open source projects",
+    "milestones": [
+        {
+            "summary": "Develops expertise in web client technologies, such as HTML, CSS, and JavaScript. Contributes to relevant open source projects",
+            "signals": [
+                "Makes minor modifications to existing work",
+                "Fixes simple design quality issues",
+                "Uses CSS appropriately, following style guide"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Develops expertise in web client technologies, such as HTML, CSS, and JavaScript. Contributes to relevant open source projects",
+            "signals": [
+                "Makes sensible abstractions based on template and code patterns",
+                "Specs and builds interactive components independently",
+                "Prototypes simple new features quickly",
+                "Builds modal systems"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Develops expertise in web client technologies, such as HTML, CSS, and JavaScript. Contributes to relevant open source projects",
+            "signals": [
+                "Provides useful design feedback and suggests feasible alternatives",
+                "Performs systemic tasks to significantly minimize bundle size",
+                "Acts a caretaker for all of web client code",
+                "Prototypes with code using modern front-end frameworks and digital pattern library"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Develops expertise in web client technologies, such as HTML, CSS, and JavaScript. Contributes to relevant open source projects",
+            "signals": [
+                "Initiates and leads architecture migrations that reduce programmer burden",
+                "Implements complex UI transitions that bring delight",
+                "Makes architectural decisions that eliminate entire classes of bugs"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Develops expertise in web client technologies, such as HTML, CSS, and JavaScript. Contributes to relevant open source projects",
+            "signals": [
+                "Invents new techniques to mitigate browser constraints when feasible",
+                "Identifies and solves systemic problems with current architecture",
+                "Defines a long-term vision for web client and ensures projects are in service of it",
+                "Implements omni directional data flow to completion"
+            ],
+            "examples": []
+        }
+    ]
+}
+trackList["HEADER_FOUR"] = {
+    "milestone": "HEADER_FOUR",
+    "cohort": "FED",
+    "category": "A",
+    "displayName": "Front-End Craft",
+    "description": "Embodies and promotes practices to ensure excellent quality products and services",
+    "milestones": [
+        {
+            "summary": "Embodies and promotes practices to ensure excellent quality products and services",
+            "signals": [
+                "Understands the entire web development process, including design, development, and deployment and has some back-end knowledge as well",
+                "Builds responsive and adaptive websites with guidance of a more experienced FED"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Embodies and promotes practices to ensure excellent quality products and services",
+            "signals": [
+                "Understands and demonstrates knowledge of accessibility needs, concerns, design, and best practices",
+                "Builds semantic, accessible, and maintainable front-end interfaces",
+                "Accurately translates prototypes and design into working interfaces"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Embodies and promotes practices to ensure excellent quality products and services",
+            "signals": [
+                "Supports complex and secure components for modern browsers written in the latest web standards",
+                "Works with UX to develop and maintain processes that ensure our tools and practices are up to date",
+                "Gives thoughtful front-end code reviews as a domain expert",
+                "Implements systems that enable better testing",
+                "Adds tooling to improve front-end code base quality",
+                "Maintains high coding standards and practices to exercise quality control on all aspects of web development"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Embodies and promotes practices to ensure excellent quality products and services",
+            "signals": [
+                "Takes the lead on browser\/device acceptance testing and bug fixing",
+                "Collaborates with UX designers to promote and achieve optimal solutions for clients",
+                "Leads client demos",
+                "Maintains and improves front-end code bases across a wide variety of projects",
+                "Improves quality of work to meet the level of Palantir's best solutions through repeated iteration"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Embodies and promotes practices to ensure excellent quality products and services",
+            "signals": [
+                "Defines policies for the team that encourage quality work",
+                "Identifies and eliminates single points of failure throughout the chapter",
+                "Secures time and resources from executive leadership to support great quality",
+                "Creates a compelling technical vision with company-level impact, anticipating future needs"
+            ],
+            "examples": []
+        }
+    ]
+}

@@ -1,0 +1,280 @@
+trackList["HEADER_ONE"] = {
+    "milestone": "HEADER_ONE",
+    "cohort": "STRATEGY",
+    "category": "A",
+    "displayName": "Strategy Foundations",
+    "description": "Demonstrates proficiency in Palantir\u2019s UX Strategy practice",
+    "milestones": [
+        {
+            "summary": "Demonstrates proficiency in Palantir\u2019s UX Strategy practice",
+            "signals": [
+                "Is building proficiency in Palantir\u2019s UX Strategy practice",
+                "Is developing an understanding of the connections between business goals, user interactions, content strategy, and information architecture",
+                "Understands the founding principles of UX design and usability",
+                "Is becoming familiar with the technical strengths and constraints within our preferred technology solutions",
+                "Has working knowledge of UX tools (e.g., Sketch, Invision, Google Analytics, etc.)"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Demonstrates proficiency in Palantir\u2019s UX Strategy practice",
+            "signals": [
+                "Is strengthening proficiency in Palantir\u2019s UX Strategy practice",
+                "Applies current best practices in the areas of usability, content strategy, accessibility, information architecture, SEO, and UX design",
+                "Understands the strengths and constraints of our preferred technology solutions",
+                "Advocates for solutions easily supported by the selected technology while supporting the project goals",
+                "Explores new methodologies when the project need arises",
+                "Works well in their area of expertise with little to no daily guidance",
+                "Designs and performs competitive analysis, proactively researches relevant examples and seeks out industry trends",
+                "Defines strategy work for themselves and other team members",
+                "Is proficient with UX tools (e.g., Sketch, Invision, Google Analytics, etc.)",
+                "Problem solves within the framework of project goals, user needs, timeline and budget"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Demonstrates proficiency in Palantir\u2019s UX Strategy practice",
+            "signals": [
+                "Understands writing for the web and guides clients to develop web content",
+                "Creates documentation and training materials for projects",
+                "Confidently communicates UX findings and recommendations, connecting UX reasoning to project goals",
+                "Collaborates with engineering team to learn technical requirements and constraints of a project",
+                "Develops new plays in their area of expertise",
+                "Determines solid, well-researched solutions to ambiguous or open-ended problems",
+                "Adapts process and contributes value within client-approved budget, scope and timeline"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Demonstrates proficiency in Palantir\u2019s UX Strategy practice",
+            "signals": [
+                "Has an expert understanding of web components, design systems, and UX best practices",
+                "Has a expert understanding of content modeling, content strategy, and information architecture",
+                "Helps the sales team accurately convey the value of UX Strategy",
+                "Is a sought after partner to co-create new initiatives",
+                "Explores and experiments within projects contributing to sizable client value",
+                "Strategically analyzes the risks, benefits, and opportunities of various solutions",
+                "Seeks out discipline-wide opportunities for improvement",
+                "Is incredibly knowledgeable in their area of expertise recognized by industry experts\/leaders outside of Palantir",
+                "Supports the sales team regarding strategy\/UX proposal and estimate work"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Demonstrates proficiency in Palantir\u2019s UX Strategy practice",
+            "signals": [
+                "Is always evolving UX practice, with a focus on how to add the highest value for the client within any time or budget",
+                "Designs and implements industry-leading techniques to solve complex problems",
+                "Leads projects that are complex and mission critical",
+                "Sees patterns across Palantir strategy work and makes connections between them to move projects and experiments forward",
+                "Is capable of high-level, consultative, predictive thinking"
+            ],
+            "examples": []
+        }
+    ]
+}
+trackList["HEADER_TWO"] = {
+    "milestone": "HEADER_TWO",
+    "cohort": "STRATEGY",
+    "category": "A",
+    "displayName": "Discovery and Planning",
+    "description": "Explores goals, business models, users, user experience, information architecture, content structures, taxonomies, technology ecospheres, pain points, and aspirations",
+    "milestones": [
+        {
+            "summary": "Explores goals, business models, users, user experience, information architecture, content structures, taxonomies, technology ecospheres, pain points, and aspirations",
+            "signals": [
+                "Conducts content inventories to understand current site map and content models on a site",
+                "Working knowledge of inventory tools such as Screaming Frog",
+                "Conducts discovery workshops with the guidance of a more experienced team member",
+                "Conducts stakeholder interviews with the guidance of a more experienced team member",
+                "Learns about client\u2019s domain, competitors, and business model",
+                "Learns about client\u2019s primary users"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Explores goals, business models, users, user experience, information architecture, content structures, taxonomies, technology ecospheres, pain points, and aspirations",
+            "signals": [
+                "Observes patterns in content inventories, learning what works and where opportunities lie",
+                "Is gaining confidence in leading discovery workshops on their own",
+                "Confidently conducts stakeholder interviews",
+                "Learns about existing pain points",
+                "Understands project goals and aspirations and can discuss them with the client",
+                "Audits site content and content models for quality and effectiveness",
+                "Learns about primary audiences and their top tasks",
+                "Guides less experienced team members in discovery and research tasks"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Explores goals, business models, users, user experience, information architecture, content structures, taxonomies, technology ecospheres, pain points, and aspirations",
+            "signals": [
+                "Has developed a library of UX Discovery workshop formats to pull from as needed",
+                "Documents and understands existing taxonomies",
+                "Confidently leads discovery workshops and pivots as needed to refocus efforts in a specific area based on project needs",
+                "Adapts discovery process to match budget, scope, and project goals",
+                "Experiments with new discovery methodologies when the project need arises",
+                "Learns about how content is created, who writes it, etc. (content governance)",
+                "Learns about and documents all technologies being used on a given project",
+                "Conducts competitive analysis",
+                "Works with the client to define KPIs"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Explores goals, business models, users, user experience, information architecture, content structures, taxonomies, technology ecospheres, pain points, and aspirations",
+            "signals": [
+                "Expertly decides which research and strategy activities to conduct based on budget, time, and goals",
+                "Is deeply knowledgeable of trends in our primary client industries (i.e. healthcare, higher education, government)",
+                "Is accountable for project planning and UX strategy resource adjustments based on information gathered during discovery",
+                "Develops Project Charter summary of findings from Discovery work for presentation to the client"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Explores goals, business models, users, user experience, information architecture, content structures, taxonomies, technology ecospheres, pain points, and aspirations",
+            "signals": [
+                "Sets the vision for Palantir\u2019s Discovery approach and works with the team to identify needed pivots",
+                "Validates and adapts project shape for Palantir Strategy work as it evolves"
+            ],
+            "examples": []
+        }
+    ]
+}
+trackList["HEADER_THREE"] = {
+    "milestone": "HEADER_THREE",
+    "cohort": "STRATEGY",
+    "category": "A",
+    "displayName": "Research and Analysis",
+    "description": "Conducts user research and analyzes data and inputs gathered during discovery in order to inform recommendations",
+    "milestones": [
+        {
+            "summary": "Conducts user research and analyzes data and inputs gathered during discovery in order to inform recommendations",
+            "signals": [
+                "With the help of a more experienced team member, creates user testing plans for project",
+                "With the help of a more experienced team member, writes user testing scripts",
+                "Evaluates existing site content and opportunity areas, with the guidance of a more experienced team member",
+                "Evaluates how users currently use a site with various technologies (ie: Hotjar)",
+                "Participates in user research activities as a note-taker or observer"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Conducts user research and analyzes data and inputs gathered during discovery in order to inform recommendations",
+            "signals": [
+                "Creates user testing plans and writes user testing scripts",
+                "Conducts user research activities such as interviews, surveys, tree tests and usability tests with the guidance of a more experienced team member",
+                "Analyzes results learned from user testing",
+                "Identifies for ways content to improve, either in structure or format, to better meet project goals",
+                "Analyzes user flows captured by various technologies"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Conducts user research and analyzes data and inputs gathered during discovery in order to inform recommendations",
+            "signals": [
+                "Conducts user testing with a growing number of methodologies",
+                "Sets up online systems to learn how visitors are using the site",
+                "Gathers and analyzes data on current and potential information architecture structures",
+                "Identifies gaps and opportunities within existing content governance",
+                "Identifies patterns in site usage such as entrances, exits, high traffic areas",
+                "Chooses the highest value attribute to test in a given project"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Conducts user research and analyzes data and inputs gathered during discovery in order to inform recommendations",
+            "signals": [
+                "Based on research, advises the client on KPIs for the project",
+                "Is experienced in a number of user testing methodologies, including in person, remote and automated testing",
+                "Adapts and evolves processes to any size budget and scope",
+                "Helps guide less experienced team members with testing and analysis",
+                "Independently conducts all aspects of complex user-research programs\u2014 from early-stage requirements to summative usability testing",
+                "Adapts user-research techniques to inform both new and ongoing, complex project initiatives"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Conducts user research and analyzes data and inputs gathered during discovery in order to inform recommendations",
+            "signals": [
+                "Has expert knowledge of user experience practices, testing methodologies, site analytics",
+                "Can identify exact friction points in a project, whether it\u2019s in UX design, content quality, content governance, information architecture or technical implementation",
+                "Designs complex, multi-faceted testing programs",
+                "Expertly conducts all stages of user research\u2014 including market analysis, requirements definition, early-to-mid-stage design validations, and summative usability--testing activities",
+                "Simultaneously plans and drives multiple user-research activities across widely divergent product domains",
+                "Develops and shares cross-industry research outside of Palantir via writings, presentations or panels"
+            ],
+            "examples": []
+        }
+    ]
+}
+trackList["HEADER_FOUR"] = {
+    "milestone": "HEADER_FOUR",
+    "cohort": "STRATEGY",
+    "category": "A",
+    "displayName": "Recommendations",
+    "description": "Recommends improvements for project strategies, user experience, and information architecture within the framework of the project goals and informed by user research",
+    "milestones": [
+        {
+            "summary": "Recommends improvements for project strategies, user experience, and information architecture within the framework of the project goals and informed by user research",
+            "signals": [
+                "Provides a new sitemap, with the help of a more experienced team member",
+                "Recommends site changes to consider based on user testing",
+                "Creates support documents outlining recommendations for client"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Recommends improvements for project strategies, user experience, and information architecture within the framework of the project goals and informed by user research",
+            "signals": [
+                "Creates, presents and gets feedback on new sitemap and information architecture",
+                "Creates, presents and gets feedback on new taxonomies",
+                "Works with UX Designers to brainstorm and sketch key user flows",
+                "Identifies and communicates ways to change content strategy approach",
+                "Generates recommendations that match budget, scope, and project goals",
+                "Shares research findings both internally and with the client"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Recommends improvements for project strategies, user experience, and information architecture within the framework of the project goals and informed by user research",
+            "signals": [
+                "Helps client clarify site business goals",
+                "Helps client define site users\u2019 needs and goals",
+                "Leads internal and client UX working sessions to explore new flows and page structure",
+                "Works with UX Designers to recommend improvements to highest value site experiences",
+                "Proficient in presentation tools used to clearly communicate recommendations and results",
+                "Effectively makes recommendations to client, through thoughtful explanation and education",
+                "Educates a client on a recommended strategy that supports the project goals, business model, and user needs",
+                "Contributes to functionality reviews and testing of design and development work",
+                "Confidently engages with the client, quickly cultivating trust and faith in expertise"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Recommends improvements for project strategies, user experience, and information architecture within the framework of the project goals and informed by user research",
+            "signals": [
+                "Helps client define project goals and offers suggestions for revisions based on domain insights",
+                "Provides ongoing feedback during design phase to ensure site supports overall strategy",
+                "Helps train client to build pages in a way that supports site strategy",
+                "Helps client define most meaningful KPIs and measurement plans based on site strategy",
+                "Works with UX Designers, FEDs and Engineers to define technical execution of the strategy",
+                "Develops content strategy, management, and governance plans",
+                "Raises concerns if strategy is getting off-track during execution",
+                "Mentors less experienced team members on how to guide and recommend solutions to a client"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Recommends improvements for project strategies, user experience, and information architecture within the framework of the project goals and informed by user research",
+            "signals": [
+                "Talks with client about content governance, sharing guidance for how to fill gaps or create better support for content teams",
+                "Thinks about project success beyond the life of the current client engagement and works with customer success teams to foster future opportunities",
+                "Persuades clients by advocating for the user which may lead to outcomes not originally conceived of by the client",
+                "Evaluates the quality of the execution of original strategy in design and development work",
+                "Expertly navigates stakeholder feedback (and\/or pushback) on recommendations and works toward productive next steps"
+            ],
+            "examples": []
+        }
+    ]
+}

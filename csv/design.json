@@ -1,0 +1,260 @@
+trackList["HEADER_ONE"] = {
+    "milestone": "HEADER_ONE",
+    "cohort": "DESIGN",
+    "category": "A",
+    "displayName": "Design Foundations",
+    "description": "Demonstrates proficiency in Palantir\u2019s UX Design practice",
+    "milestones": [
+        {
+            "summary": "Demonstrates proficiency in Palantir\u2019s UX Design practice",
+            "signals": [
+                "Demonstrates proficiency in the tools, techniques, processes, and technologies adopted by the team",
+                "Is becoming familiar with the technical strengths and constraints within our preferred technology solutions",
+                "Is learning to present work to clients with the guidance of a more experienced team member",
+                "Understands the founding principles of UX design and usability"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Demonstrates proficiency in Palantir\u2019s UX Design practice",
+            "signals": [
+                "Is strengthening proficiency in Palantir\u2019s UX Design practice",
+                "Is deepening understanding and efficiency in team tools, techniques, processes and technologies",
+                "Applies current best practices in the areas of usability, accessibility, information architecture, and UX design",
+                "Understands the strengths and constraints of our preferred technology solutions",
+                "Advocates for solutions easily supported by the selected technology while supporting the project goals",
+                "Explores new methodologies when the project need arises",
+                "Works well in their area of expertise with little to no daily guidance",
+                "Collaborates effectively with team members, proactively reaching out when needs arise",
+                "Proactively seeks out industry trends",
+                "Is capable of defining design work for themselves and other team members",
+                "Is proficient with UI\/UX tools (e.g., Sketch, Figma, Adobe Creative Cloud, Invision, etc.)",
+                "Problem solves within the framework of project goals, user needs, timeline and budget",
+                "Designs and performs competitive analysis, proactively researches relevant examples and seeks out industry trends"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Demonstrates proficiency in Palantir\u2019s UX Design practice",
+            "signals": [
+                "Explores new tools, techniques, processes and technologies that may increase efficiency and effectiveness on projects",
+                "Can guide a client towards solutions easily supported by our recommended technology solutions",
+                "Confidently communicates UX findings and recommendations, connecting UX rationale of project goals",
+                "Collaborates with the development and engineering team to learn technical requirements and constraints of a project",
+                "Develops new plays in their area of expertise",
+                "Determines solid, well-researched solutions to ambiguous or open-ended problems",
+                "Adapts process and contributes value within client-approved budget, scope and timeline",
+                "Creates documentation and training materials for projects"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Demonstrates proficiency in Palantir\u2019s UX Design practice",
+            "signals": [
+                "Explores ways to leverage technology to solve a unique problem for a client or project",
+                "Has multiple strategies for managing and responding to challenging feedback",
+                "Has an expert understanding of design systems, component based design, web accessibility and UX best practices",
+                "Helps sales team accurately represent and sell design, creating estimates, communicating processes and providing examples",
+                "Is a sought after partner to co-create new initiatives",
+                "Explores and experiments within projects contributing to sizable client value",
+                "Strategically analyzes the risks, benefits, and opportunities of various solutions",
+                "Seeks out discipline-wide opportunities for improvement",
+                "Is incredibly knowledgeable in their area of expertise, recognized by industry experts\/leaders outside of Palantir"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Demonstrates proficiency in Palantir\u2019s UX Design practice",
+            "signals": [
+                "Is always evolving the UX practice, with a focus on how to add the highest value for the client within any time or budget",
+                "Designs and implements industry-leading techniques to solve complex problems",
+                "Leads projects that are complex and mission critical",
+                "Sees patterns across Palantir design and UX work and makes connections between them to move projects and experiments forward",
+                "Is capable of high-level, consultative, predictive thinking"
+            ],
+            "examples": []
+        }
+    ]
+}
+trackList["HEADER_TWO"] = {
+    "milestone": "HEADER_TWO",
+    "cohort": "DESIGN",
+    "category": "A",
+    "displayName": "UX Design",
+    "description": "Understands and applies UX principles to projects",
+    "milestones": [
+        {
+            "summary": "Understands and applies UX principles to projects",
+            "signals": [
+                "Understands UI\/UX design fundamentals",
+                "Is learning about accessibility and how it applies to UX design",
+                "Has a basic level of understanding of usability principles",
+                "Is learning about content modeling with the guidance of a more experienced team member",
+                "Is learning about how content models, site structure and page layouts support the project goals and user needs",
+                "Creates wireframes with the guidance of a more experienced team member"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Understands and applies UX principles to projects",
+            "signals": [
+                "Continuously learns and stays current on UX design trends",
+                "Can design effective UX solutions for desktop and mobile devices",
+                "Continues to learn about usability and how it applies to common project challenges",
+                "Provides effective UX designs within the framework of the project goals and user needs",
+                "Leads wireframing workshops with the client with the support of a UX strategist",
+                "Creates UX design layouts with sample content that supports site goals and user needs"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Understands and applies UX principles to projects",
+            "signals": [
+                "Looks for ways to incorporate new UX design solutions into projects",
+                "Understands when and how to take a mobile first approach to UX design",
+                "Can talk to, educate, and inform clients about web accessibility, explaining design rationale in relation to this topic",
+                "Communicate UX design choices to the client within the framework of the project goals and user needs",
+                "Coaches client on how to use web components to achieve site goals and user needs (content strategy)"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Understands and applies UX principles to projects",
+            "signals": [
+                "Invents new UX design solutions to a problem when a previous solution may not exist",
+                "Can easily navigate conversations around mobile UX design with clients, sharing the pros and cons of various approaches",
+                "Can discuss, inform and educate clients about why certain approaches may be more user friendly than others",
+                "Advocates for the best user experience throughout a project",
+                "Creates training materials to help the client add and configure their content in a way that supports the strategy and goals of the project"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Understands and applies UX principles to projects",
+            "signals": [
+                "Leads team to explore new UX design solution for mobile devices",
+                "Shares ideas with the team about usability insights. Looks for ways to incorporate these ideas into future projects",
+                "Creates new ways to deliver continued value to client with the UX design practice"
+            ],
+            "examples": []
+        }
+    ]
+}
+trackList["HEADER_THREE"] = {
+    "milestone": "HEADER_THREE",
+    "cohort": "DESIGN",
+    "category": "A",
+    "displayName": "Visual Design",
+    "description": "Creates visually compelling and effective designs for client work and internal projects",
+    "milestones": [
+        {
+            "summary": "Creates visually compelling and effective designs for client work and internal projects",
+            "signals": [
+                "Understands design fundamentals such as the principles and elements of design",
+                "Creates compelling and effective design within the constraints of a project with the guidance of a more experienced designer",
+                "Is aware of current design trends in web design, print, web applications, software, and mobile applications"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Creates visually compelling and effective designs for client work and internal projects",
+            "signals": [
+                "Stays current on new visual design trends in our areas of expertise (i.e. healthcare, higher education, government)",
+                "Provides feedback to team members during design critiques",
+                "Understands and can effectively extend a visual design system for the web",
+                "Explores ways to modernize and evolve a design system with each project, without compromising the client\u2019s brand integrity"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Creates visually compelling and effective designs for client work and internal projects",
+            "signals": [
+                "Pushes themselves to try new visual solutions on every project",
+                "Effectively presents work to client, clearly articulating design and art direction rationale",
+                "Can navigate vague or challenging client feedback, translating feedback into the language of design",
+                "Has a deep understanding of design systems as they relate to the web",
+                "Can design within any predefined brand framework, regardless of style",
+                "Creates and documents  guidelines for how to follow a visual design system"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Creates visually compelling and effective designs for client work and internal projects",
+            "signals": [
+                "Creates design and web brand systems from scratch",
+                "Strengthens their skill set by creating visual assets, iconography, illustration, photography direction and conceptual design",
+                "Acts as art director with colleagues",
+                "Initiates and implements production methodologies that increase efficiency for repeatable tasks"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Creates visually compelling and effective designs for client work and internal projects",
+            "signals": [
+                "Coaches and mentors less experienced team members to strengthen their visual design",
+                "Shares design insights within the team and publicly via blogs or talks",
+                "Works with management to suggest new design offerings Palantir could offer that fill a client need and fall within the expertise of the team"
+            ],
+            "examples": []
+        }
+    ]
+}
+trackList["HEADER_FOUR"] = {
+    "milestone": "HEADER_FOUR",
+    "cohort": "DESIGN",
+    "category": "A",
+    "displayName": "Prototyping",
+    "description": "Translates visual designs into HTML and CSS, extending the visual style guide and components in code",
+    "milestones": [
+        {
+            "summary": "Translates visual designs into HTML and CSS, extending the visual style guide and components in code",
+            "signals": [
+                "Converts visual designs into a functional prototype using HTML,CSS and JS with the guidance of a more experienced team member",
+                "Creates prototypes within existing frameworks supported by the team",
+                "Understands the visual building blocks of a design system and how they can be extended"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Translates visual designs into HTML and CSS, extending the visual style guide and components in code",
+            "signals": [
+                "Creates HTML\/CSS prototypes with increasing efficiency and proficiency",
+                "Implement sand modifes JS code to help create interactions and functionality",
+                "Extends component libraries in code without visual mockups",
+                "Presents and solicits client feedback on prototypes"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Translates visual designs into HTML and CSS, extending the visual style guide and components in code",
+            "signals": [
+                "Creates code that follows accessibility standards",
+                "Creates full library of components in code, including list views, interaction elements and high level page layouts",
+                "Creates micro animation interactions when it improves the user experience",
+                "Works to standardize prototyping approaches across the team",
+                "Creates and documents guidelines for how to leverage the style guide (component library)"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Translates visual designs into HTML and CSS, extending the visual style guide and components in code",
+            "signals": [
+                "Realizes efficiencies within repeatable patterns from project to project",
+                "Helps sales and management scope and estimate time for this work on projects",
+                "Coaches clients on how to use components to build pages for their site",
+                "Creates example of important pages in style guide, including sample content and guidelines for usage"
+            ],
+            "examples": []
+        },
+        {
+            "summary": "Translates visual designs into HTML and CSS, extending the visual style guide and components in code",
+            "signals": [
+                "Designs complex, multi-faceted prototypes",
+                "Implements design on the front-end, filling in for a FED as needed",
+                "Applies a design thinking approach to prototype development and teaches others how to do the same",
+                "Leads the team to keep coding standards up to date and modernized"
+            ],
+            "examples": []
+        }
+    ]
+}

@@ -1430,9 +1430,9 @@ export const trackMap = (trackList: object[], cohort: string): object[] => {
       return engineeringTracks(trackList)
     case 'Front-End Development':
       return frontendTracks(trackList)
-    case 'User Experience Strategy':
-      return designTracks(trackList)
     case 'User Experience Design':
+      return designTracks(trackList)
+    case 'User Experience Strategy':
       return strategyTracks(trackList)
     case 'Project Management':
       return pmTracks(trackList)

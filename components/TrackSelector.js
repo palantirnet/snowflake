@@ -2,13 +2,14 @@
 
 import React from 'react'
 import {trackIds, tracks, categoryColorScale, trackMap, pointsToLevels} from '../constants'
-import type { MilestoneMap, TrackId } from '../constants'
+import type {Milestone, MilestoneMap, TrackId} from '../constants'
 
 type Props = {
   milestoneByTrack: MilestoneMap,
   focusedTrackId: TrackId,
   currentCohort: String,
-  setFocusedTrackIdFn: (TrackId) => void
+  setFocusedTrackIdFn: (TrackId) => void,
+  handleTrackMilestoneChangeFn: (TrackId, Milestone) => void
 }
 
 class TrackSelector extends React.Component<Props> {
@@ -39,6 +40,8 @@ class TrackSelector extends React.Component<Props> {
           }
           .section p {
             margin-top: 0;
+            font-size: 0.8em;
+            width: 360px;
           }
           table {
             width: 360px;
@@ -55,21 +58,46 @@ class TrackSelector extends React.Component<Props> {
             border-radius: 3px;
             cursor: pointer;
           }
+          .track-selector-arrow {
+            text-align: center;
+            background: #eee;
+            color: #000;
+            padding: 2px;
+            font-weight: normal;
+            font-size: 11px;
+            border-radius: 3px;
+            cursor: pointer;
+          }          
           .track-selector-label {
             text-align: center;
             font-size: 10px;
           }          
         `}</style>
         <header className="section">
-          <h2 className="section__title">Core Skills</h2>
-          <p>This is information about core skills.</p>
+          <h2 className="section__title">Foundational skills</h2>
+          <p>The depth of knowledge and expertise in a particular area of execution (i.e. engineering, project management, etc.). </p>
         </header>
         <table>
           <tbody>
             <tr>
               {coreTrack.map(trackId => (
-                <td key={trackId} className="track-selector-label" onClick={() => this.props.setFocusedTrackIdFn(trackId)}>
+                <td key={trackId} className="track-selector-label">
                   {trackList[trackId].displayName}
+                </td>
+              ))}
+            </tr>
+            <tr>
+              {coreTrack.map(trackId => (
+                <td key={trackId} className="track-selector-arrow"
+                    style={{background: '#aad9d1'}}
+                    onClick={() => {
+                        this.props.setFocusedTrackIdFn(trackId);
+                        if (this.props.milestoneByTrack[trackId] < 5) {
+                          this.props.handleTrackMilestoneChangeFn(trackId, this.props.milestoneByTrack[trackId] + 1)
+                        }
+                      }
+                    }>
+                  &#x27F0;
                 </td>
               ))}
             </tr>
@@ -78,7 +106,22 @@ class TrackSelector extends React.Component<Props> {
                 <td key={trackId} className="track-selector-value"
                     style={{border: '4px solid ' + (trackId == this.props.focusedTrackId ? '#000': categoryColorScale(trackList[trackId].category)), background: categoryColorScale(trackList[trackId].category)}}
                     onClick={() => this.props.setFocusedTrackIdFn(trackId)}>
-                  {this.props.milestoneByTrack[trackId]}                  
+                  {this.props.milestoneByTrack[trackId]}
+                </td>
+              ))}
+            </tr>
+            <tr>
+              {coreTrack.map(trackId => (
+                <td key={trackId} className="track-selector-arrow"
+                    style={{background: '#aad9d1'}}
+                    onClick={() => {
+                      this.props.setFocusedTrackIdFn(trackId);
+                      if (this.props.milestoneByTrack[trackId] > 0) {
+                        this.props.handleTrackMilestoneChangeFn(trackId, this.props.milestoneByTrack[trackId] - 1)
+                      }
+                    }
+                    }>
+                  &#x27F1;
                 </td>
               ))}
             </tr>
@@ -86,8 +129,8 @@ class TrackSelector extends React.Component<Props> {
         </table>
 
         <header className="section">
-          <h2 className="section__title">T-Shaped Skills</h2>
-          <p>This is information about t-shaped skills.</p>
+          <h2 className="section__title">System skills</h2>
+          <p>The broad range of knowledge and expertise in a number of areas that apply to the system as a whole.</p>
         </header>
 
         <table>
@@ -104,10 +147,40 @@ class TrackSelector extends React.Component<Props> {
           </tr>
           <tr>
             {deliveringTrack.map(trackId => (
+              <td key={trackId} className="track-selector-arrow"
+                  style={{background: '#FFE5CE'}}
+                  onClick={() => {
+                    this.props.setFocusedTrackIdFn(trackId);
+                    if (this.props.milestoneByTrack[trackId] < 5) {
+                      this.props.handleTrackMilestoneChangeFn(trackId, this.props.milestoneByTrack[trackId] + 1)
+                    }
+                  }
+                  }>
+                &#x27F0;
+              </td>
+            ))}
+          </tr>
+          <tr>
+            {deliveringTrack.map(trackId => (
               <td key={trackId} className="track-selector-value"
                   style={{border: '4px solid ' + (trackId == this.props.focusedTrackId ? '#000': categoryColorScale(trackList[trackId].category)), background: categoryColorScale(trackList[trackId].category)}}
                   onClick={() => this.props.setFocusedTrackIdFn(trackId)}>
                 {this.props.milestoneByTrack[trackId]}
+              </td>
+            ))}
+          </tr>
+          <tr>
+            {deliveringTrack.map(trackId => (
+              <td key={trackId} className="track-selector-arrow"
+                  style={{background: '#FFE5CE'}}
+                  onClick={() => {
+                    this.props.setFocusedTrackIdFn(trackId);
+                    if (this.props.milestoneByTrack[trackId] > 0) {
+                      this.props.handleTrackMilestoneChangeFn(trackId, this.props.milestoneByTrack[trackId] - 1)
+                    }
+                  }
+                  }>
+                &#x27F1;
               </td>
             ))}
           </tr>
@@ -128,10 +201,40 @@ class TrackSelector extends React.Component<Props> {
           </tr>
           <tr>
             {strengtheningTrack.map(trackId => (
+              <td key={trackId} className="track-selector-arrow"
+                  style={{background: '#FFD4AD'}}
+                  onClick={() => {
+                    this.props.setFocusedTrackIdFn(trackId);
+                    if (this.props.milestoneByTrack[trackId] < 5) {
+                      this.props.handleTrackMilestoneChangeFn(trackId, this.props.milestoneByTrack[trackId] + 1)
+                    }
+                  }
+                  }>
+                &#x27F0;
+              </td>
+            ))}
+          </tr>
+          <tr>
+            {strengtheningTrack.map(trackId => (
               <td key={trackId} className="track-selector-value"
                   style={{border: '4px solid ' + (trackId == this.props.focusedTrackId ? '#000': categoryColorScale(trackList[trackId].category)), background: categoryColorScale(trackList[trackId].category)}}
                   onClick={() => this.props.setFocusedTrackIdFn(trackId)}>
                 {this.props.milestoneByTrack[trackId]}
+              </td>
+            ))}
+          </tr>
+          <tr>
+            {strengtheningTrack.map(trackId => (
+              <td key={trackId} className="track-selector-arrow"
+                  style={{background: '#FFD4AD'}}
+                  onClick={() => {
+                    this.props.setFocusedTrackIdFn(trackId);
+                    if (this.props.milestoneByTrack[trackId] > 0) {
+                      this.props.handleTrackMilestoneChangeFn(trackId, this.props.milestoneByTrack[trackId] - 1)
+                    }
+                  }
+                  }>
+                &#x27F1;
               </td>
             ))}
           </tr>
@@ -152,10 +255,40 @@ class TrackSelector extends React.Component<Props> {
           </tr>
           <tr>
             {supportingTrack.map(trackId => (
+              <td key={trackId} className="track-selector-arrow"
+                  style={{background: '#FFA46D'}}
+                  onClick={() => {
+                    this.props.setFocusedTrackIdFn(trackId);
+                    if (this.props.milestoneByTrack[trackId] < 5) {
+                      this.props.handleTrackMilestoneChangeFn(trackId, this.props.milestoneByTrack[trackId] + 1)
+                    }
+                  }
+                  }>
+                &#x27F0;
+              </td>
+            ))}
+          </tr>
+          <tr>
+            {supportingTrack.map(trackId => (
               <td key={trackId} className="track-selector-value"
                   style={{border: '4px solid ' + (trackId == this.props.focusedTrackId ? '#000': categoryColorScale(trackList[trackId].category)), background: categoryColorScale(trackList[trackId].category)}}
                   onClick={() => this.props.setFocusedTrackIdFn(trackId)}>
                 {this.props.milestoneByTrack[trackId]}
+              </td>
+            ))}
+          </tr>
+          <tr>
+            {supportingTrack.map(trackId => (
+              <td key={trackId} className="track-selector-arrow"
+                  style={{background: '#FFA46D'}}
+                  onClick={() => {
+                    this.props.setFocusedTrackIdFn(trackId);
+                    if (this.props.milestoneByTrack[trackId] > 0) {
+                      this.props.handleTrackMilestoneChangeFn(trackId, this.props.milestoneByTrack[trackId] - 1)
+                    }
+                  }
+                  }>
+                &#x27F1;
               </td>
             ))}
           </tr>

@@ -514,9 +514,7 @@ export const tracks: Tracks = {
                   "Helps others identify the desired results of their assignments",
                   "Gives thoughtful feedback as a domain expert",
                   "Helps others focus on achieving results, supporting them when facing problems and issues",
-                  "Holds others accountable for their commitments, results, and successful client outcomes",
-                  "Required for eligibility to be a Project Owner",
-                  "Required eligibility to be a Consultant"
+                  "Holds others accountable for their commitments, results, and successful client outcomes"
               ],
               "examples": []
           },
@@ -526,9 +524,7 @@ export const tracks: Tracks = {
                   "Helps others maximize their potential through mentoring and coaching",
                   "Focuses on high-level client relationships and satisfaction",
                   "Anticipates unusual issues and problems, taking steps to minimize their impacts on results",
-                  "Holds institutional knowledge",
-                  "Required eligibility to be a Project Advocate",
-                  "Required eligibility to be a Service Line Lead"
+                  "Holds institutional knowledge"
               ],
               "examples": []
           },

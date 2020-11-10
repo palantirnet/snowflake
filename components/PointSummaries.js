@@ -219,19 +219,26 @@ class PointSummaries extends React.Component<Props> {
             border-spacing: 0;
             text-align: center;
             width: 100%;
-            border: 1px solid #4c5b67;
+            border: 3px solid #4c5b67;
           }
           td {
             height: 30px;
           }
           
+          td.breaker {
+            height: 3px;
+          }
+
           td:nth-of-type(3n+1) {
             border-left: 3px solid #4c5b67;
           }
-          
-          td:not(:nth-of-type(3n+1)) {
-            border-left: 1px dotted #4c5b67;
-          }
+          td.tier-label:nth-of-type(1n+1) {
+            border-left: 3px solid #4c5b67;
+          }          
+          # removed to allow tiers to be solid.
+          #td:not(:nth-of-type(3n+1)) {
+          #   border-left: 1px dotted #4c5b67;
+          #}
           
           .level-label {
             width: 6.6666666%;
@@ -242,35 +249,43 @@ class PointSummaries extends React.Component<Props> {
           .tier-label {
             background-color: transparent;
             border-right: 1px solid #4c5b67;
-            border-top: 1px solid #4c5b67;
+            border-bottom: 1px solid #4c5b67;
           }
           .current-full {
             background-color: #7DA12F;
+            border-left: 1px dotted #4c5b67;
           } 
           .current-empty {
             background-color: #7DA12F;
             opacity: 0.15;
+            border-left: 1px dotted #4c5b67;
           }          
           .graded-full{
             background-color: #5E7B21;
+            border-left: 1px dotted #4c5b67;
           } 
           .graded-empty{
             background-color: #5E7B21;
             opacity: 0.15;
+            border-left: 1px dotted #4c5b67;
           } 
           .core-full{
             background-color: #11a9a1;
+            border: 0;
           } 
           .core-empty{
             background-color: #11a9a1;
             opacity: 0.15;
+            border: 0;
           } 
           .skills-full {
             background-color: #fb6500;
+            border: 0;            
           } 
           .skills-empty {
             background-color: #fb6500;
             opacity: 0.15;
+            border: 0;            
           }        
           .graded-high::after {
             font-size: 14px;
@@ -290,10 +305,16 @@ class PointSummaries extends React.Component<Props> {
         `}</style>
 
         <header className="career-summary__header">
-          <h2>Career Progression</h2>
+          <h2>Level progression</h2>
         </header>
-
+        <p>Levels are shown on the top two rows and correspond to salary levels, rated 1-15. Each of us is placed at a level based on our competency in our job category.</p>
         <table><tbody>
+        {/* Tier numbers */}
+          <tr>
+          {[1,2,3,4,5].map((tier) =>
+            <td className="tier-label" colSpan="3" key={tier}>Milestone {tier}</td>
+          )}
+          </tr>
           {/* Level numbers */}
           <tr>
             {Object.entries(pointsToLevels).map((points, level) =>
@@ -318,6 +339,8 @@ class PointSummaries extends React.Component<Props> {
               )}
             )}
           </tr>
+          {/* Breaker breaker */}
+          <tr><td className="breaker" colSpan={15}></td></tr>
           {/* Core tier */}
           <tr>
             {Object.entries(pointsToLevels).map((points, level) => {
@@ -336,26 +359,21 @@ class PointSummaries extends React.Component<Props> {
               )}
             )}
           </tr>
-          {/* Tier numbers */}
-          <tr>
-            {[1,2,3,4,5].map((tier) =>
-              <td className="tier-label" colSpan="3" key={tier}>{tier}</td>
-            )}
-          </tr>
         </tbody></table>
-
+        <h2>Milestones</h2>
+        <p>Milestones are shown on the bottom two rows. There are five milestones which measure competency in the categories of Foundational skills and System skills. Milestones require a minimum score in each category before you can move to the next milestone and related pay levels. As your career develops, higher levels increase your responsibilities for the success of the team as indicated by its related milestone.</p>
         <div className="career-summary__key">
           <h3 className="career-summary__key-heading">KEY</h3>
           <div className="key key--current">Current level: {currentLevel}</div>
-          <div className="key key--graded"><span className={gradedClass}>Graded level: {gradedLevel}</span></div>
+          <div className="key key--graded"><span className={gradedClass}>Demonstrated level: {gradedLevel}</span></div>
 
           <div className="key key--core">
-            {targetPoints - gradedPoints} Core points required to next tier
-            <span className="key__meta"> {gradedPoints} of {targetPoints} Core points</span>
+            Foundational milestone: {currentPointsTier}<br />
+            <span className="key__meta"> {gradedPoints} of {targetPoints} points</span>
           </div>
           <div className="key key--skills">
-            {targetSkills - gradedSkills} T-skills points required to next tier
-            <span className="key__meta"> {gradedSkills} of {targetSkills} T-skills points</span>
+            System milestone: {currentSkillTier}<br />
+            <span className="key__meta"> {gradedSkills} of {targetSkills} points</span>
           </div>
         </div>
       </div>

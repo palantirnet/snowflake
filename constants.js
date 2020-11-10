@@ -131,11 +131,11 @@ type Tracks = {|
   'COMMUNICATION': Track,
   'PROFESSIONALISM': Track,
   'INITIATIVE': Track,
-  'MENTORSHIP': Track,
   'LEARNING': Track,
+  'MENTORSHIP': Track,
   'COMPLEXITY': Track,
-  'BIZDEV': Track,
   'CLIENT_VALUE': Track,
+  'BIZDEV': Track,
 |}
 
 export const tracks: Tracks = {

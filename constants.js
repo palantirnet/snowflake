@@ -1425,7 +1425,7 @@ export const eligibleTitles = (milestoneMap: MilestoneMap, cohort: string): stri
 export const trackMap = (trackList: object[], cohort: string): object[] => {
   switch (cohort) {
     case 'Management':
-      return defaultTracks(trackList)
+      return managementTracks(trackList)
     case 'Engineering':
       return engineeringTracks(trackList)
     case 'Front-End Development':
@@ -1443,223 +1443,297 @@ export const trackMap = (trackList: object[], cohort: string): object[] => {
   return trackList
 }
 
-export const defaultTracks = (trackList: object[]): object[] => {
-  trackList["HEADER_ONE"] = {
-      "milestone": "HEADER_ONE",
-      "cohort": "MANAGEMENT",
-      "category": "A",
-      "displayName": "Servant Leadership",
-      "description": "Comprehends the capacity to engage with stakeholders both internally and externally, and to develop strong interpersonal relationships with teams and clients to unlock their potential",
-      "milestones": [
-          {
-              "summary": "Helps individuals to get unblocked creating a supporting and engaging environment",
-              "signals": [
-                  "Demonstrates an understanding of individuals' roles, goals, and interests",
-                  "Demonstrates concern for the well-being of people",
-                  "Actively listens",
-                  "Treats people with respect"
-              ],
-              "examples": []
-          },
-          {
-              "summary": "Manages expectations across teams and focuses on building long-term relationships",
-              "signals": [
-                  "Uses an understanding of the organization's processes, systems and policies to engage with colleagues",
-                  "Assumes positive intent of others, approaching every interaction with kindness and good humor",
-                  "Empathetically listens",
-                  "Communicates difficult or negative messages in an honest, accurate, and respectful manner"
-              ],
-              "examples": []
-          },
-          {
-              "summary": "Manages expectations supporting individuals and clients to perform at their highest capabilities",
-              "signals": [
-                  "Helps people develop and perform as highly as possible",
-                  "Uses awareness and understanding of the organization's culture to implement change initiatives",
-                  "Is able to deeply understand and empathize with others",
-                  "Delivers persuasive and compelling messages"
-              ],
-              "examples": []
-          },
-          {
-              "summary": "Advocates for people's needs, interests and goals and proactively works to support and enhance growth",
-              "signals": [
-                  "Always looks to enhance the development of their team members in ways that unlock potential, creativity and sense of purpose",
-                  "Uses an understanding of the organization's culture and environment to develop and implement strategic plans, implement needed changes, and resolve talent needs and issues",
-                  "Informs a person affected by a decision about what is happening, ensuring that the group has all of the necessary information",
-                  "Provides visible leadership that \"walks the talk.\"  Sets high performance standards for self, acting as a role model for the team"
-              ],
-              "examples": []
-          },
-          {
-              "summary": "Leads, inspires and servers others, enabling people to achieve their goals and full potential",
-              "signals": [
-                  "Focus on bringing their best self to your work, and making space for others to do so as well",
-                  "Uses an understanding of complex relationships among organizational leaders to facilitate the strategy, implementation and maintenance of initiatives proposed by other executives",
-                  "Uses storytelling to create a positive and engaging environment for teams and clients",
-                  "Leverages relationships to best support and develop individuals"
-              ],
-              "examples": []
-          }
-      ]
-  }
-  trackList["HEADER_TWO"] = {
-      "milestone": "HEADER_TWO",
-      "cohort": "MANAGEMENT",
-      "category": "A",
-      "displayName": "Coaching",
-      "description": "Helps people to develop their own independent thinking, guiding them through processes and facilitating learning",
-      "milestones": [
-          {
-              "summary": "Helps individuals to think through the likely impacts of alternative decisions",
-              "signals": [
-                  "Helps individuals to think for themselves about possible impacts and solutions to a problem by asking open ended questions",
-                  "Demonstrates a positive outlook on things"
-              ],
-              "examples": []
-          },
-          {
-              "summary": "Helps individuals to act or perform in the face of challenging goals",
-              "signals": [
-                  "Shows confidence in other's ability and willingness to face challenges and solve problems",
-                  "Helps people to gain awareness of current situations",
-                  "Demonstrates curiosity"
-              ],
-              "examples": []
-          },
-          {
-              "summary": "Coaches people proactively, and guides people to realizations rather than providing the answer\t",
-              "signals": [
-                  "Demonstrates the ability to understand what issues exist that limit individual's ability to perform the task or accomplish the objectives",
-                  "Determines whether people need help to remove barriers or if they are able to tackle challenges by themselves"
-              ],
-              "examples": []
-          },
-          {
-              "summary": "Coaches and guides all level of individuals to develop and enhance on-the-job performance, knowledge or behavior",
-              "signals": [
-                  "Partners with people to define actions based on their own abilities and knowledge",
-                  "Supports people's progress, celebrates their wins and encourages them to find new paths if their original plan of action does not work out as expected",
-                  "Demonstrates the ability to encourage meaningful thoughts that can help the other person address a challenge or break through to a new level of performance"
-              ],
-              "examples": []
-          },
-          {
-              "summary": "Empowers and engages with others to help them improve their performance and overcome challenges to thrive at an optimal level based on their own abilities, skills, and knowledge",
-              "signals": [
-                  "Focuses on empowering their team members to discover solutions for themselves",
-                  "Coaches senior leaders on creating positive working relationships with their teams and clients"
-              ],
-              "examples": []
-          }
-      ]
-  }
-  trackList["HEADER_THREE"] = {
-      "milestone": "HEADER_THREE",
-      "cohort": "MANAGEMENT",
-      "category": "A",
-      "displayName": "Facilitation",
-      "description": "Comprehends the ability to lead people through processes towards agreed-upon objectives in a manner that encourages participation, ownership, and creativity",
-      "milestones": [
-          {
-              "summary": "Helps individuals resolve difficult issues, promoting an inclusive environment",
-              "signals": [
-                  "Actively seeks views from a range of colleagues to help gain understanding",
-                  "Contributes to creating an inclusive environment"
-              ],
-              "examples": []
-          },
-          {
-              "summary": "Helps people collectively move through a process",
-              "signals": [
-                  "Is becoming comfortable in mediating escalated conflicts",
-                  "Builds consensus among people and teams"
-              ],
-              "examples": []
-          },
-          {
-              "summary": "Mediates escalated situations, empowers people, and resolves conflict\t",
-              "signals": [
-                  "Understands what drives and motivates the project team, and their capabilities and is aware of differences",
-                  "Resolves and\/or mediates conflicts in a respectful, appropriate and impartial manner",
-                  "Takes time to understand how individuals and teams are performing and working together to deliver the project outcomes"
-              ],
-              "examples": []
-          },
-          {
-              "summary": "Guides and manages individuals both internally and externally to ensure that the their objectives are met effectively, with clear thinking, good participation, and full buy-in from everyone who is involved",
-              "signals": [
-                  "Understands themselves and the individuals in the project team, what drives and motivates them personally, and their individual capabilities",
-                  "Is able to facilitate difficult interactions among stakeholders to achieve outcomes",
-                  "Is focused on the big picture"
-              ],
-              "examples": []
-          },
-          {
-              "summary": "Leads people through processes towards agreed-upon objectives in a manner that encourages participation, ownership, and creativity",
-              "signals": [
-                  "Uses their understanding of individuals and teams to make the project strategy tangible to individuals and teams",
-                  "Serves as a positive role model for productive conflict",
-                  "Encourages productive and respectful task-related conflict, using it to facilitate change",
-                  "Resolves complex organizational dysfunction, or persistent conflict at senior levels\t"
-              ],
-              "examples": []
-          }
-      ]
-  }
-  trackList["HEADER_FOUR"] = {
-      "milestone": "HEADER_FOUR",
-      "cohort": "MANAGEMENT",
-      "category": "A",
-      "displayName": "Motivation",
-      "description": "Comprehends the ability to energize people to achieve their goals",
-      "milestones": [
-          {
-              "summary": "Fosters enthusiasm and common purpose among colleagues",
-              "signals": [
-                  "Contributes to generating commitment in individuals and the team",
-                  "Speaks positively and enthusiastically about the organization's products\/services and future direction"
-              ],
-              "examples": []
-          },
-          {
-              "summary": "Mobilizes individuals to develop goals, execute plans, and deliver client value        ",
-              "signals": [
-                  "Creates a fun and energetic environment that promotes creativity",
-                  "Validates ongoing work and sustains motivation",
-                  "Establishes challenging, yet realistic, performance goals that tap into people's interests"
-              ],
-              "examples": []
-          },
-          {
-              "summary": "Inspires others to a greater effort by setting an example in his\/her\/their own behavior of dedication",
-              "signals": [
-                  "Recognizes individual and team performance, even when things go wrong",
-                  "Empowers a team to drive forward amidst uncertainty",
-                  "Models excellence and enthusiasm for the work"
-              ],
-              "examples": []
-          },
-          {
-              "summary": "Conveys confidence in others' capabilities and appeals to others' unique needs, interests, and goals to motivate them to achieve",
-              "signals": [
-                  "Empowers the project team and individuals. Expresses positive expectations of others regarding their abilities or potentials, even in challenging cases. Believes others want to and can learn",
-                  "Ensures that the self-realization and practical needs of the project team are met"
-              ],
-              "examples": []
-          },
-          {
-              "summary": "Enables and directs generation of energy \u2014 motivation to act \u2014 among members of the organization and clients",
-              "signals": [
-                  "Demonstrates the ability to use others as a sounding board for generating ideas and plans; acknowledges their expertise or perspective when asking for their opinions",
-                  "Ability to find and use successes to celebrate progress towards the vision",
-                  "Sets clear goals and a desired future state that is compelling and realistic for stakeholders"
-              ],
-              "examples": []
-          }
-      ]
-  }
-
+export const managementTracks = (trackList: object[]): object[] => {
+    trackList["HEADER_ONE"] = {
+        "milestone": "HEADER_ONE",
+        "cohort": "MANAGEMENT",
+        "category": "A",
+        "displayName": "Expertise",
+        "description": "Uses their knowledge and experience to help guide the business and operations of Palantir",
+        "milestones": [
+            {
+                "summary": "Uses their knowledge and experience to help guide the business and operations of Palantir",
+                "signals": [
+                    "Has an emergent skillset in one of the key Palantir disciplines: strategy, design, project management or engineering; or in a supporting service critical to Palantir\u2019s organizational success (e.g., business strategy, sales, employee engagement)",
+                    "Is self-guiding when it comes to executing tasks within their area of expertise",
+                    "Understands basic best practices in their areas of expertise",
+                    "Needs guidance to determine which managerial initiatives they should pursue",
+                    "Effectively communicates subject matter expertise to a wide range of audiences"
+                ],
+                "examples": []
+            },
+            {
+                "summary": "Uses their knowledge and experience to help guide the business and operations of Palantir",
+                "signals": [
+                    "Is expanding their experience and proficiency in a core component of our business or supporting service and can provide meaningful support to initiatives in that space",
+                    "Coaches others in their area of expertise to improve their performance\/deepen their understanding of the practice",
+                    "Participates in initiatives and experiments relevant to their subject matter expertise",
+                    "Works well in their area of expertise with little to no daily guidance"
+                ],
+                "examples": []
+            },
+            {
+                "summary": "Uses their knowledge and experience to help guide the business and operations of Palantir",
+                "signals": [
+                    "Engages with others in order to successfully lead, design, implement, and assesses new initiatives in their area of subject matter expertise",
+                    "Develops new plays in their area of expertise",
+                    "Determines\/designs solid, well-researched solutions to ambiguous or open-ended problems",
+                    "Has attained proficiency in a core component of our business or supporting service and can execute initiatives in that space",
+                    "Effectively communicates core business expertise to a wide range of audiences"
+                ],
+                "examples": []
+            },
+            {
+                "summary": "Uses their knowledge and experience to help guide the business and operations of Palantir",
+                "signals": [
+                    "Is recognized as incredibly knowledgeable in their area of expertise by industry experts\/leaders outside of Palantir",
+                    "Is a sought after partner to co-create new initiatives",
+                    "Is learning new areas of the business to have a fuller understanding of others\u2019 work and how Palantir operates",
+                    "Explores and experiments with projects that have a sizable impact for Palantir",
+                    "Identifies gaps at the company\/organization level and proposes and\/or leads initiatives to resolve them",
+                    "Assesses the effectiveness of initiatives with the goal of identifying ways to improve our initiative development and implementation processes"
+                ],
+                "examples": []
+            },
+            {
+                "summary": "Uses their knowledge and experience to help guide the business and operations of Palantir",
+                "signals": [
+                    "Is an expert in multiple areas of our business",
+                    "Designs and implements industry-leading techniques to solve complex problems",
+                    "Sets the priority and timeline for initiatives, including identifying when an initiative should be prioritized, ended, delayed or changed based on new information and constraints",
+                    "Sees patterns across Palantir initiatives and makes connections between them to move projects and experiments forward",
+                    "Leads work that affects one or more complex systems and mission-critical areas"
+                ],
+                "examples": []
+            }
+        ]
+    }
+    trackList["HEADER_TWO"] = {
+        "milestone": "HEADER_TWO",
+        "cohort": "MANAGEMENT",
+        "category": "A",
+        "displayName": "Servant Leadership",
+        "description": "Furthers the mesh organization, developing strong interpersonal relationships to unlock the potential of others",
+        "milestones": [
+            {
+                "summary": "Furthers the mesh organization, developing strong interpersonal relationships to unlock the potential of others",
+                "signals": [
+                    "Sets an example of Palantir values with regard to interactions; is aware that as a member of management their behavior is highly visible and sets an example for others to follow",
+                    "Is aware of their strengths and opportunities for growth",
+                    "When approached by a colleague with an issue, exhibits curiosity and understanding before making conclusions",
+                    "Actively listens",
+                    "Assumes positive intent of a colleague when approached with a conflicting point of view or hard-to-solve problem",
+                    "Prioritizes needs of others",
+                    "Understands the company vision and how it applies to their work",
+                    "Has a clear understanding of the RBS and can guide others in its use"
+                ],
+                "examples": []
+            },
+            {
+                "summary": "Furthers the mesh organization, developing strong interpersonal relationships to unlock the potential of others",
+                "signals": [
+                    "Uses an understanding of the organization's processes, systems and policies to engage with colleagues",
+                    "Assumes positive intent of others, approaching every interaction with respect and good humor",
+                    "Demonstrates active and empathic listening",
+                    "Communicates difficult messages in an honest, accurate, and respectful manner",
+                    "Understands the company vision and can help others apply it to their work"
+                ],
+                "examples": []
+            },
+            {
+                "summary": "Furthers the mesh organization, developing strong interpersonal relationships to unlock the potential of others",
+                "signals": [
+                    "Is a POD representative, fulfilling expectations of that role",
+                    "Leverages relationships to best support and develop individuals",
+                    "Exhibits Palantir values when resolving talent needs and issues",
+                    "Recognizes when a team is not performing at its best and provides intervention, coaching or support",
+                    "Establishes clear expectations for both performance and growth for teams",
+                    "Has a clear understanding of the roles\/disciplines\/cohorts across Palantir",
+                    "Coaches others on how to approach \u201cdifficult conversations\u201d about performance\/personnel issues",
+                    "Identifies when a discipline is not performing at its best and requires intervention, coaching or support",
+                    "Establishes clear expectations for performance and growth for disciplines",
+                    "Identifies when a new skill set\/team member could be added to Palantir, and can make a case for a new role\/new hire",
+                    "Supports the talent pipeline by building relationships in their community of practice",
+                    "Helps people develop and perform to their full potential",
+                    "Uses awareness and understanding of the organization's culture to implement change initiatives",
+                    "Exhibits the ability to deeply understand and empathize with others",
+                    "Brings their best self to your work and makes space for others to do so as well",
+                    "Delivers persuasive and compelling messages",
+                    "Leverages their strengths and seeks others\u2019 expertise to fill in gaps",
+                    "Serves on teams to design initiatives that help further the company vision"
+                ],
+                "examples": []
+            },
+            {
+                "summary": "Furthers the mesh organization, developing strong interpersonal relationships to unlock the potential of others",
+                "signals": [
+                    "Plays a mentor\/coach role on project teams and serves as a point of escalation",
+                    "Has \u201cdifficult conversations,\u201d with some coaching, about challenges in the company",
+                    "Can validate when a new hire can be supported by Palantir",
+                    "Always looks to enhance the development of their team members in ways that unlock potential, creativity, and sense of purpose",
+                    "Uses an understanding of the organization's culture and business environment to develop and implement strategic plans",
+                    "Informs a person affected by a decision about what is happening, ensuring that the group has all of the necessary information",
+                    "Provides visible leadership that \"walks the talk.\" Sets high performance standards for self, acting as a role model for the team",
+                    "Exhibits humility",
+                    "Leads initiatives that further the company vision"
+                ],
+                "examples": []
+            },
+            {
+                "summary": "Furthers the mesh organization, developing strong interpersonal relationships to unlock the potential of others",
+                "signals": [
+                    "Sets the vision and business model for the company",
+                    "Establishes clear expectations for performance and growth for the company as a whole",
+                    "Coaches and mentors all members of the management team to improve their managerial skills",
+                    "Uses an understanding of complex relationships among organizational leaders to facilitate the strategy, implementation, and maintenance of initiatives proposed by other leaders"
+                ],
+                "examples": []
+            }
+        ]
+    }
+    trackList["HEADER_THREE"] = {
+        "milestone": "HEADER_THREE",
+        "cohort": "MANAGEMENT",
+        "category": "A",
+        "displayName": "Facilitation",
+        "description": "Comprehends the ability to lead people through processes towards agreed-upon objectives and positive outcomes in a manner that encourages participation, ownership, and creativity",
+        "milestones": [
+            {
+                "summary": "Comprehends the ability to lead people through processes towards agreed-upon objectives and positive outcomes in a manner that encourages participation, ownership, and creativity",
+                "signals": [
+                    "Actively seeks views from a range of colleagues to help gain understanding",
+                    "Successfully runs meetings when sharing their work with colleagues",
+                    "Contributes to creating an inclusive environment",
+                    "Differentiates between conversations that simply need to be had and what conversations need to drive to a practical outcome and structure the conversations accordingly",
+                    "Actively participates in conversations facilitated by others, by offering ideas and asking questions",
+                    "Mediates low-level conflicts among team members"
+                ],
+                "examples": []
+            },
+            {
+                "summary": "Comprehends the ability to lead people through processes towards agreed-upon objectives and positive outcomes in a manner that encourages participation, ownership, and creativity",
+                "signals": [
+                    "Is becoming comfortable in mediating escalated conflicts within a team or projects",
+                    "Engages all members of the team in order to understand their points of view",
+                    "Is able to guide a group to make a decision",
+                    "Crafts meeting agendas that keep groups on track, engages all participants, and leads to positive outcomes"
+                ],
+                "examples": []
+            },
+            {
+                "summary": "Comprehends the ability to lead people through processes towards agreed-upon objectives and positive outcomes in a manner that encourages participation, ownership, and creativity",
+                "signals": [
+                    "Leads project teams leveraging what drives and motivates the individual group members",
+                    "Resolves and\/or mediates conflicts in a respectful, appropriate and impartial manner",
+                    "Takes time to understand how individuals and teams are performing and working together to deliver the project outcomes",
+                    "Helps teams build and foster trust",
+                    "Actively participates in conversations facilitated by others both by offering ideas and asking questions",
+                    "Is able to facilitate low-level conflicts with client stakeholders to achieve outcomes",
+                    "Encourages productive and respectful task-related discussions, using it to facilitate change"
+                ],
+                "examples": []
+            },
+            {
+                "summary": "Comprehends the ability to lead people through processes towards agreed-upon objectives and positive outcomes in a manner that encourages participation, ownership, and creativity",
+                "signals": [
+                    "Facilitates difficult interactions among stakeholders to achieve positive outcomes",
+                    "Coaches others on how to facilitate low-level conflicts both internally and with clients",
+                    "Is able to facilitate contract disputes with clients to resolution with coaching",
+                    "Is focused on the big picture and context of the business and issue(s) at hand",
+                    "Uses their understanding of individuals and teams to make the project strategy tangible to individuals and teams",
+                    "Creates conditions for people to generate their own insights to solve their most pressing problems",
+                    "Coaches others seeking to change approach and mindset around existing parameters",
+                    "While bringing their perspective to the table, works to bring forward the ideas of others",
+                    "Helps groups get unblocked"
+                ],
+                "examples": []
+            },
+            {
+                "summary": "Comprehends the ability to lead people through processes towards agreed-upon objectives and positive outcomes in a manner that encourages participation, ownership, and creativity",
+                "signals": [
+                    "Facilitates \u201croot\u201d and \u201ctrunk-level\u201d decisions that have long-lasting implications for the company",
+                    "Serves as a positive role model for productive conflict",
+                    "Coaches others on how to resolve conflicts at all levels",
+                    "Resolves complex organizational dysfunction, or persistent conflict at senior levels"
+                ],
+                "examples": []
+            }
+        ]
+    }
+    trackList["HEADER_FOUR"] = {
+        "milestone": "HEADER_FOUR",
+        "cohort": "MANAGEMENT",
+        "category": "A",
+        "displayName": "Motivation",
+        "description": "Takes initiative and is energizes themselves and others in order to achieve their goals",
+        "milestones": [
+            {
+                "summary": "Takes initiative and is energizes themselves and others in order to achieve their goals",
+                "signals": [
+                    "Contributes to generating commitment in individuals and the team",
+                    "Shares specific, relevant ++ messages in project and general Slack channel recognizing the work of teams and individuals",
+                    "Provides respectful, specific and actionable feedback to teammates",
+                    "Is supportive of Palantir initiatives or works to influence changes to them to better the organization",
+                    "Models good work\/life integration by using benefits\/PTO and supporting individuals in doing the same",
+                    "Shares their opinion so the team knows what they are thinking",
+                    "Identifies patterns of issues\/challenges and coaches individuals\/teams to resolution with support"
+                ],
+                "examples": []
+            },
+            {
+                "summary": "Takes initiative and is energizes themselves and others in order to achieve their goals",
+                "signals": [
+                    "Creates an open and accessible environment that promotes creativity",
+                    "Validates ongoing work and sustains motivation",
+                    "Seeks to identify and nurture emergent skills in themselves and others",
+                    "Establishes challenging, yet realistic, performance goals that tap into the interests of others",
+                    "Advocates for\/creates opportunities for individuals to grow their skills, either through professional development, company projects, or client project work",
+                    "Calls on others to share their opinions",
+                    "Identifies patterns of issues\/challenges and coaches individuals\/teams to resolution"
+                ],
+                "examples": []
+            },
+            {
+                "summary": "Takes initiative and is energizes themselves and others in order to achieve their goals",
+                "signals": [
+                    "Recognizes excellence in individual and team performance beyond Slack posts",
+                    "Seeks appropriate public recognition of excellent performance (suggesting talks, blog posts, articles, modules, and awards)",
+                    "Identifies patterns across excellent individual and team performance and seeks to identify ways to replicate those patterns across individuals and teams",
+                    "Understands the full range of career paths available at Palantir and can coach individuals on next steps",
+                    "Empowers a team to drive forward amidst uncertainty",
+                    "Models excellence and enthusiasm for the work of the team",
+                    "Is a point of escalation for patterns of issues\/challenges that cannot be resolved between individuals"
+                ],
+                "examples": []
+            },
+            {
+                "summary": "Takes initiative and is energizes themselves and others in order to achieve their goals",
+                "signals": [
+                    "Empowers the project team and individuals to do their best work",
+                    "Expresses positive expectations of others regarding their abilities or potential, even in challenging cases",
+                    "Coaches individuals facing issues that can lead to separation if not addressed",
+                    "Identifies when separation with an individual is necessary to protect\/support the team as a whole",
+                    "Believes others want to and can learn",
+                    "Ensures that the self-realization and practical needs of the project team are met",
+                    "Uses others as a sounding board for generating ideas and plans; acknowledges their expertise or perspective when asking for their opinions",
+                    "Ensures that patterns of issues\/challenges are resolved, either through coaching, direct intervention, or proposing an initiative"
+                ],
+                "examples": []
+            },
+            {
+                "summary": "Takes initiative and is energizes themselves and others in order to achieve their goals",
+                "signals": [
+                    "Is focused on the future of Palantir, researching and iterating on solutions that further Palantir as a well-run, sustainable company",
+                    "Finds and uses successes to celebrate progress towards a corporate vision",
+                    "Sets clear goals and a desired future state that is compelling and realistic for the company as a whole",
+                    "Assesses initiatives proposed to deliver against those goals, and provides feedback\/support to initiatives that meet that bar",
+                    "Sets an inspirational vision that helps others be their best selves at work",
+                    "Identifies benefits\/processes at a company level that"
+                ],
+                "examples": []
+            }
+        ]
+    }
 
   return trackList
 }
@@ -3013,3 +3087,6 @@ export const pmTracks = (trackList: object[]): object[] => {
 
   return trackList
 }
+
+// This is required by the core application.
+export const defaultTracks = managementTracks;

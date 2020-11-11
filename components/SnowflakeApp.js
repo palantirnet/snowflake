@@ -73,7 +73,7 @@ const emptyState = (): SnowflakeAppState => {
       'BIZDEV': 0,
     },
     focusedTrackId: 'HEADER_ONE',
-    version: "1.0.7"
+    version: "2.0.4"
   }
 }
 

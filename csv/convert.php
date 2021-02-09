@@ -1,42 +1,6 @@
 <?php
 
-create_points();
-create_jobs();
 create_examples();
-
-/**
- * Converts the job list and writes the file.
- *
- * @param boolean $debug
- *   Outputs the JSON to the command line.
- */
-function create_jobs($debug = FALSE) {
-  $jsonresult = process_csv("./job-titles.csv", 'json');
-  if ($debug) {
-    echo $jsonresult;
-  }
-  file_put_contents('job-titles.json', $jsonresult);
-}
-
-/**
- * Converts the points list and writes the file.
- *
- * @param boolean $debug
- *   Outputs the JSON to the command line.
- */
-function create_points($debug = FALSE) {
-  $result = process_csv("./points.csv", 'php');
-  $output = '';
-
-  foreach($result as $item) {
-    $output .= "'" . $item['points'] . "': '" . $item['level'] . "',\n";
-  }
-
-  if ($debug) {
-    var_dump($output);
-  }
-  file_put_contents('points.json', $output);
-}
 
 /**
  * Converts the examples list and writes the file.
@@ -49,10 +13,6 @@ function create_examples($debug = FALSE) {
   if ($debug) {
     #var_dump($milestones);
   }
-  $levels = process_csv("./levels.csv", 'php');
-  if ($debug) {
-  #  var_dump($levels);
-  }
   $examples = process_csv("./examples.csv", 'php');
   if ($debug) {
   #  var_dump($examples);
@@ -64,21 +24,20 @@ function create_examples($debug = FALSE) {
   foreach ($milestones as $milestone) {
     $temp = $milestone;
     $summary = '';
-    foreach ($levels as $level) {
+
+    $summary = $milestone['description'];
+    for ($i = 1; $i < 6; $i++) {
       $signals = [];
-      if ($level['milestone'] == $temp['milestone'] && $level['cohort'] == $temp['cohort']) {
-        $summary = $level['summary'];
-        foreach ($examples as $example) {
-          if (!empty($example['example']) && $example['milestone'] == $temp['milestone'] && $example['cohort'] == $temp['cohort'] && intval($example['level']) == intval($level['level'])) {
-            $signals[] = $example['example'];
-          }
+      foreach ($examples as $example) {
+        if (!empty($example['example']) && $example['level'] == $i && $example['milestone'] == $temp['milestone'] && $example['cohort'] == $temp['cohort']) {
+          $signals[] = $example['example'];
         }
-        $temp['milestones'][] = [
-          'summary' => $summary,
-          'signals' => $signals,
-          'examples' => [],
-        ];
       }
+      $temp['milestones'][] = [
+        'summary' => $summary,
+        'signals' => $signals,
+        'examples' => [],
+      ];
     }
     if ($milestone['cohort'] == 'DEFAULT') {
       $output .= '"' . $milestone['milestone'] . '":';
@@ -101,7 +60,6 @@ function create_examples($debug = FALSE) {
       $track_output .= json_encode($element, JSON_PRETTY_PRINT) . "\n";
     }
     file_put_contents(strtolower($cohort) . '.json', $track_output);
-
   }
 }
 

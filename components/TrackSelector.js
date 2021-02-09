@@ -129,8 +129,8 @@ class TrackSelector extends React.Component<Props> {
         </table>
 
         <header className="section">
-          <h2 className="section__title">System skills</h2>
-          <p>The broad range of knowledge and expertise in a number of areas that apply to the system as a whole.</p>
+          <h2 className="section__title">System and Consulting skills</h2>
+          <p>The broad range of knowledge and expertise applicable to the system as a whole.</p>
         </header>
 
         <table>

@@ -124,7 +124,7 @@ trackList["HEADER_TWO"] = {
             "signals": [
                 "Builds an entire complex product from scratch that requires significant R&D efforts",
                 "Is seen as a leader who advances the state of the art and a contributor to the broader technical community",
-                "Demonstrates the ability to resolve technical problems without little context",
+                "Demonstrates the ability to resolve technical problems with little context",
                 "Constantly learning new technologies, can navigate and make legacy code maintainable"
             ],
             "examples": []
